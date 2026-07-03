@@ -1,0 +1,79 @@
+@import '../../../../styles/index.less';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.searchSection {
+  margin-bottom: 8px;
+}
+
+.searchInput {
+  width: 100%;
+}
+
+.inputSection {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+
+  .keywordInput {
+    flex: 1;
+  }
+
+  .addButton {
+    min-width: 100px;
+  }
+}
+
+.tagSection {
+  min-height: 120px;
+  padding: 16px;
+  border-radius: 4px;
+
+  :global {
+    .ant-space-item {
+      .tagWrapper {
+        display: inline-block;
+
+        .editInput {
+          width: 200px;
+        }
+
+        .keywordTag {
+          cursor: pointer;
+          user-select: none;
+          transition: all 0.3s ease;
+
+          &:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+          }
+        }
+
+        .highlight {
+          background-color: #ffc069;
+          color: #000;
+          font-weight: 600;
+          padding: 2px 4px;
+          border-radius: 2px;
+        }
+      }
+    }
+  }
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 16px;
+  padding-top: 16px;
+
+  :global(.ant-button) {
+    min-width: 80px;
+  }
+}
+

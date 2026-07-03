@@ -1,0 +1,143 @@
+// ==================== 颜色变量 ====================
+
+// 主色调
+@primary-color: #1890ff;
+@success-color: #52c41a;
+@warning-color: #faad14;
+@error-color: #f5222d;
+@info-color: #1890ff;
+
+// 渐变色 - 头部背景
+@gradient-star-header: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+@gradient-luna-header: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+@gradient-galaxy-header: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+
+// 渐变色 - 卡片边框
+@gradient-star-border: linear-gradient(163.44deg, rgba(255, 254, 255, 0.4) 6.05%, rgba(219, 201, 215, 0.4) 23.87%, rgba(249, 217, 255, 0.4) 40.45%, rgba(207, 171, 207, 0.4) 63.67%, rgba(255, 255, 255, 0.4) 88.54%);
+@gradient-luna-border: linear-gradient(163.44deg, #F3E495 2.31%, #8A7966 33.41%, #BE8921 64.91%, #FFD892 88.54%);
+@gradient-galaxy-border: linear-gradient(96.61deg, #DD429D 0%, #B14BF4 50%, #485CFB 100%);
+
+
+// 背景色
+@background-color: #f0f2f5;
+@background-color-light: #fafafa;
+@background-color-white: #ffffff;
+
+// 文本颜色
+@text-color: rgba(0, 0, 0, 0.85);
+@text-color-secondary: rgba(0, 0, 0, 0.65);
+@text-color-disabled: rgba(0, 0, 0, 0.25);
+@text-color-inverse: rgba(255, 255, 255, 0.85);
+
+// 边框颜色
+@border-color: #d9d9d9;
+@border-color-light: #f0f0f0;
+
+// ==================== 间距变量 ====================
+@spacing-xs: 4px;
+@spacing-sm: 8px;
+@spacing-md: 12px;
+@spacing-lg: 16px;
+@spacing-xl: 24px;
+@spacing-2xl: 32px;
+@spacing-3xl: 40px;
+
+// ==================== 字体变量 ====================
+@font-size-xs: 12px;
+@font-size-sm: 13px;
+@font-size-base: 14px;
+@font-size-lg: 16px;
+@font-size-xl: 18px;
+@font-size-2xl: 20px;
+
+@font-weight-light: 300;
+@font-weight-normal: 400;
+@font-weight-medium: 500;
+@font-weight-semibold: 600;
+@font-weight-bold: 700;
+
+@line-height-tight: 1.2;
+@line-height-normal: 1.5;
+@line-height-relaxed: 1.75;
+@line-height-loose: 2;
+
+// ==================== 圆角变量 ====================
+@border-radius-none: 0;
+@border-radius-sm: 2px;
+@border-radius-base: 4px;
+@border-radius-lg: 6px;
+@border-radius-xl: 8px;
+@border-radius-full: 50%;
+
+// ==================== 阴影变量 ====================
+@box-shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+@box-shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05), 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+@box-shadow-base: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+@box-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+@box-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+// ==================== 过渡动画 ====================
+@transition-duration-fastest: 100ms;
+@transition-duration-faster: 150ms;
+@transition-duration-fast: 200ms;
+@transition-duration-base: 300ms;
+@transition-duration-slow: 400ms;
+@transition-duration-slower: 500ms;
+
+@transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+// ==================== z-index 变量 ====================
+@z-index-hide: -1;
+@z-index-base: 0;
+@z-index-dropdown: 1000;
+@z-index-tooltip: 1030;
+@z-index-modal-backdrop: 1040;
+@z-index-modal: 1050;
+@z-index-notification: 1060;
+
+// ==================== 混合函数 ====================
+.clearfix() {
+  &::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
+
+.truncate() {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.truncate-lines(@lines: 2) {
+  display: -webkit-box;
+  -webkit-line-clamp: @lines;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.flex-center() {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-between() {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.absolute-center() {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.transition(@property: all; @duration: @transition-duration-base; @timing: @transition-timing-function) {
+  transition: @property @duration @timing;
+}
+

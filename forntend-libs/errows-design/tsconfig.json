@@ -1,0 +1,12 @@
+{
+  "extends": "@errows/typescript-config/react-library.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "moduleResolution": "node16",
+    "paths": {
+      "@errows/design/*": ["./src/*"]
+    }
+  },
+  "include": ["."],
+  "exclude": ["node_modules", "dist"]
+}

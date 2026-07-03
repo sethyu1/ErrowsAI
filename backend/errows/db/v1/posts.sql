@@ -1,0 +1,10 @@
+
+CREATE TABLE IF NOT EXISTS v1.posts (
+  id                UUID PRIMARY KEY NOT NULL DEFAULT GEN_RANDOM_UUID(),
+  old_id            BIGINT UNIQUE NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS v1.post_comments (
+  id                UUID PRIMARY KEY NOT NULL DEFAULT GEN_RANDOM_UUID(),
+  old_id            BIGINT UNIQUE NOT NULL
+);

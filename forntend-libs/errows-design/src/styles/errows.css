@@ -1,0 +1,147 @@
+/* 
+这里是errows-design的调色板样式
+*/
+
+/*
+这里是errows的渐变样式
+*/
+:root {
+  /* Primary Gradient */
+  --errows-gradient-primary: linear-gradient(
+    96.61deg,
+    #dd429d 0%,
+    #b14bf4 50%,
+    #485cfb 100%
+  );
+
+  /* Secondary Gradient */
+  --errows-gradient-secondary: linear-gradient(
+    180deg,
+    #d9d9d9 0%,
+    #d6b8d4 100%
+  );
+}
+
+/*
+这里是errows的阴影样式
+*/
+
+
+/* 
+自定义 Tailwind 工具类
+*/
+/* Toast 样式 - 符合 Errows 设计风格 */
+.errows-toast {
+  background: rgba(34, 35, 42, 0.95) !important;
+  border: none !important;
+  border-radius: 12px !important;
+  box-shadow: 0 8px 16px -4px rgba(0, 0, 0, 0.4), 0 4px 8px -2px rgba(0, 0, 0, 0.3) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  color: #ffffff !important;
+  padding: 14px 16px !important;
+}
+
+/* Icon 颜色根据状态变化 */
+.errows-toast-success [data-icon] {
+  color: rgb(76, 217, 100) !important;
+}
+
+.errows-toast-error [data-icon] {
+  color: rgb(255, 69, 58) !important;
+}
+
+.errows-toast-warning [data-icon] {
+  color: rgb(255, 159, 10) !important;
+}
+
+.errows-toast-info [data-icon] {
+  color: rgb(100, 210, 255) !important;
+}
+
+.errows-toast-title {
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  color: #ffffff !important;
+}
+
+.errows-toast-description {
+  font-size: 13px !important;
+  color: rgba(255, 255, 255, 0.7) !important;
+  margin-top: 4px !important;
+}
+
+.errows-toast-button {
+  background: rgba(255, 255, 255, 0.1) !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  border-radius: 8px !important;
+  color: #ffffff !important;
+  font-size: 13px !important;
+  padding: 6px 12px !important;
+  transition: all 0.2s ease !important;
+}
+
+.errows-toast-button:hover {
+  background: rgba(255, 255, 255, 0.15) !important;
+  border-color: rgba(255, 255, 255, 0.25) !important;
+}
+
+.errows-toast-close {
+  background: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 6px !important;
+  color: rgba(255, 255, 255, 0.6) !important;
+  transition: all 0.2s ease !important;
+}
+
+.errows-toast-close:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+@layer utilities {
+  /* Gradient 样式 */
+  /* Primary Gradient - 背景 */
+  .bg-errows-gradient-primary {
+    background: var(--errows-gradient-primary);
+  }
+
+  /* Primary Gradient - 边框 */
+  .border-errows-gradient-primary {
+    border: 2px solid transparent;
+    background-image: var(--errows-gradient-primary);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+  }
+
+  /* Secondary Gradient - 背景 */
+  .bg-errows-gradient-secondary {
+    background: var(--errows-gradient-secondary);
+  }
+
+  /* Secondary Gradient - 边框 */
+  .border-errows-gradient-secondary {
+    border: 2px solid transparent;
+    background-image: var(--errows-gradient-secondary);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+  }
+
+  /* Primary Gradient - 文字（纯文字渐变） */
+  .text-errows-gradient-primary {
+    background: var(--errows-gradient-primary);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+
+  /* Secondary Gradient - 文字 */
+  .text-errows-gradient-secondary {
+    background: var(--errows-gradient-secondary);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+}

@@ -1,0 +1,2 @@
+ALTER TABLE characters
+  ADD COLUMN is_official BOOLEAN NOT NULL DEFAULT FALSE;

@@ -1,0 +1,9 @@
+{
+  "extends": "@errows/typescript-config/server.json",
+  "references": [
+    { "path": "../models" },
+    { "path": "../mailer" },
+    { "path": "../ai" },
+    { "path": "../utils" },
+  ]
+}

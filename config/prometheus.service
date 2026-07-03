@@ -1,0 +1,13 @@
+[Unit]
+Description=Errows prometheus.
+
+[Service]
+User=errows
+WorkingDirectory=/srv/services/prometheus
+Environment=NODE_ENV=production SERVICE_NAME=%I
+ExecStart=/srv/services/prometheus/release/prometheus --config.file prometheus.yml
+Restart=always
+RestartSec=500ms
+
+[Install]
+WantedBy=multi-user.target

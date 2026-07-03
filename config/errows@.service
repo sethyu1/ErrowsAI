@@ -1,0 +1,13 @@
+[Unit]
+Description=Errows service %I.
+
+[Service]
+User=errows
+WorkingDirectory=/srv/services/%I
+Environment=NODE_ENV=production SERVICE_NAME=%I
+ExecStart=/usr/local/bin/pnpm run -s server start
+Restart=always
+RestartSec=500ms
+
+[Install]
+WantedBy=multi-user.target

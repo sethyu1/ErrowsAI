@@ -1,0 +1,24 @@
+node_modules
+dist
+apps/**/*/*.tgz
+
+backend/*/config/local*
+backend/errows/data
+coverage
+
+# signing keys & secrets — never commit
+*.keystore
+*.jks
+keystore.properties
+*.pem
+*.p12
+
+# android build output
+apps/errows-app/android/**/build/
+apps/errows-app/android/.gradle/
+
+.DS_Store
+**/.DS_Store
+
+.vscode
+.*rules

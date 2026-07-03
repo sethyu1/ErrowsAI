@@ -1,0 +1,29 @@
+/* Urbanist Font Family */
+@font-face {
+    font-family: 'Urbanist';
+    src: url('/Urbanist/Urbanist-VariableFont_wght.ttf') format('truetype-variations');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('/Urbanist/Urbanist-Italic-VariableFont_wght.ttf') format('truetype-variations');
+    font-weight: 100 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+body {
+    font-family: 'Urbanist', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+
+    .errows-console-page-container-children-container {
+        padding-inline:  12px;
+    }
+
+    .ql-editor.ql-blank::before {
+        color: #999;
+    }
+}

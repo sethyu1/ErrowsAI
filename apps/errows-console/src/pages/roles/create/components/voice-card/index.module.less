@@ -1,0 +1,133 @@
+.voiceCard {
+  position: relative;
+  cursor: pointer;
+  transition: all 0.2s;
+  width: 113px;
+  height: 135px;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 2px solid transparent;
+  box-sizing: content-box;
+
+  &:hover {
+    transform: scale(1.01);
+    border-color: #3a3a48;
+  }
+
+  &:active {
+    transform: scale(0.99);
+  }
+
+  &.selected {
+    border-color: #da61cf;
+    transform: scale(1.02);
+  }
+}
+
+.cardInner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #1d1e27;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  .selected & {
+    border-color: #000;
+  }
+}
+
+.selectedMark {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  z-index: 10;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #000;
+  color: #fff;
+  font-size: 12px;
+}
+
+.playArea {
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.playButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s;
+  width: 48px;
+  height: 48px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  &:active {
+    transform: scale(1.1);
+  }
+}
+
+.playIcon {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.playingIndicator {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 8px;
+  height: 8px;
+  border-radius: 1px;
+  background-color: #000;
+}
+
+.labelArea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 8px;
+  min-height: 36px;
+
+}
+
+.label {
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100px;
+  text-transform: capitalize;
+}
+

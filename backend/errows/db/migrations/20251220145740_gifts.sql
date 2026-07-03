@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS session_gifts (
+  id UUID           PRIMARY KEY DEFAULT GEN_RANDOM_UUID(),
+  name TEXT         NOT NULL,
+  picture_url TEXT  NOT NULL,
+  price INTEGER     NOT NULL,
+  intimacy INTEGER  NOT NULL,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);

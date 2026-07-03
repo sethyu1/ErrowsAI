@@ -1,0 +1,229 @@
+.roleDetailModal {
+  :global(.ant-modal-body) {
+    padding: 24px;
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+// ========== 头部区域 ==========
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+
+  .roleName {
+    font-size: 28px;
+    font-weight: 600;
+    color: #8c8c8c;
+    margin: 0;
+  }
+}
+
+// ========== 图片区域 ==========
+.imageSection {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+  border-radius: 12px;
+
+  .roleImage {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  :global(.ant-image) {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+// ========== 统计卡片 ==========
+.statsCard {
+  :global(.ant-card-body) {
+    padding: 16px;
+  }
+
+  :global(.ant-statistic-title) {
+    font-size: 12px;
+    color: #8c8c8c;
+    margin-bottom: 4px;
+  }
+
+  :global(.ant-statistic-content) {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+}
+
+// ========== 描述卡片 ==========
+.descCard {
+  :global(.ant-card-body) {
+    padding: 16px;
+  }
+
+  .descHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h4 {
+      font-size: 15px;
+      font-weight: 600;
+      color: #8c8c8c;
+      margin: 0;
+    }
+
+    :global(.ant-btn-link) {
+      padding: 0;
+      height: auto;
+    }
+  }
+
+  .descContent {
+    margin-top: 12px;
+    padding: 16px;
+    border-left: 4px solid #1890ff;
+    border-radius: 4px;
+    line-height: 1.8;
+    font-size: 14px;
+    word-break: break-word;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+}
+
+// ========== 基本信息卡片 ==========
+.infoCard {
+  color: #8c8c8c;
+  :global(.ant-card-body) {
+    padding: 16px;
+  }
+
+  :global(.ant-card-head) {
+    min-height: 40px;
+    padding: 0 16px;
+  }
+
+  :global(.ant-card-head-title) {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 12px 0;
+  }
+
+  .infoItem {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    .label {
+      font-size: 13px;
+      color: #8c8c8c;
+      font-weight: 500;
+    }
+
+    .value {
+      font-size: 13px;
+      color: #8c8c8c;
+      font-weight: 500;
+    }
+  }
+}
+
+// ========== 创建者卡片 ==========
+.ownerCard {
+  :global(.ant-card-body) {
+    padding: 16px;
+  }
+
+  :global(.ant-card-head) {
+    min-height: 40px;
+    padding: 0 16px;
+  }
+
+  :global(.ant-card-head-title) {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 12px 0;
+  }
+
+  .ownerContent {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    .ownerInfo {
+      flex: 1;
+
+      .ownerName {
+        font-size: 15px;
+        font-weight: 600;
+        color: #8c8c8c;
+        margin-bottom: 4px;
+      }
+
+      .ownerId {
+        font-size: 12px;
+        color: #8c8c8c;
+        font-family: monospace;
+      }
+    }
+  }
+}
+
+// ========== 时间信息卡片 ==========
+.timeCard {
+  :global(.ant-card-body) {
+    padding: 16px;
+  }
+
+  :global(.ant-card-head) {
+    min-height: 40px;
+    padding: 0 16px;
+  }
+
+  :global(.ant-card-head-title) {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 12px 0;
+  }
+
+  .timeItem {
+    .timeLabel {
+      font-size: 13px;
+      color: #8c8c8c;
+      font-weight: 500;
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .timeValue {
+      font-size: 13px;
+      color: #8c8c8c;
+      font-family: monospace;
+      font-weight: 500;
+    }
+  }
+}
+
+// ========== 动画 ==========
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

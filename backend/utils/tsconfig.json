@@ -1,0 +1,12 @@
+{
+  "extends": "@errows/typescript-config/server.json",
+  "compilerOptions": {
+    "rootDirs": [
+      "src"
+    ],
+    "outDir": "dist",
+    "composite": true,
+    "incremental": true
+  },
+  "include": ["src/**/*"]
+}

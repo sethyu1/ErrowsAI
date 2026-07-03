@@ -1,0 +1,129 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ai images > basic > generate character image 1`] = `
+{
+  "action": "",
+  "bacground": "",
+  "character_image_model": {
+    "base_model": "waiANINSFWPONYXL_v90.safetensors",
+    "base_prompt": "score_9, score_8_up, score_7_up,source_anime,1girl, solo, hetero, score_9, score_8_up, score_7_up,source_anime,1girl,hetero,British girl, warrior, brave, loyal",
+    "lora": [
+      "PonyCharacter/age.safetensors",
+    ],
+    "lora_strength": [
+      "-1",
+    ],
+  },
+  "character_setting": {
+    "body": [
+      "Human",
+      "Caucasian",
+      "Teen(18+)",
+      "Green eyes",
+      "Medium ponytail",
+      "Short hair",
+      "Choppy bangs",
+      "Black hair",
+      "Petite body",
+      "Flat chest",
+      "Small",
+    ],
+    "character": "TestCharacter",
+    "charactergender": "Female",
+    "description": "A brave warrior from a distant land.",
+    "dialogue": [
+      {
+        "character": "Our village is small but full of brave souls ready to defend it.",
+        "user": "Can you tell me about your village?",
+      },
+      {
+        "character": "Protecting my people and upholding justice drives me forward.",
+        "user": "What motivates you to fight?",
+      },
+    ],
+    "face": "",
+    "genre": "",
+    "persona": "",
+    "personality": [
+      "Courageous, loyal, and kind-hearted.",
+    ],
+    "scenario": "Defending the village from invaders.",
+    "system": "",
+    "tag": [
+      "warrior",
+      "brave",
+      "loyal",
+    ],
+    "user": "",
+  },
+  "is_anime": true,
+  "is_manual": true,
+  "key": "mock-api-key",
+  "outfit": "",
+}
+`;
+
+exports[`ai images > specify style for image generation > dragon 1`] = `
+{
+  "action": "",
+  "bacground": "",
+  "character_image_model": {
+    "base_model": "waiANINSFWPONYXL_v90.safetensors",
+    "base_prompt": "score_9, score_8_up, score_7_up,source_anime,1girl, solo, hetero, dragon girl, (black dragon scales), (black dragon horns), (belly dragon scales), (thigh dragon scales), (black dragon wings), warrior, brave, loyal",
+    "lora": [
+      "PonyCharacter/Furry.safetensors",
+      "PonyCharacter/age.safetensors",
+    ],
+    "lora_strength": [
+      "0.8",
+      "-1",
+    ],
+  },
+  "character_setting": {
+    "body": [
+      "Dragon",
+      "Black Dragon",
+      "Teen(18+)",
+      "Green eyes",
+      "Medium ponytail",
+      "Short hair",
+      "Choppy bangs",
+      "Black hair",
+      "Petite body",
+      "Flat chest",
+      "Small",
+    ],
+    "character": "TestCharacter",
+    "charactergender": "Female",
+    "description": "A brave warrior from a distant land.",
+    "dialogue": [
+      {
+        "character": "Our village is small but full of brave souls ready to defend it.",
+        "user": "Can you tell me about your village?",
+      },
+      {
+        "character": "Protecting my people and upholding justice drives me forward.",
+        "user": "What motivates you to fight?",
+      },
+    ],
+    "face": "",
+    "genre": "",
+    "persona": "",
+    "personality": [
+      "Courageous, loyal, and kind-hearted.",
+    ],
+    "scenario": "Defending the village from invaders.",
+    "system": "",
+    "tag": [
+      "warrior",
+      "brave",
+      "loyal",
+    ],
+    "user": "",
+  },
+  "is_anime": true,
+  "is_manual": true,
+  "key": "mock-api-key",
+  "outfit": "",
+}
+`;

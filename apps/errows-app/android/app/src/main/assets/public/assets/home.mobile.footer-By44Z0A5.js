@@ -1,0 +1,1 @@
+import{u as r,j as o}from"./index-BYuVajha.js";import{F as i,a as b}from"./footer.mobile-Ddqw-81K.js";const a=e=>()=>{const{web:s,mobile:t}=e;return r()?t:s},c=a({web:o.jsx(b,{}),mobile:o.jsx(i,{})});export{c as F};

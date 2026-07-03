@@ -1,0 +1,6 @@
+server {
+  listen 80 default_server;
+
+  set $instance "testing";
+  include /srv/etc/nginx/snippets/errows.conf;
+}

@@ -1,0 +1,157 @@
+.wrapper {
+  padding: 24px;
+  min-height: calc(100vh - 64px);
+
+  .card {
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  }
+
+  .configSection {
+    margin-bottom: 32px;
+
+    .configTitle {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+
+      &::before {
+        content: '';
+        display: inline-block;
+        width: 4px;
+        height: 16px;
+        background: #1890ff;
+        margin-right: 8px;
+        border-radius: 2px;
+      }
+    }
+
+    .rules {
+      margin: 0;
+      padding-left: 20px;
+      font-size: 14px;
+      line-height: 1.8;
+
+      li {
+        margin-bottom: 4px;
+      }
+    }
+  }
+
+  .languageTable {
+    .tableHeader {
+      display: flex;
+      align-items: center;
+      padding: 12px 16px;
+      border-bottom: none;
+      border-radius: 8px 8px 0 0;
+      font-weight: 600;
+
+      .col {
+        &:nth-child(1) {
+          flex: 0 0 40px;
+          text-align: center;
+        }
+        &:nth-child(2) {
+          flex: 1;
+          padding-left: 16px;
+        }
+        &:nth-child(3) {
+          flex: 0 0 200px;
+          text-align: center;
+        }
+      }
+    }
+
+    .tableBody {
+      border-radius: 0 0 8px 8px;
+    }
+
+    .languageRow {
+      display: flex;
+      align-items: center;
+      padding: 16px;
+      transition: background 0.3s;
+
+      &:hover {
+        background: #fafafa;
+      }
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      &.disabled {
+        opacity: 0.65;
+        cursor: not-allowed;
+
+        &:hover {
+          background: transparent;
+        }
+      }
+
+      .col {
+        &:nth-child(1) {
+          flex: 0 0 40px;
+          display: flex;
+          justify-content: center;
+        }
+
+        &:nth-child(2) {
+          flex: 1;
+          padding-left: 16px;
+          font-size: 14px;
+          color: #262626;
+        }
+
+        &:nth-child(3) {
+          flex: 0 0 200px;
+          display: flex;
+          justify-content: center;
+
+          :global {
+            .ant-input-number {
+              width: 120px;
+            }
+          }
+        }
+      }
+
+      .defaultBadge {
+        margin-left: 8px;
+        font-size: 12px;
+        color: #1890ff;
+        background: #e6f7ff;
+        border: 1px solid #91d5ff;
+        padding: 0 8px;
+        border-radius: 4px;
+      }
+    }
+  }
+
+  .buttonGroup {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 32px;
+    padding-top: 24px;
+    border-top: 1px solid #f0f0f0;
+
+    :global {
+      .ant-btn {
+        min-width: 100px;
+        height: 40px;
+        font-size: 14px;
+        border-radius: 6px;
+
+        &:first-child {
+          margin-right: 12px;
+        }
+      }
+    }
+  }
+}
+

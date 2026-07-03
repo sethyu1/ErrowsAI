@@ -1,0 +1,1 @@
+import{G as s,H as u,ad as h}from"./index-BYuVajha.js";const l=()=>{const{token:e}=s(u(n=>({token:n.token}))),t=!!e,o=h.getState().setOpenAuth;return{isLogin:t,gotoLogin:()=>{t||o(!0,"login")}}};export{l as u};

@@ -1,0 +1,21 @@
+@import '../../styles/index.less';
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+
+  :global {
+    .ant-card {
+      border-radius: @border-radius-base;
+      box-shadow: @box-shadow-xs;
+    }
+  }
+}
+
+.card {
+  :global .ant-tabs {
+    margin-bottom: 0;
+  }
+}
+

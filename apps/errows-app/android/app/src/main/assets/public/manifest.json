@@ -1,0 +1,27 @@
+{
+  "name": "Errows",
+  "short_name": "Errows",
+  "description": "Errows - AI Character Platform",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0E0F17",
+  "theme_color": "#D9D9D9",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["entertainment", "social"],
+  "lang": "en-US",
+  "dir": "ltr"
+}

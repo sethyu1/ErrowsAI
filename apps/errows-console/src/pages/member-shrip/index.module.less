@@ -1,0 +1,138 @@
+  @import '../../styles/index.less';
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+
+    :global {
+      .ant-card {
+        border-radius: @border-radius-base;
+        box-shadow: @box-shadow-xs;
+      }
+
+      .ant-form-item {
+        margin-bottom: @spacing-sm !important;
+      }
+    }
+  }
+
+  .card {
+    :global .ant-tabs {
+      margin-bottom: 0;
+    }
+  }
+
+  .fullWidth {
+    grid-column: 1 / -1;
+  }
+
+  .cardContainer {
+    display: flex;
+    gap: 8px;
+  }
+
+  .productCard {
+    .transition();
+
+    :global {
+      .ant-card {
+        border-radius: @border-radius-base;
+        border: none;
+        overflow: hidden;
+      }
+
+      .ant-card-head {
+        padding: @spacing-md @spacing-lg;
+        background: @gradient-star-header;
+        border-bottom: none;
+        .transition(background-color);
+
+        .ant-card-head-title {
+          color: @background-color-white;
+          font-weight: @font-weight-semibold;
+          font-size: @font-size-base;
+        }
+      }
+
+      .ant-card-body {
+        padding: @spacing-lg;
+        padding-bottom: 0;
+      }
+    }
+
+    // Star 版本
+    &.productStar {
+      :global {
+        .ant-card-body {
+          border: solid 1px rgba(61, 61, 61, 0.2)
+        }
+      }
+
+      ;
+    }
+
+    // Luna 版本
+    &.productLuna {
+      :global {
+        .ant-card-body {
+          border: solid 1px rgb(243, 228, 149)
+        }
+      }
+
+      ;
+    }
+
+    // Galaxy 版本
+    &.productGalaxy {
+      :global {
+        .ant-card-body {
+          border: solid 1px rgb(221, 66, 157)
+        }
+      }
+
+      ;
+    }
+  }
+
+  .buttonGroup {
+    margin-top: @spacing-lg;
+    display: flex;
+    justify-content: flex-end;
+    gap: @spacing-sm;
+    .transition();
+
+    :global(.ant-button) {
+      min-width: 100px;
+      .transition();
+
+      &:hover {
+        .transition();
+      }
+    }
+  }
+
+  .hiddenField {
+    display: none;
+  }
+
+  .formItem {
+    &LabelFull {
+      grid-column: 1 / -1;
+    }
+  }
+
+  .emptyState {
+    padding: @spacing-3xl @spacing-lg;
+    text-align: center;
+  }
+
+  .inputNumber {
+    width: 100%;
+  }
+
+  .textArea {
+    :global(.ant-input) {
+      resize: vertical;
+    }
+  }

@@ -1,0 +1,28 @@
+{
+  "name": "errows2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "pnpm --filter @errows/server",
+    "errowsctl": "pnpm -s --filter @errows/server errowsctl",
+    "models": "pnpm --filter @errows/models",
+    "start": "pnpm --filter errows-web run dev",
+    "start:console": "pnpm --filter errows-console run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.38.0",
+    "@types/node": "^24.8.1",
+    "@typescript-eslint/eslint-plugin": "^8.46.1",
+    "@typescript-eslint/parser": "^8.46.1",
+    "eslint": "^9.38.0",
+    "eslint-plugin-jest": "^29.0.1",
+    "eslint-plugin-n": "^17.23.1",
+    "eslint-plugin-security": "^3.0.1",
+    "typescript-eslint": "^8.46.1"
+  },
+  "packageManager": "pnpm@10.19.0"
+}

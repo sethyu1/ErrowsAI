@@ -1,0 +1,21 @@
+words:
+  - cdkey
+  - errows
+  - errowsctl
+  - futa
+  - ghostiee
+  - ILIKE
+  - ORDINALITY
+  - TSTZRANGE
+  - vitest
+ignoreWords:
+  - uids
+  - btree_gist
+  - citext
+  - pgcrypto
+  - charactergender
+ignorePaths:
+  - "**/node_modules/**"
+  - "**/dist/**"
+  - "**/.git/**"
+  - "**/.venv/**"

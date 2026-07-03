@@ -1,0 +1,31 @@
+{
+	"appId": "ai.errows.app",
+	"appName": "Errows",
+	"webDir": "../errows-web/dist",
+	"server": {
+		"androidScheme": "https",
+		"allowNavigation": [
+			"errowstest.online"
+		]
+	},
+	"plugins": {
+		"CapacitorHttp": {
+			"enabled": true
+		},
+		"SplashScreen": {
+			"launchShowDuration": 2000,
+			"backgroundColor": "#000000",
+			"showSpinner": false
+		},
+		"StatusBar": {
+			"style": "dark",
+			"backgroundColor": "#000000"
+		}
+	},
+	"ios": {
+		"contentInset": "automatic"
+	},
+	"android": {
+		"allowMixedContent": true
+	}
+}

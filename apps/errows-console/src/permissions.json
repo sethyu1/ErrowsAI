@@ -1,0 +1,192 @@
+[
+    {
+        "group": "dashboard",
+        "name": "dashboard_view",
+        "title": "查看数据监测"
+    },
+    {
+        "group": "dashboard",
+        "name": "dashboard_llm_view",
+        "title": "查看模型接口调用"
+    },
+    {
+        "group": "dashboard",
+        "name": "dashboard_user_view",
+        "title": "查看用户登录信息"
+    },
+    {
+        "group": "configs",
+        "name": "configs_view",
+        "title": "查看运营配置"
+    },
+    {
+        "group": "configs",
+        "name": "configs_role_params_view",
+        "title": "查看角色创建参数"
+    },
+    {
+        "group": "configs",
+        "name": "configs_role_params_edit",
+        "title": "编辑角色创建参数"
+    },
+    {
+        "group": "configs",
+        "name": "configs_image_params_view",
+        "title": "查看生图参数"
+    },
+    {
+        "group": "configs",
+        "name": "configs_image_params_edit",
+        "title": "编辑生图参数"
+    },
+    {
+        "group": "configs",
+        "name": "configs_i18n_view",
+        "title": "查看多语言"
+    },
+    {
+        "group": "configs",
+        "name": "configs_i18n_edit",
+        "title": "编辑多语言"
+    },
+    {
+        "group": "configs",
+        "name": "configs_token_consume_view",
+        "title": "查看代币消耗"
+    },
+    {
+        "group": "configs",
+        "name": "configs_token_consume_edit",
+        "title": "编辑代币消耗"
+    },
+    {
+        "group": "configs",
+        "name": "configs_membership_view",
+        "title": "查看会员订阅"
+    },
+    {
+        "group": "configs",
+        "name": "configs_membership_edit",
+        "title": "编辑会员订阅"
+    },
+    {
+        "group": "configs",
+        "name": "configs_coins_view",
+        "title": "查看代币兑换"
+    },
+    {
+        "group": "configs",
+        "name": "configs_coins_edit",
+        "title": "编辑代币兑换"
+    },
+    {
+        "group": "configs",
+        "name": "configs_gifts_view",
+        "title": "查看礼物"
+    },
+    {
+        "group": "configs",
+        "name": "configs_gifts_create",
+        "title": "创建礼物"
+    },
+    {
+        "group": "configs",
+        "name": "configs_gifts_edit",
+        "title": "编辑礼物"
+    },
+    {
+        "group": "configs",
+        "name": "configs_gifts_delete",
+        "title": "删除礼物"
+    },
+    {
+        "group": "configs",
+        "name": "configs_daily_tasks_view",
+        "title": "查看每日任务"
+    },
+    {
+        "group": "configs",
+        "name": "configs_daily_tasks_edit",
+        "title": "编辑每日任务"
+    },
+    {
+        "group": "configs",
+        "name": "configs_legal_view",
+        "title": "查看法律条款"
+    },
+    {
+        "group": "configs",
+        "name": "configs_legal_edit",
+        "title": "编辑法律条款"
+    },
+    {
+        "group": "roles",
+        "name": "roles_view",
+        "title": "查看角色列表"
+    },
+    {
+        "group": "roles",
+        "name": "roles_create",
+        "title": "创建角色"
+    },
+    {
+        "group": "roles",
+        "name": "roles_edit",
+        "title": "编辑角色"
+    },
+    {
+        "group": "roles",
+        "name": "roles_delete",
+        "title": "删除角色"
+    },
+    {
+        "group": "roles",
+        "name": "roles_review",
+        "title": "审核角色"
+    },
+    {
+        "group": "permission",
+        "name": "permission_view",
+        "title": "查看权限管理"
+    },
+    {
+        "group": "permission",
+        "name": "permission_roles_view",
+        "title": "查看角色管理"
+    },
+    {
+        "group": "permission",
+        "name": "permission_roles_create",
+        "title": "创建角色"
+    },
+    {
+        "group": "permission",
+        "name": "permission_roles_edit",
+        "title": "编辑角色"
+    },
+    {
+        "group": "permission",
+        "name": "permission_roles_delete",
+        "title": "删除角色"
+    },
+    {
+        "group": "permission",
+        "name": "permission_users_view",
+        "title": "查看用户管理"
+    },
+    {
+        "group": "permission",
+        "name": "permission_users_create",
+        "title": "创建用户"
+    },
+    {
+        "group": "permission",
+        "name": "permission_users_edit",
+        "title": "编辑用户"
+    },
+    {
+        "group": "permission",
+        "name": "permission_users_delete",
+        "title": "删除用户"
+    }
+]

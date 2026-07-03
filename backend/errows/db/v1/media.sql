@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS v1.media (
+  id                UUID PRIMARY KEY NOT NULL DEFAULT GEN_RANDOM_UUID(),
+  old_id            BIGINT UNIQUE NOT NULL
+);

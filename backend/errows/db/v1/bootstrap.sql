@@ -1,0 +1,6 @@
+CREATE SCHEMA IF NOT EXISTS v1;
+
+CREATE TABLE IF NOT EXISTS v1.users (
+  id                UUID PRIMARY KEY NOT NULL,
+  old_id            BIGINT UNIQUE NOT NULL
+);

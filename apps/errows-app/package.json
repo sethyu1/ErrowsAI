@@ -1,0 +1,26 @@
+{
+  "name": "errows-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "cap:sync": "npx cap sync",
+    "cap:open:ios": "npx cap open ios",
+    "cap:open:android": "npx cap open android",
+    "app:build": "pnpm --filter errows-web build && pnpm cap:sync",
+    "app:ios": "pnpm app:build && pnpm cap:open:ios",
+    "app:android": "pnpm app:build && pnpm cap:open:android",
+    "build:apk": "pnpm app:build && cd android && gradlew assembleDebug",
+    "build:apk:release": "pnpm app:build && cd android && gradlew assembleRelease"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.0.0",
+    "@capacitor/ios": "^8.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.0.0",
+    "@capacitor/core": "^8.0.0",
+    "sharp": "^0.34.5",
+    "typescript": "^5.9.3"
+  }
+}

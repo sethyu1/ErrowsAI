@@ -1,0 +1,47 @@
+[
+  {
+    "id": "f6f77763-f134-43c4-b29d-565e7bc21b2c",
+    "name": "daily_login",
+    "title": "Daily Login",
+    "description": "Check in and get 5 free chat messages each day!",
+    "goal": 1,
+    "type": "token",
+    "token": 5
+  },
+  {
+    "id": "29c98c92-f12d-4191-9dcd-be6275b6d910",
+    "name": "character_follow",
+    "title": "Follow characters",
+    "description": "Follow 5 characters and get 5 free chat messages!",
+    "goal": 5,
+    "type": "token",
+    "token": 5
+  },
+  {
+    "id": "7d2cc5e3-b650-49f2-b19f-1f7e7a384822",
+    "name": "character_chat",
+    "title": "Keep the conversation going",
+    "description": "Chat 10 times with your favorite characters and get 5 free chat messages!",
+    "goal": 10,
+    "type": "token",
+    "token": 5
+  },
+  {
+    "id": "3a099430-aed1-491a-a9ab-a8f6b770d9ee",
+    "name": "character_image_gen",
+    "title": "Generate 3 Pictures（Include In-Chat Generate）",
+    "description": "Generate 3 Pictures and get 5 free chat messages!",
+    "goal": 3,
+    "type": "token",
+    "token": 5
+  },
+  {
+    "id": "99845251-15e8-495a-9311-e1b9822fa2c4",
+    "name": "post_comment",
+    "title": "Leave Your Comment on Posts",
+    "description": "Post any Comment under your favorite Character's Posts and get 5 free chat messages!",
+    "goal": 1,
+    "type": "token",
+    "token": 5
+  }
+]

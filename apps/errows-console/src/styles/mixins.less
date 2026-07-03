@@ -1,0 +1,398 @@
+@import './variables.less';
+
+// ==================== 布局混合 ====================
+
+/**
+ * 弹性盒子布局 - 居中
+ */
+.flex-center(@direction: row) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: @direction;
+}
+
+/**
+ * 弹性盒子布局 - 两端对齐
+ */
+.flex-between(@direction: row) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: @direction;
+}
+
+/**
+ * 弹性盒子布局 - 环绕
+ */
+.flex-wrap() {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/**
+ * 网格布局
+ */
+.grid(@columns: 12; @gap: @spacing-lg) {
+  display: grid;
+  grid-template-columns: repeat(@columns, 1fr);
+  gap: @gap;
+}
+
+/**
+ * 绝对定位 - 居中
+ */
+.absolute-center() {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/**
+ * 绝对定位 - 全屏覆盖
+ */
+.absolute-full() {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+// ==================== 文本混合 ====================
+
+/**
+ * 文本截断 - 单行
+ */
+.truncate() {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/**
+ * 文本截断 - 多行
+ */
+.truncate-lines(@lines: 2) {
+  display: -webkit-box;
+  -webkit-line-clamp: @lines;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/**
+ * 清除浮动
+ */
+.clearfix() {
+  &::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
+
+// ==================== 尺寸混合 ====================
+
+/**
+ * 设置正方形尺寸
+ */
+.square(@size) {
+  width: @size;
+  height: @size;
+}
+
+/**
+ * 设置矩形尺寸
+ */
+.rect(@width; @height) {
+  width: @width;
+  height: @height;
+}
+
+/**
+ * 设置最小宽度
+ */
+.min-width(@width) {
+  min-width: @width;
+}
+
+/**
+ * 设置最小高度
+ */
+.min-height(@height) {
+  min-height: @height;
+}
+
+/**
+ * 设置满屏宽度
+ */
+.full-width() {
+  width: 100%;
+}
+
+/**
+ * 设置满屏高度
+ */
+.full-height() {
+  height: 100%;
+}
+
+// ==================== 圆角混合 ====================
+
+/**
+ * 设置圆角
+ */
+.border-radius(@radius: @border-radius-base) {
+  border-radius: @radius;
+}
+
+/**
+ * 设置圆形
+ */
+.circle(@size) {
+  width: @size;
+  height: @size;
+  border-radius: 50%;
+}
+
+/**
+ * 设置特定方向圆角
+ */
+.border-radius-top(@radius: @border-radius-base) {
+  border-top-left-radius: @radius;
+  border-top-right-radius: @radius;
+}
+
+.border-radius-bottom(@radius: @border-radius-base) {
+  border-bottom-left-radius: @radius;
+  border-bottom-right-radius: @radius;
+}
+
+.border-radius-left(@radius: @border-radius-base) {
+  border-top-left-radius: @radius;
+  border-bottom-left-radius: @radius;
+}
+
+.border-radius-right(@radius: @border-radius-base) {
+  border-top-right-radius: @radius;
+  border-bottom-right-radius: @radius;
+}
+
+// ==================== 阴影混合 ====================
+
+/**
+ * 设置盒子阴影
+ */
+.box-shadow(@shadow: @box-shadow-base) {
+  box-shadow: @shadow;
+}
+
+/**
+ * 设置文本阴影
+ */
+.text-shadow(@shadow: 0 1px 2px rgba(0, 0, 0, 0.1)) {
+  text-shadow: @shadow;
+}
+
+/**
+ * 悬停效果 - 提升
+ */
+.hover-lift() {
+  .transition();
+
+  &:hover {
+    box-shadow: @box-shadow-lg;
+    transform: translateY(-2px);
+  }
+}
+
+// ==================== 过渡动画混合 ====================
+
+/**
+ * 过渡效果
+ */
+.transition(@property: all; @duration: @transition-duration-base; @timing: @transition-timing-function) {
+  transition: @property @duration @timing;
+}
+
+/**
+ * 变换动画
+ */
+.transform(@value) {
+  transform: @value;
+}
+
+/**
+ * 不透明度过渡
+ */
+.fade(@duration: @transition-duration-base) {
+  .transition(opacity; @duration);
+}
+
+/**
+ * 缩放过渡
+ */
+.scale(@duration: @transition-duration-base) {
+  .transition(transform; @duration);
+}
+
+// ==================== 背景混合 ====================
+
+/**
+ * 渐变背景
+ */
+.gradient(@gradient) {
+  background: @gradient;
+}
+
+/**
+ * 半透明叠加
+ */
+.overlay(@color: rgba(0, 0, 0, 0.5)) {
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: @color;
+    pointer-events: none;
+  }
+}
+
+// ==================== 按钮混合 ====================
+
+/**
+ * 重置按钮默认样式
+ */
+.button-reset() {
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+
+  &:active {
+    outline: none;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+/**
+ * 按钮基础样式
+ */
+.button-base(@padding: @spacing-md @spacing-lg; @radius: @border-radius-base) {
+  .button-reset();
+  padding: @padding;
+  border-radius: @radius;
+  font-weight: @font-weight-medium;
+  user-select: none;
+  .transition();
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+}
+
+// ==================== 输入框混合 ====================
+
+/**
+ * 重置输入框默认样式
+ */
+.input-reset() {
+  padding: 0;
+  border: none;
+  background: transparent;
+  outline: none;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+/**
+ * 输入框基础样式
+ */
+.input-base(@padding: @spacing-sm @spacing-md; @border-color: @border-color; @radius: @border-radius-base) {
+  .input-reset();
+  padding: @padding;
+  border: 1px solid @border-color;
+  border-radius: @radius;
+  .transition();
+
+  &:hover {
+    border-color: @primary-color;
+  }
+
+  &:focus {
+    border-color: @primary-color;
+    box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+  }
+
+  &:disabled {
+    background-color: @background-color-light;
+    color: @text-color-disabled;
+    cursor: not-allowed;
+  }
+}
+
+// ==================== 实用混合 ====================
+
+/**
+ * 隐藏元素
+ */
+.hidden() {
+  display: none;
+}
+
+/**
+ * 显示元素
+ */
+.show() {
+  display: block;
+}
+
+/**
+ * 透明度
+ */
+.opacity(@value) {
+  opacity: @value;
+}
+
+/**
+ * Z-index 管理
+ */
+.z-index(@index) {
+  position: relative;
+  z-index: @index;
+}
+
+/**
+ * 禁用用户选择
+ */
+.user-select-none() {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+/**
+ * 允许用户选择
+ */
+.user-select-all() {
+  user-select: all;
+  -webkit-user-select: all;
+  -moz-user-select: all;
+  -ms-user-select: all;
+}
+

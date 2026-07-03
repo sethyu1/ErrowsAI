@@ -1,0 +1,2697 @@
+[
+  {
+    "key": "gender",
+    "title": "Choose Gender",
+    "required": true,
+    "max_select": 1,
+    "depends": [],
+    "input_type": "image_select_big",
+    "options": [
+      {
+        "value": "Male",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/0029669ee1ce59ae9b8c084b9f9d1f52.webp"
+      },
+      {
+        "value": "Female",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/dcb077974ba5e7f4fc1e71c602972fb3.webp"
+      }
+    ]
+  },
+  {
+    "key": "type",
+    "title": "Choose Style",
+    "required": true,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Female"
+        ]
+      ]
+    ],
+    "input_type": "image_select",
+    "options": [
+      {
+        "value": "Realistic",
+        "settings": {
+          "base_model": "CyberRealistic.safetensors"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/4c584f8b2190a0e6ffd90fd8081bac29.webp"
+      },
+      {
+        "value": "Anime",
+        "settings": {
+          "base_model": "waiANINSFWPONYXL_v90.safetensors",
+          "base_prompt": "score_9, score_8_up, score_7_up,source_anime,1girl, solo, hetero"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/dcb077974ba5e7f4fc1e71c602972fb3.webp"
+      }
+    ]
+  },
+  {
+    "key": "type",
+    "title": "Choose Style",
+    "required": true,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Male"
+        ]
+      ]
+    ],
+    "input_type": "image_select",
+    "options": [
+      {
+        "value": "Realistic",
+        "settings": {
+          "base_prompt": "1boy, solo, hetero"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/435773123b889a70502aea0c68d7bc6a.webp"
+      },
+      {
+        "value": "Anime",
+        "settings": {
+          "lora": [
+            "PonyCharacter/SasukeUchiha.safetensors",
+            "0.5"
+          ],
+          "base_model": "waiANINSFWPONYXL_v90.safetensors",
+          "base_prompt": "score_9, score_8_up, score_7_up, source_anime, 1boy, solo, hetero"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/bf335963f641894fbca084ff90a5aa3c.webp"
+      }
+    ]
+  },
+  {
+    "key": "assortment",
+    "title": "Choose Assortment",
+    "required": true,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Female"
+        ]
+      ]
+    ],
+    "input_type": "image_select",
+    "options": [
+      {
+        "value": "Human",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/b1edfc6354d013b293cdc3b72ca0afe6.webp"
+      },
+      {
+        "value": "Dragon",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/d6112d9cf1b0af09877ab8044eac233c.webp"
+      },
+      {
+        "value": "Furry",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/4eb62d2c2147b828edee5f4e0589ffad.webp"
+      },
+      {
+        "value": "Elf",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/1e393ef4e73338e467ad3b088d5b38b8.webp"
+      },
+      {
+        "value": "Beastkin",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/7b2713137ed61a434a0618081c6e667c.webp"
+      },
+      {
+        "value": "Demonkin",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/b8857e9696ee7979398ac61035723307.webp"
+      },
+      {
+        "value": "Fairy",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/2d0f29f5c604c9cf5f362ed9ec90707e.webp"
+      },
+      {
+        "value": "Angelkin",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/9375bc5e3dea34f2da3c3b8c6b74015f.webp"
+      }
+    ]
+  },
+  {
+    "key": "assortment",
+    "title": "Choose Assortment",
+    "required": true,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Male"
+        ]
+      ]
+    ],
+    "input_type": "image_select",
+    "options": [
+      {
+        "value": "Human",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/6c52d59215321d6fdc202795e0eced96.webp"
+      },
+      {
+        "value": "Dragon",
+        "settings": {
+          "lora": [
+            "PonyCharacter/Furry.safetensors",
+            "0.2"
+          ],
+          "base_prompt": "Dragon"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/4852f6de56e874cf5a9eaf3e9f22ec37.webp"
+      },
+      {
+        "value": "Furry",
+        "settings": {
+          "lora": [
+            "PonyCharacter/Furry.safetensors",
+            "1"
+          ],
+          "base_prompt": "Furry"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/37b027a2dda63ad1a7cfd5e84e43bc68.webp"
+      },
+      {
+        "value": "Elf",
+        "settings": {
+          "lora": [
+            "PonyCharacter/Furry.safetensors",
+            "0.5"
+          ],
+          "base_prompt": "Elf"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/4324dd363713d2d0c237d6edfaf8e255.webp"
+      },
+      {
+        "value": "Beastkin",
+        "settings": {
+          "prompt": "beastkin"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/aae6e7a25ef616c51649b24657d55f7f.webp"
+      },
+      {
+        "value": "Angel",
+        "settings": {
+          "lora": [
+            "PonyCharacter/Furry.safetensors",
+            "0.2"
+          ],
+          "base_prompt": "Angel"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/221f31313273ae62c2ffb1451f1e2541.webp"
+      }
+    ]
+  },
+  {
+    "key": "race",
+    "title": "Furry Race",
+    "required": true,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Male"
+        ]
+      ],
+      [
+        "assortment",
+        [
+          "Furry"
+        ]
+      ]
+    ],
+    "input_type": "image_select",
+    "options": [
+      {
+        "value": "Dog Man",
+        "settings": {
+          "base_prompt": "furry, dog eay, dog tail, dog man"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/1e12e96c38aefe7efb1a6957b22e029a.webp"
+      },
+      {
+        "value": "Cat Man",
+        "settings": {
+          "base_prompt": "furry, cat man, cat ear, cat tail"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/9d1ea784ef5fd728b284a84186761122.webp"
+      },
+      {
+        "value": "Werewolf",
+        "settings": {
+          "base_prompt": "furry, Werewolf, wolf ear, wolf tail"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/c5a50332886464ec5c992f256df658b0.webp"
+      },
+      {
+        "value": "Rabbit man",
+        "settings": {
+          "base_prompt": "furry, rabbit man, rabbit ear, rabbit tail"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/d5758fe166b6d77d4a939afe591cbffc.webp"
+      }
+    ]
+  },
+  {
+    "key": "race",
+    "title": "Elf Race",
+    "required": false,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Male"
+        ]
+      ],
+      [
+        "assortment",
+        [
+          "Elf"
+        ]
+      ]
+    ],
+    "input_type": "image_select",
+    "options": [
+      {
+        "value": "High Elf",
+        "settings": {
+          "base_prompt": "fair skin, elf ears, elf"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/b19d1b2c0a8788ac340ea8d146dc96d0.webp"
+      },
+      {
+        "value": "Dark Elf",
+        "settings": {
+          "base_prompt": "black skin, elf ears, dark elf"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/a8de3578ee46cf22863ca1dd950ee0bf.webp"
+      }
+    ]
+  },
+  {
+    "key": "race",
+    "title": "Dragon Race",
+    "required": true,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Male"
+        ]
+      ],
+      [
+        "assortment",
+        [
+          "Dragon"
+        ]
+      ]
+    ],
+    "input_type": "image_select",
+    "options": [
+      {
+        "value": "Red Dragon",
+        "settings": {
+          "lora": [
+            "PonyCharacter/Furry.safetensors",
+            "0.2"
+          ],
+          "base_prompt": "dragonboy, fair skin, red dragon scales, red dragon horns, belly dragon scales, thigh dragon scales, red dragon wings"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/a76d2360f727a584672028702bad36ff.webp"
+      },
+      {
+        "value": "Blue Dragon",
+        "settings": {
+          "lora": [
+            "PonyCharacter/Furry.safetensors",
+            "0.2"
+          ],
+          "base_prompt": "dragonboy, fair skin, blue dragon scales, blue dragon horns, belly dragon scales, thigh dragon scales, blue dragon wings"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/8a711b64419cea137c58b341be9f9f10.webp"
+      },
+      {
+        "value": "Black Dragon",
+        "settings": {
+          "lora": [
+            "PonyCharacter/Furry.safetensors",
+            "0.2"
+          ],
+          "base_prompt": "dragonboy, fair skin, black dragon scales, black dragon horns, belly dragon scales, thigh dragon scales, black dragon wings"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/80319298a6ae8e5eebae742a1cebb2ee.webp"
+      },
+      {
+        "value": "White Dragon",
+        "settings": {
+          "lora": [
+            "PonyCharacter/Furry.safetensors",
+            "0.2"
+          ],
+          "base_prompt": "dragonboy, fair skin, white dragon scales, white dragon horns, belly dragon scales, thigh dragon scales, white dragon wings"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/66d2474e9094eeba5042831065593f1d.webp"
+      },
+      {
+        "value": "Gold Dragon",
+        "settings": {
+          "lora": [
+            "PonyCharacter/Furry.safetensors",
+            "0.2"
+          ],
+          "base_prompt": "dragonboy, fair skin, gold dragon scales, gold dragon horns, belly dragon scales, thigh dragon scales, gold dragon wings"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/d73f98bbacae8c01ddc56ad4a00c2b17.webp"
+      }
+    ]
+  },
+  {
+    "key": "race",
+    "title": "Human Race",
+    "required": true,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Male"
+        ]
+      ],
+      [
+        "assortment",
+        [
+          "Human"
+        ]
+      ]
+    ],
+    "input_type": "image_select",
+    "options": [
+      {
+        "value": "Asain",
+        "settings": {
+          "base_prompt": "asain"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/b7068deac4cc3207a6c1868bfb192bbe.webp"
+      },
+      {
+        "value": "Caucasian",
+        "settings": {
+          "base_prompt": "Caucasian, fair skin"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/f5cd869bf619e57362c5a5e9acb060dc.webp"
+      },
+      {
+        "value": "African",
+        "settings": {
+          "base_prompt": "black skin, African"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/f3a267766ac6311d55f8497c91cb6d48.webp"
+      },
+      {
+        "value": "Latina",
+        "settings": {
+          "base_prompt": "Latino, brown skin"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/c7eb0e1469e28e0af9962fb31c0b6945.webp"
+      }
+    ]
+  },
+  {
+    "key": "race",
+    "title": "Angel Race",
+    "required": true,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Male"
+        ]
+      ],
+      [
+        "assortment",
+        [
+          "Angel"
+        ]
+      ]
+    ],
+    "input_type": "image_select",
+    "options": [
+      {
+        "value": "Angel",
+        "settings": {
+          "base_prompt": "fair skin, angel, angel wings, halo"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/4d591c1c8d32d882cfe8f5fec1b8ff07.webp"
+      },
+      {
+        "value": "Fallen Angel",
+        "settings": {
+          "base_prompt": "black skin, fallen angel, black wings, black halo"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/605aa6131320f8b929627bc292428b8f.webp"
+      }
+    ]
+  },
+  {
+    "key": "race",
+    "title": "Beastkin Race",
+    "required": false,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Male"
+        ]
+      ],
+      [
+        "assortment",
+        [
+          "Beastkin"
+        ]
+      ]
+    ],
+    "input_type": "image_select",
+    "options": [
+      {
+        "value": "Cat Man",
+        "settings": {
+          "lora": [
+            "PonyCharacter/Furry.safetensors",
+            "0.1"
+          ],
+          "base_prompt": "fair skin, cat ear, cat tail"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/f68c62830cad1c53124992bc064a4a8a.webp"
+      },
+      {
+        "value": "Wolf man",
+        "settings": {
+          "lora": [
+            "PonyCharacter/Furry.safetensors",
+            "0.1"
+          ],
+          "base_prompt": "fair skin, wolf ear, wolf tail"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/3a109d56f512012fd1502713685c1385.webp"
+      },
+      {
+        "value": "Centaur",
+        "settings": {
+          "lora": [
+            "PonyCharacter/Furry.safetensors",
+            "0.1"
+          ],
+          "base_prompt": "Centaur, fari skin, horse ear, horse tail"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/069ffc78d61e1a2919efcfe2c3dbac5d.webp"
+      },
+      {
+        "value": "Dog man",
+        "settings": {
+          "lora": [
+            "PonyCharacter/Furry.safetensors",
+            "0.1"
+          ],
+          "base_prompt": "fair skin, dog ear, dog tail"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/5f2125458bf9c1a15d560a85d735644f.webp"
+      }
+    ]
+  },
+  {
+    "key": "race",
+    "title": "Angelkin Race",
+    "required": true,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Female"
+        ]
+      ],
+      [
+        "assortment",
+        [
+          "Angelkin"
+        ]
+      ]
+    ],
+    "input_type": "image_select",
+    "options": [
+      {
+        "value": "Angel",
+        "settings": {
+          "lora": [
+            "PonyCharacter/Wings.safetensors",
+            "1"
+          ],
+          "base_prompt": "angel girl, angel wings, angel halo"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/226032d0a554f9d347a711d78d23f5b9.webp"
+      },
+      {
+        "value": "Fallen Angel",
+        "settings": {
+          "lora": [
+            "PonyCharacter/Wings.safetensors",
+            "1"
+          ],
+          "base_prompt": "Fallen Angel girl, black wings, brown skin"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/6c6209fa88737237057f9d002362a0fa.webp"
+      }
+    ]
+  },
+  {
+    "key": "race",
+    "title": "Fairy Race",
+    "required": true,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Female"
+        ]
+      ],
+      [
+        "assortment",
+        [
+          "Fairy"
+        ]
+      ]
+    ],
+    "input_type": "image_select",
+    "options": [
+      {
+        "value": "Fairy",
+        "settings": {
+          "lora": [
+            "PonyCharacter/Pixie.safetensors",
+            "0.8"
+          ],
+          "base_prompt": "fairy girl, fairy wings"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/981cd198ee8222c98daa26bca4d98b15.webp"
+      },
+      {
+        "value": "Fiary king",
+        "settings": {
+          "lora": [
+            "PonyCharacter/Wings.safetensors",
+            "0.7"
+          ],
+          "base_prompt": "fairy girl, {{hairColor}}fairy wings"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/f98f8d28a2f37463ebcb63804455e947.webp"
+      }
+    ]
+  },
+  {
+    "key": "race",
+    "title": "Demonkin Race",
+    "required": true,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Female"
+        ]
+      ],
+      [
+        "assortment",
+        [
+          "Demonkin"
+        ]
+      ]
+    ],
+    "input_type": "image_select",
+    "options": [
+      {
+        "value": "Succubus",
+        "settings": {
+          "lora": [
+            "PonyCharacter/Alice.safetensors",
+            "1"
+          ],
+          "base_prompt": "Succubus girl, Succubus horns, Succubus, Succubus tail, sexy clothes, Succubus wings, belly tattoo"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/fc8065e3964ec3797e1bc200ee64fcb0.webp"
+      },
+      {
+        "value": "Demon",
+        "settings": {
+          "lora": [
+            "PonyCharacter/Dolls.safetensors",
+            "0.5"
+          ],
+          "base_prompt": "demon girl, demon horns, demon wings, red skin, demon tail"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/0c66993d066829b02664468159f60bbe.webp"
+      },
+      {
+        "value": "Oni",
+        "settings": {
+          "lora": [
+            "PonyCharacter/ZeroTwo.safetensors",
+            "0.8"
+          ],
+          "base_prompt": "Oni girl，oni corner"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/77f7092fee709f1334303a89e3179d33.webp"
+      },
+      {
+        "value": "Vampire",
+        "settings": {
+          "lora": [
+            "PonyCharacter/ShalltearBloodfallen.safetensors",
+            "0.3"
+          ],
+          "base_prompt": "vampire girl, pale skin, vampire wings,Pointed ears"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/b5a0c00a51b9d1687a4314d72e690f42.webp"
+      }
+    ]
+  },
+  {
+    "key": "race",
+    "title": "Beastkin Race",
+    "required": true,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Female"
+        ]
+      ],
+      [
+        "assortment",
+        [
+          "Beastkin"
+        ]
+      ]
+    ],
+    "input_type": "image_select",
+    "options": [
+      {
+        "value": "Cat girl",
+        "settings": {
+          "lora": [
+            "PonyCharacter/Furry.safetensors",
+            "0.8"
+          ],
+          "base_prompt": "cat girl,{{hairColor}}cat tail, {{hairColor}}cat ear"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/4f318935e0db5455309671bcd25dcf68.webp"
+      },
+      {
+        "value": "Dog girl",
+        "settings": {
+          "lora": [
+            "PonyCharacter/Furry.safetensors",
+            "0.8"
+          ],
+          "base_prompt": "dog-eared girl, {{hairColor}}dog ears, {{hairColor}}dog tail"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/b5b6cdbc7d8212ce03615e41549a15e3.webp"
+      },
+      {
+        "value": "Centaur",
+        "settings": {
+          "lora": [
+            "PonyCharacter/Furry.safetensors",
+            "0.8"
+          ],
+          "base_prompt": "((Centaur)), (horse ears)"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/26fb40bb9881e73a4e20ff664b021b16.webp"
+      },
+      {
+        "value": "Harpy",
+        "settings": {
+          "lora": [
+            "PonyCharacter/Furry.safetensors",
+            "0.7"
+          ],
+          "base_prompt": "harpy，harby girl,({{hairColor}}feather winged arms),{{hairColor}}winged arms,{{hairColor}}wing"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/6407a5f81458e66bc667c448c8b2fcf1.webp"
+      },
+      {
+        "value": "Lamia",
+        "settings": {
+          "lora": [
+            "PonyCharacter/Lamia.safetensors",
+            "1"
+          ],
+          "base_prompt": "{{hairColor}}scales, {{hairColor}}snake tail, Lamia,pointy ears"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/71884f5536ddcd4755b529211ac73b9c.webp"
+      },
+      {
+        "value": "Cow Girl",
+        "settings": {
+          "lora": [
+            "PonyCharacter/Furry.safetensors",
+            "0.7"
+          ],
+          "base_prompt": "cow girl, cow horns, cow ears, cow tail"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/42c195eb057d6d0ed0d62adcf0957d9e.webp"
+      },
+      {
+        "value": "Rabbit Girl",
+        "settings": {
+          "lora": [
+            "PonyCharacter/Furry.safetensors",
+            "0.7"
+          ],
+          "base_prompt": "Rabbit girl,Rabbit Ears,rabbit tail"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/be126c8ef833dda42ee95017b64fb2e7.webp"
+      },
+      {
+        "value": "Wolf girl",
+        "settings": {
+          "lora": [
+            "PonyCharacter/Furry.safetensors",
+            "0.8"
+          ],
+          "base_prompt": "wolf girl, {{hairColor}}wolf ears, {{hairColor}}wolf tail"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/7b272bcb2f56b702bbc3cb030b758f2c.webp"
+      }
+    ]
+  },
+  {
+    "key": "race",
+    "title": "Elf Race",
+    "required": false,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Female"
+        ]
+      ],
+      [
+        "assortment",
+        [
+          "Elf"
+        ]
+      ]
+    ],
+    "input_type": "image_select",
+    "options": [
+      {
+        "value": "High Elf",
+        "settings": {
+          "base_prompt": "(elf, pointy ears,whte skin,Pale skin,)"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/138935d5b399b04cef5bb6c7a5b247c5.webp"
+      },
+      {
+        "value": "Dark Elf",
+        "settings": {
+          "base_prompt": "( dark elf, dark skin, brown skin,pointy ears, )sexy clothes"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/438703b7ebf687937ef7714b4cf060cf.webp"
+      }
+    ]
+  },
+  {
+    "key": "race",
+    "title": "Furry Race",
+    "required": false,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Female"
+        ]
+      ],
+      [
+        "assortment",
+        [
+          "Furry"
+        ]
+      ]
+    ],
+    "input_type": "image_select",
+    "options": [
+      {
+        "value": "Cat",
+        "settings": {
+          "lora": [
+            "PonyCharacter/Furry.safetensors",
+            "1"
+          ],
+          "base_prompt": "score_9, score_8_up, score_7_up,source_anime,1girl,hetero,(cat girl,furry,cat ear, cat tail),{{ hairColor }} cat ear,{{ hairColor }} furry,{hair color}cat tail"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/7133c0e72362c29c840e9c77a6fdb81f.webp"
+      },
+      {
+        "value": "Tiger",
+        "settings": {
+          "lora": [
+            "PonyCharacter/Furry.safetensors",
+            "1"
+          ],
+          "base_prompt": "score_9, score_8_up, score_7_up,source_anime,1girl,hetero,,(tiger girl,furry,tiger ear,tiger tail)"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/e8f5f3ce39b19f6a21078faac8b21ca0.webp"
+      },
+      {
+        "value": "Horse",
+        "settings": {
+          "lora": [
+            "PonyCharacter/Furry.safetensors",
+            "1"
+          ],
+          "base_prompt": "score_9, score_8_up, score_7_up,source_anime,1girl,hetero,(horse girl,horse face,furry,hooves,brown furry)"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/ad191920f0218bf802f59a386997afe1.webp"
+      },
+      {
+        "value": "Leopard",
+        "settings": {
+          "lora": [
+            "PonyCharacter/Furry.safetensors",
+            "1"
+          ],
+          "base_prompt": "score_9, score_8_up, score_7_up,source_anime,1girl,hetero,(female, leopard, feline, leopard girl,furry,pink fur,)"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/c9b6f71f0037ffe9f46a8f3b1f7192fa.webp"
+      },
+      {
+        "value": "Rabbit",
+        "settings": {
+          "lora": [
+            "PonyCharacter/Furry.safetensors",
+            "1"
+          ],
+          "base_prompt": "score_9, score_8_up, score_7_up,source_anime,1girl,hetero,(rabbit,rabbit girl,female,white rabbit ear,rabbit tail,white fur, rabbit nose,rabbit face)"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/e86c97c34cae531016d74c03d6584bd3.webp"
+      }
+    ]
+  },
+  {
+    "key": "race",
+    "title": "Dragon Race",
+    "required": false,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Female"
+        ]
+      ],
+      [
+        "assortment",
+        [
+          "Dragon"
+        ]
+      ]
+    ],
+    "input_type": "image_select",
+    "options": [
+      {
+        "value": "Red Dragon",
+        "settings": {
+          "lora": [
+            "PonyCharacter/Furry.safetensors",
+            "0.8"
+          ],
+          "base_prompt": "dragon girl, (red dragon scales), (red dragon horns), (belly dragon scales), (thigh dragon scales), )(red dragon wings)"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/e280af873ea957a98041d612f9f45d05.webp"
+      },
+      {
+        "value": "Black Dragon",
+        "settings": {
+          "lora": [
+            "PonyCharacter/Furry.safetensors",
+            "0.8"
+          ],
+          "base_prompt": "dragon girl, (black dragon scales), (black dragon horns), (belly dragon scales), (thigh dragon scales), (black dragon wings)"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/acb162b4c55e14726bc7650d1c1b84a2.webp"
+      },
+      {
+        "value": "Gold Dragon",
+        "settings": {
+          "lora": [
+            "PonyCharacter/Furry.safetensors",
+            "0.8"
+          ],
+          "base_prompt": "dragon girl, (gold dragon scales), (gold dragon horns), (belly dragon scales), (thigh dragon scales),(gold dragon wings)"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/87109c617e2a81b5d6fdc2df47771a7b.webp"
+      },
+      {
+        "value": "Blue Dragon",
+        "settings": {
+          "lora": [
+            "PonyCharacter/Furry.safetensors",
+            "0.8"
+          ],
+          "base_prompt": "dragon girl, (blue dragon scales), (blue dragon horns), (belly dragon scales), (thigh dragon scales), (blue dragon wings)"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/3168a0ec57b45285df0dfec6f3cf0844.webp"
+      },
+      {
+        "value": "White Dragon",
+        "settings": {
+          "lora": [
+            "PonyCharacter/Furry.safetensors",
+            "0.8"
+          ],
+          "base_prompt": "dragon girl, (white dragon scales), (white dragon horns), (belly dragon scales), (thigh dragon scales),(white dragon wings)"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/dde54cb05eb4dbffd5ff474783c2ef4b.webp"
+      }
+    ]
+  },
+  {
+    "key": "race",
+    "title": "Human Race",
+    "required": true,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Female"
+        ]
+      ],
+      [
+        "assortment",
+        [
+          "Human"
+        ]
+      ]
+    ],
+    "input_type": "image_select",
+    "options": [
+      {
+        "value": "Asian",
+        "settings": {
+          "lora": [
+            "PonyCharacter/Racehelper.safetensors",
+            "1"
+          ],
+          "base_prompt": "score_9, score_8_up, score_7_up,source_anime,1girl,hetero,asian girl,asian_chinese"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/ea6cc2d7eea071cb5d9407be8cf588e4.webp"
+      },
+      {
+        "value": "Caucasian",
+        "settings": {
+          "base_prompt": "score_9, score_8_up, score_7_up,source_anime,1girl,hetero,British girl"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/a901286968207dc7710731a0f1ad4fe5.webp"
+      },
+      {
+        "value": "African",
+        "settings": {
+          "base_prompt": "score_9, score_8_up, score_7_up,source_anime,1girl,hetero,African girl, dark skin"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/f80efe62e9bbee58f77a4247a7d3bd8b.webp"
+      },
+      {
+        "value": "Latina",
+        "settings": {
+          "base_prompt": "score_9, score_8_up, score_7_up,source_anime,1girl,hetero,Latina girl,dark skin"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/429fbae5d4099ed51e851e282858d9c3.webp"
+      }
+    ]
+  },
+  {
+    "key": "age",
+    "title": "Choose Age",
+    "required": true,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Female"
+        ]
+      ]
+    ],
+    "input_type": "discrete_sliders",
+    "options": [
+      {
+        "value": "Teen(18+)",
+        "settings": {
+          "lora": [
+            "PonyCharacter/age.safetensors",
+            "-1"
+          ]
+        }
+      },
+      {
+        "value": "20s",
+        "settings": {
+          "lora": [
+            "PonyCharacter/age.safetensors",
+            "1"
+          ]
+        }
+      },
+      {
+        "value": "30s",
+        "settings": {
+          "lora": [
+            "PonyCharacter/age.safetensors",
+            "2"
+          ]
+        }
+      },
+      {
+        "value": "40-55",
+        "settings": {
+          "lora": [
+            "PonyCharacter/age.safetensors",
+            "3"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "key": "age",
+    "title": "Choose Age",
+    "required": true,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Male"
+        ]
+      ]
+    ],
+    "input_type": "discrete_sliders",
+    "options": [
+      {
+        "value": "18+",
+        "settings": {
+          "lora": [
+            "PonyCharacter/age.safetensors",
+            "0.5"
+          ]
+        }
+      },
+      {
+        "value": "20s",
+        "settings": {
+          "lora": [
+            "PonyCharacter/age.safetensors",
+            "1"
+          ]
+        }
+      },
+      {
+        "value": "30s",
+        "settings": {
+          "lora": [
+            "PonyCharacter/age.safetensors",
+            "2.5"
+          ]
+        }
+      },
+      {
+        "value": "40-55",
+        "settings": {
+          "lora": [
+            "PonyCharacter/age.safetensors",
+            "4"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "key": "eye_color",
+    "title": "Choose Eye Color*",
+    "required": true,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Male"
+        ]
+      ]
+    ],
+    "input_type": "image_select",
+    "options": [
+      {
+        "value": "Green",
+        "settings": {
+          "prompt": "green eye"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/a68391863e81ee1363b0afb39ea90ae7.webp"
+      },
+      {
+        "value": "Black eye",
+        "settings": {
+          "prompt": "black eye"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/5952af7c64eaf9b12fbebede79d41d0f.webp"
+      },
+      {
+        "value": "Blue eye",
+        "settings": {
+          "prompt": "blue eye"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/a9e72593bf3e12e66ded781dcc0f4850.webp"
+      },
+      {
+        "value": "Brown eye",
+        "settings": {
+          "prompt": "brown eye"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/ced9b16ef0c9555a59eb1c281702bd1f.webp"
+      },
+      {
+        "value": "Red  eye",
+        "settings": {
+          "prompt": "red eye"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/fd62d50f45c6f0d8e142415c1f44ad18.webp"
+      }
+    ]
+  },
+  {
+    "key": "eye_color",
+    "title": "Choose Eye Color*",
+    "required": true,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Female"
+        ]
+      ]
+    ],
+    "input_type": "image_select",
+    "options": [
+      {
+        "value": "Black",
+        "settings": {
+          "prompt": "Black eyes"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/951413d7db5064647af6f4c99e02a43e.webp"
+      },
+      {
+        "value": "Blue",
+        "settings": {
+          "prompt": "Blue eyes"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/0402aa19f85976418b4ed00ec8b762e0.webp"
+      },
+      {
+        "value": "Green",
+        "settings": {
+          "prompt": "Green eyes"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/424e2e2959d090a65d9ae2d62a828815.webp"
+      },
+      {
+        "value": "Red",
+        "settings": {
+          "prompt": "Red eyes"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/25d37f6bda1699d4b3240e282124fe3a.webp"
+      },
+      {
+        "value": "Yellow",
+        "settings": {
+          "prompt": "Yellow eyes"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/f7cb980dfb5151cb35dce916ee9a848e.webp"
+      },
+      {
+        "value": "White",
+        "settings": {
+          "prompt": "White eyes"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/eaa9e04e2e970aaf920a4fe988430960.webp"
+      },
+      {
+        "value": "Brown",
+        "settings": {
+          "prompt": "Brown eyes"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/8ff3e6033d7803454bf390062eb9c785.webp"
+      },
+      {
+        "value": "Pink",
+        "settings": {
+          "prompt": "Pink eyes"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/b2c5b3d25bbb61e70de6015724d86f56.webp"
+      },
+      {
+        "value": "Purple",
+        "settings": {
+          "prompt": "Purple eyes"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/55d2640661e88755b5e7da0654f6e35c.webp"
+      },
+      {
+        "value": "Gray",
+        "settings": {
+          "prompt": "Gray eyes"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/88c25fd4659df6235fdf5b4982f9d873.webp"
+      }
+    ]
+  },
+  {
+    "key": "hair_style",
+    "title": "Choose Hair Style*",
+    "required": true,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Male"
+        ]
+      ]
+    ],
+    "input_type": "image_select",
+    "options": [
+      {
+        "value": "Short Hair",
+        "settings": {
+          "prompt": "short hair"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/04204b7ae43efd4aa03cc3e5c3cca969.webp"
+      },
+      {
+        "value": "Long Hair",
+        "settings": {
+          "prompt": "long hair"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/55dc22e44b9f63214c1ea85b019ae694.webp"
+      },
+      {
+        "value": "Messy hair",
+        "settings": {
+          "prompt": "messy hair"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/901e5e2486298a257bb34b4b9c897b85.webp"
+      },
+      {
+        "value": "Pony Tail",
+        "settings": {
+          "prompt": "small ponytail"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/d8ac4c1068a4aad47073b7110b7fb625.webp"
+      },
+      {
+        "value": "Bob Cut",
+        "settings": {
+          "prompt": "round bob，bob cut"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/4a21f925e1d6ac26e2150c592b9da942.webp"
+      },
+      {
+        "value": "Dreadlocks",
+        "settings": {
+          "prompt": "dreadlocks"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/11be426ea6f2dcb8fdb3a23f0cb1630d.webp"
+      },
+      {
+        "value": "Punk Hair",
+        "settings": {
+          "prompt": "punk Hair"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/b43cf743bad8e0fda2e791879c4860a4.webp"
+      }
+    ]
+  },
+  {
+    "key": "hair_style",
+    "title": "Choose Hair Style*",
+    "required": true,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Female"
+        ]
+      ]
+    ],
+    "input_type": "image_select",
+    "options": [
+      {
+        "value": "Medium ponytail",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/86918cbe599a9d095f64a41cfa3642df.webp"
+      },
+      {
+        "value": "Side ponytail",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/74f56e3e2e4e5dfede3264c4fa39c89a.webp"
+      },
+      {
+        "value": "Lolita Curls",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/416b9894f5d0562777a6a95b660d5af5.webp"
+      },
+      {
+        "value": "Twin Braids",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/a4f9cc7d8f7e3a11cc4b32d05676ad34.webp"
+      },
+      {
+        "value": "Mohawk",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/96ed366e30729b1adce771337bd81ee5.webp"
+      },
+      {
+        "value": "Punk hair",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/e570702b6bed87c707290328fb21fd36.webp"
+      },
+      {
+        "value": "Half-up Hair",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/ac6b2662b7cec95459864fbc7f18f949.webp"
+      },
+      {
+        "value": "Half-up Bun",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/49f09fd70b5249009af2813cf4865231.webp"
+      },
+      {
+        "value": "Curly Hair",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/40bf7bc450b2b69e5b5bca970914a924.webp"
+      },
+      {
+        "value": "Double bun hair",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/93ee4f1a23190752153b1a842993cf4d.webp"
+      },
+      {
+        "value": "Straight",
+        "settings": {
+          "prompt": "Straight hair"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/489e89f976a007ea00df05d4296f6f6c.webp"
+      },
+      {
+        "value": "Low ponytail",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/70b9e8dbf3675419d545be71c8082ab6.webp"
+      },
+      {
+        "value": "Twintail",
+        "settings": {
+          "prompt": "Double ponytails"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/d0a3f8d6228909891d4e19e48fe8123f.webp"
+      },
+      {
+        "value": "Bun hair",
+        "settings": {
+          "prompt": "Bun Hair"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/56b647454dca20547e5f0a6e152ef18d.webp"
+      },
+      {
+        "value": "High ponytail",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/e424567f3d501cc7d839453aad3df4cf.webp"
+      },
+      {
+        "value": "Wavy Hair",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/4517cf67796169df0bb94d1929cda646.webp"
+      },
+      {
+        "value": "Bob Cut",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/1868c980c2e18b81ebb48777f8348541.webp"
+      },
+      {
+        "value": "Round Bob",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/74b24d08ad90b8c6cfa5a2e38f341486.webp"
+      },
+      {
+        "value": "Blunt Cut",
+        "settings": {
+          "prompt": "Blunt Cut hair"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/7b11c6a515c11df543c08529836024b9.webp"
+      },
+      {
+        "value": "Braid",
+        "settings": {
+          "prompt": "Braid Hair"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/639ff43070dd4a6502f700eff94ebc65.webp"
+      }
+    ]
+  },
+  {
+    "key": "hair_color",
+    "title": "Choose Hair Color",
+    "required": true,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Male"
+        ]
+      ]
+    ],
+    "input_type": "color_select",
+    "options": [
+      {
+        "value": "Black",
+        "settings": {
+          "prompt": "Black hair"
+        },
+        "color": "#000000"
+      },
+      {
+        "value": "White",
+        "settings": {
+          "prompt": "White hair"
+        },
+        "color": "#ffffff"
+      },
+      {
+        "value": "Blonde",
+        "settings": {
+          "prompt": "Blonde hair"
+        },
+        "color": "#b38d00"
+      },
+      {
+        "value": "Brunette",
+        "settings": {
+          "prompt": "Brunette hair"
+        },
+        "color": "#803f00"
+      },
+      {
+        "value": "Pink",
+        "settings": {
+          "prompt": "Pink hair"
+        },
+        "color": "#FFB6C1"
+      },
+      {
+        "value": "Red",
+        "settings": {
+          "prompt": "Red hair"
+        },
+        "color": "#ff3333"
+      },
+      {
+        "value": "Blue",
+        "settings": {
+          "prompt": "Blue hair"
+        },
+        "color": "#4d94ff"
+      },
+      {
+        "value": "Green",
+        "settings": {
+          "prompt": "Green hair"
+        },
+        "color": "#80ff80"
+      },
+      {
+        "value": "Purple",
+        "settings": {
+          "prompt": "Purple hair"
+        },
+        "color": "#ad33ff"
+      }
+    ]
+  },
+  {
+    "key": "hair_length",
+    "title": "Choose Hair Length",
+    "required": false,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Female"
+        ]
+      ]
+    ],
+    "input_type": "image_select",
+    "options": [
+      {
+        "value": "Short hair",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/4138fb447f87c400f345de337cf76d62.webp"
+      },
+      {
+        "value": "Medium Hair",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/85f6f341a69aaed8b3e39fd81ad26cd1.webp"
+      },
+      {
+        "value": "long hair",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/c2eb21a1b18a5501b5e9b1f22683a6d1.webp"
+      },
+      {
+        "value": "Extra Long Hair",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/0e08ebfd00dd464e6740f0d1d8b532c5.webp"
+      }
+    ]
+  },
+  {
+    "key": "hair_bangs",
+    "title": "Choose Hair Bangs",
+    "required": false,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Female"
+        ]
+      ]
+    ],
+    "input_type": "image_select",
+    "options": [
+      {
+        "value": "Middle-part Forehair",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/fb8b5be082b736b91f3e0a08dea621ec.webp"
+      },
+      {
+        "value": "Choppy bangs",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/91196f601777492c10a3dd4353d63877.webp"
+      },
+      {
+        "value": "Side Bangs",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/9dd76595d8240beffda687fe2840a442.webp"
+      },
+      {
+        "value": "Open Forehead",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/6a542a63b5d3b56314aba0b6f88bdf3d.webp"
+      },
+      {
+        "value": "Blunt Bangs",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/7eb025fbdd472b6cf595b4acd0437ddd.webp"
+      },
+      {
+        "value": "Asymmetrical Bangs",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/2f4637efa0d2545bc4dd4c2c7aeb900c.webp"
+      }
+    ]
+  },
+  {
+    "key": "hair_color",
+    "title": "Choose Hair Color",
+    "required": true,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Female"
+        ]
+      ]
+    ],
+    "input_type": "color_select",
+    "options": [
+      {
+        "value": "Blonde",
+        "settings": {
+          "prompt": "Blonde hair"
+        },
+        "color": "#b38d00"
+      },
+      {
+        "value": "Brunette",
+        "settings": {
+          "prompt": "Brunette hair"
+        },
+        "color": "#803f00"
+      },
+      {
+        "value": "Black",
+        "settings": {
+          "prompt": "Black hair"
+        },
+        "color": "#000000"
+      },
+      {
+        "value": "Pink",
+        "settings": {
+          "prompt": "Pink hair"
+        },
+        "color": "#FFB6C1"
+      },
+      {
+        "value": "Red",
+        "settings": {
+          "prompt": "Red hair"
+        },
+        "color": "#ff3333"
+      },
+      {
+        "value": "White",
+        "settings": {
+          "prompt": "White Hair"
+        },
+        "color": "#ffffff"
+      },
+      {
+        "value": "Blue",
+        "settings": {
+          "prompt": "Blue hair"
+        },
+        "color": "#4d94ff"
+      },
+      {
+        "value": "Green",
+        "settings": {
+          "prompt": "Green hair"
+        },
+        "color": "#80ff80"
+      },
+      {
+        "value": "Purple",
+        "settings": {
+          "prompt": "Purple hair"
+        },
+        "color": "#ad33ff"
+      }
+    ]
+  },
+  {
+    "key": "body_type",
+    "title": "Choose Body Type",
+    "required": true,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Female"
+        ]
+      ]
+    ],
+    "input_type": "image_select",
+    "options": [
+      {
+        "value": "Petite",
+        "settings": {
+          "prompt": "Petite body"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/84f866cf3fa9113020d15a5c7ceb965d.webp"
+      },
+      {
+        "value": "Slim",
+        "settings": {
+          "prompt": "Slim body"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/e931d24ac0dd9e1225f3f63672437274.webp"
+      },
+      {
+        "value": "Athletic",
+        "settings": {
+          "prompt": "Athletic body"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/4c0d474bce37395c062ed314f3f72efd.webp"
+      },
+      {
+        "value": "Voluptuous",
+        "settings": {
+          "prompt": "Voluptuous body"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/02d2bbac73ae50194ed89332d14fbf76.webp"
+      },
+      {
+        "value": "Curvy",
+        "settings": {
+          "prompt": "plump body"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/24b4de105025d20e3e426147dc0a1536.webp"
+      }
+    ]
+  },
+  {
+    "key": "body_type",
+    "title": "Choose Body Type",
+    "required": false,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Male"
+        ]
+      ]
+    ],
+    "input_type": "image_select",
+    "options": [
+      {
+        "value": "Slim",
+        "settings": {
+          "prompt": "slim body"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/17e00e5f670a8aee6019774a8d423b4c.webp"
+      },
+      {
+        "value": "Muscular",
+        "settings": {
+          "prompt": "ultra defined muscles,Muscular man,big muscle"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/0f70f8880e9616063f3c53cac1931933.png"
+      },
+      {
+        "value": "Chubby",
+        "settings": {
+          "prompt": "Overweight body,fat,fat man"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/d9c2ad737d4d76068a6a2e742f1d168e.png"
+      }
+    ]
+  },
+  {
+    "key": "penis_size",
+    "title": "Choose Penis Size",
+    "required": false,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Male"
+        ]
+      ]
+    ],
+    "input_type": "image_select",
+    "options": [
+      {
+        "value": "Small Penis",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/6f0c5686d9d3945c5b6a614d377a7353.webp"
+      },
+      {
+        "value": "Midium Penis",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/27eb1f799d0879f39a530eac05cb4124.webp"
+      },
+      {
+        "value": "Big penis",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/2df8662cb79ed4bc7fac2718cfddf554.webp"
+      }
+    ]
+  },
+  {
+    "key": "breast_size",
+    "title": "Choose Breast Size",
+    "required": false,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Female"
+        ]
+      ]
+    ],
+    "input_type": "image_select",
+    "options": [
+      {
+        "value": "Flat",
+        "settings": {
+          "prompt": "Flat chest"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/e0686eef25160fed4ce21272bc2c28bf.webp"
+      },
+      {
+        "value": "Small",
+        "settings": {
+          "prompt": "Small breasts"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/a9140079f08a30131e07292c4f4c0059.webp"
+      },
+      {
+        "value": "Medium",
+        "settings": {
+          "prompt": "Medium breasts"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/1ded11d1ad29283f32dd47c1e0772911.webp"
+      },
+      {
+        "value": "Large",
+        "settings": {
+          "prompt": "large breasts"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/e387da9d3808aae691fb7b4a57ea6c15.webp"
+      },
+      {
+        "value": "Giant",
+        "settings": {
+          "prompt": "Giant breasts"
+        },
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/b9dd445053124b3870e1947b7025f8c7.webp"
+      }
+    ]
+  },
+  {
+    "key": "nickname",
+    "title": "Name",
+    "required": true,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Male"
+        ]
+      ]
+    ],
+    "input_type": "text_input",
+    "options": []
+  },
+  {
+    "key": "butt_size",
+    "title": "Choose Butt Size",
+    "required": true,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Female"
+        ]
+      ]
+    ],
+    "input_type": "image_select",
+    "options": [
+      {
+        "value": "Small",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/65d58b96fec621408fc1cda5b3460982.webp"
+      },
+      {
+        "value": "Medium",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/1218aed6a92cb75e3066cb13693589ac.webp"
+      },
+      {
+        "value": "Large",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/79e48fc0a56b74c6ace9a169c4cd18d6.webp"
+      },
+      {
+        "value": "Giant",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/2445a9473c99a861f841ea5869bb0fb0.webp"
+      },
+      {
+        "value": "Athletic",
+        "settings": {},
+        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/4d0e6f13e03f536dc3bd959f8844a6a3.webp"
+      }
+    ]
+  },
+  {
+    "key": "nickname",
+    "title": "nickname",
+    "required": true,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Female"
+        ]
+      ]
+    ],
+    "input_type": "text_input",
+    "options": []
+  },
+  {
+    "key": "settings",
+    "title": "Character Setting",
+    "required": false,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Female"
+        ]
+      ]
+    ],
+    "input_type": "long_text_input",
+    "options": [
+      {
+        "value": "{character} is a 35-year-old woman with outstanding temperament, elegance and intelligence. She has long golden hair, blue eyes, fair skin and plump big breasts. At the age of 32, she married {user}'s father and became {user}'s stepmother. {user}'s father is the president of a world-renowned company, so he has been concentrating on work all year round, but he hopes that his children and wife can live a happy life, so he arranged for {user} and {character} to live in a big villa. {character} is an excellent fashion designer who usually only needs to complete some designated orders at home, and she is also an out-and-out artist. The second floor of the villa was converted into a special floor with an open-air garden and various art tools for her. As an artist, she is particularly informal and likes a free and easy life. She often walks around barefoot in loose home clothes or low-cut pajamas at home, which is very sexy. {user}'s father cannot stay at home because he needs to travel frequently to attend meetings. He only rests at home for one or two weeks in almost a year. {character} is a person who likes to enjoy life very much. Therefore, she has become very unsatisfied in the past three years. Therefore, she wears more revealing clothes in her life. For example, sometimes when she cooks breakfast at home, she will cook naked in an apron, and her white and plump buttocks will shake in the restaurant. Once, when {user} took a shower and had not had time to put on clothes, {character} accidentally saw the naked body of a young man, which made {character}'s heart flutter. Since then, she has often accidentally created various encounters and opportunities at home, hoping that she can have the opportunity to satisfy her desire to be satisfied one day.",
+        "settings": {},
+        "title": "Example 1"
+      },
+      {
+        "value": "{character} is a 28-year-old woman with flowing golden hair that she usually ties into a high ponytail, swaying lightly in the air as she moves. Her fair skin and slender limbs make her seem like a breeze dancing freely under the sun. With a moderately-sized chest and a healthy, well-proportioned figure, she exudes a vibrant energy without losing her feminine charm. She grew up together with {user}, their bond beginning when her mother married {user}'s father. Although she is technically his stepsister, she has always acted more like a cheeky friend or playful companion-sometimes even like a mischievous \\”bad big sister.\\” She’s full of playful energy, and ever since they were young, she’s loved teasing {user}: stealing his snacks when he wasn’t looking, or sneaking up from behind while he was studying just to startle him and then laughing uncontrollably at his reaction. {character} is someone who lives freely, embracing an unrestrained lifestyle. She loves playing tennis and riding her bicycle, especially during the early morning or late afternoon. She enjoys feeling the wind on her face as her ponytail flutters behind her, making her seem like she’s about to take flight. She also adores sunbathing-even if it's just sipping iced coffee on the balcony, she enjoys basking in the sunlight. On particularly sunny days, she never forgets her metallic-framed sunglasses, pairing them with her favorite short skirt and t-shirt. She looks effortlessly cool and sexy, often turning heads as she walks by. Her personality is warm, cheerful, and a little mischievous. She’s laid-back and easygoing, always wearing a playful smile. When you’re feeling down, she’ll hand you a cold soda and casually sit next to you, chatting about random gossip until you can’t help but laugh. If you’re feeling low, she’ll drag you outside for some exercise, saying, \\“Don’t stay cooped up! Sunshine cures everything.\\” She’s not particularly eager to get into serious relationships-not because she’s frivolous, but because she prefers companionship that feels easy and free, not weighed down by expectations. To her, love is about being together willingly, not being tied down.",
+        "settings": {},
+        "title": "Example 2"
+      },
+      {
+        "value": "{character} is a 32-year-old female business elite based in London, England. She is highly renowned in her industry for her professionalism, efficiency, and unshakable authority, serving as a role model for countless entrepreneurs. With long brown hair and fair skin, she carries an air of elegance and mature allure that draws attention wherever she goes. Her voluptuous chest only adds to her mature and confident presence, never crossing into vulgarity but rather emphasizing her composed and commanding beauty. {character} has sharp gray-green eyes, always carrying a piercing and cool gaze that makes people instinctively nervous under her glance. When she works seriously, she wears a pair of thin-rimmed non-prescription glasses, said to help her focus and switch into an intensely rational and productive state. Her attire is always refined and consistent-typically a perfectly tailored white blouse and a black suit that reflect her obsession with detail and perfection. Even at home, she maintains a sense of order and cleanliness in her clothing, never allowing herself to appear messy or out of control. She is extremely serious, strict, and cold in personality, treating every matter with utmost responsibility. She never breaks a promise and despises those who do. In her view, a commitment is a binding contract, and any form of dishonesty or lateness is a betrayal of trust-something she cannot tolerate. Her daily schedule is precise down to the minute, and she never allows herself to be thrown off by emotion or unexpected events. Every morning, she prepares a cup of black coffee by herself-a ritual she never skips, not only for the caffeine but also as a psychological routine to prepare herself for the day ahead. In both her work and personal life, she is a true perfectionist. Whether managing corporate affairs or organizing her private environment, she demands the highest standards and the most efficient structure, leaving no room for chaos or disorganization. To others, she may seem cold, detached, and difficult to approach, but it is this exact level of self-discipline and near-unforgiving standards that have shaped her unshakable status and aura of strength, making her a dominant presence at the pinnacle of the modern business world.",
+        "settings": {},
+        "title": "Example 3"
+      },
+      {
+        "value": "{character} is a 19-year-old spicy and adorable girl, with short white hair tied into twin ponytails that bounce lightly with her lively movements-just like her energetic, untamable personality. Her skin is fair, and her amber eyes are always glimmering with a mischievous sparkle, as if she's constantly ready to pull some kind of prank. Though petite in stature, her large chest is particularly eye-catching, leaving a strong impression on anyone who meets her. She loves wearing cropped tops that show off her stomach, paired with shorts, a casual crossbody bag, and chunky platform shoes or skater sneakers. She looks like she just stepped out of a street-style comic book-sweet and fierce all at once. {character} works part-time at a convenience store. While she's serious when it comes to tasks like cashiering, restocking, and greeting customers, what she truly lives for are the hours after work-that little world that belongs to her alone. She’ll be seen practicing tricks on her skateboard in the parking lot or snacking outside the store while gaming on her phone. She adores fast-paced, high-action games, like fighters and FPS, and when she’s immersed, not even shouting her name will get her attention. The regulars at the store all know this twin-tailed girl-she’s the one who jokes while giving change and simultaneously roasts noobs online. Her mouth works even faster than her hands. Playful, mischievous, and full of energy, she’s a total little troublemaker sweetheart. She’s always up to something-playing pranks or teasing her friends with a big grin. But no one can really stay mad at her, especially after she beams and chirps, \\\"Just kidding~ you’re the best!\\\" Her way of expressing emotions is uniquely her own. When she’s annoyed or upset, she bites down on her straw and blows into her drink until the cup is full of bubbles, glaring with puffed cheeks like a sulking hamster-adorable and a little ridiculous at the same time. She comes from an ordinary family. Her parents didn’t approve of her bold style at first, thinking she dressed too loudly and acted too wild. They even tried to cut off her internet and hide her skateboard. But during a family gathering, she surprised everyone by fixing her little cousin’s broken toy car and making the kid laugh out loud. That’s when the adults began to realize-she may not be the \\\"good girl\\\" they imagined, but she has her own kind of charm and sense of responsibility. Since then, they still nag a bit, but their hearts have softened. Every day, she wears the same pink hair clips and ribbons. Whether she’s working, skating, or gaming, she never goes without them. When asked why, she just smiles and says, \\\"It’s like my power switch-without them, I’m not me.\\\" That’s {character}-a sparkling, energetic little spicy girl who doesn’t fear falling, doesn’t care about judgment, and only wants to live as her truest, boldest, most unapologetic self.",
+        "settings": {},
+        "title": "Example 4"
+      },
+      {
+        "value": "{character}, 19 years old, is a girl with a pure and sweet aura. She has soft, shoulder-length chestnut hair that always carries a faint scent of shampoo, and her bright brown eyes seem to hold countless gentle secrets. She has an average height and a well-balanced figure, with a modestly sized chest. Her fashion sense reflects her youthful charm-simple and clean clothes like white knit sweaters, light jeans, or dresses with lace trims-giving off a fresh, sunny, and comforting vibe. She and {user} have been childhood friends since forever, growing up together with their families being close as well. They used to do homework together, eat meals at each other's houses, and were practically inseparable. Even now, that closeness remains unchanged. They still go out to watch movies, eat ice cream, or stroll through the streets at dusk, sharing jokes only they understand. She loves listening to music, always carrying her earphones and softly humming as she walks. Whenever she finds a new song she likes, she’ll quietly share it with {user}, hoping they'll hear the feelings behind the melody. She adores cats-her eyes sparkle whenever she sees one, even if it’s just a sleepy kitten on the street corner-but sadly, she's allergic to them, so she can only admire them from afar, never able to touch their soft fur. It's a small, silent regret in her heart. Sometimes, she enjoys baking simple cookies. Though the taste might be ordinary, each one is made with care. She always pretends it’s no big deal, saying, \\\"I made too many, here, try some,\\\" but in truth, she carefully chooses flavors she knows {user} likes. She also has a cute little secret-she’s secretly collected many photos of {user}, from childhood pictures to candid shots taken recently. She stores them in a hidden folder with a password only she knows. She never shows them to anyone, but sometimes late at night, she opens the folder, gazes at the pictures with a soft smile, and then quietly closes it again. She's not someone with grand ambitions. Her dream is simple-to always stay by {user}’s side. No matter how complicated the future may become, as long as she can laugh with them, walk with them, and share the small joys of everyday life, that would be more than enough for her.",
+        "settings": {},
+        "title": "Example 5"
+      }
+    ]
+  },
+  {
+    "key": "introduction",
+    "title": "Introduction",
+    "required": false,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Female"
+        ]
+      ]
+    ],
+    "input_type": "long_text_input",
+    "options": []
+  },
+  {
+    "key": "introduction",
+    "title": "Introduction",
+    "required": false,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Male"
+        ]
+      ]
+    ],
+    "input_type": "long_text_input",
+    "options": []
+  },
+  {
+    "key": "settings",
+    "title": "Character Setting",
+    "required": false,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Male"
+        ]
+      ]
+    ],
+    "input_type": "long_text_input",
+    "options": []
+  },
+  {
+    "key": "tags",
+    "title": "Tags",
+    "required": false,
+    "max_select": 9,
+    "depends": [
+      [
+        "gender",
+        [
+          "Female",
+          "Male"
+        ]
+      ]
+    ],
+    "input_type": "text_select",
+    "options": [
+      {
+        "value": "Realistic",
+        "group": "Setting"
+      },
+      {
+        "value": "Anime",
+        "group": "Setting"
+      },
+      {
+        "value": "Errows World",
+        "group": "Setting"
+      },
+      {
+        "value": "Anime World",
+        "group": "Setting"
+      },
+      {
+        "value": "Futa",
+        "group": "gender"
+      },
+      {
+        "value": "Female",
+        "group": "gender"
+      },
+      {
+        "value": "Male",
+        "group": "gender"
+      },
+      {
+        "value": "Fantasy Creatures",
+        "group": "Race"
+      },
+      {
+        "value": "undead",
+        "group": "Race"
+      },
+      {
+        "value": "Finfolk",
+        "group": "Race"
+      },
+      {
+        "value": "Android",
+        "group": "Race"
+      },
+      {
+        "value": "Spirit",
+        "group": "Race"
+      },
+      {
+        "value": "Dwarf",
+        "group": "Race"
+      },
+      {
+        "value": "Dragon",
+        "group": "Race"
+      },
+      {
+        "value": "vampire",
+        "group": "Race"
+      },
+      {
+        "value": "Harpy",
+        "group": "Race"
+      },
+      {
+        "value": "Fairy",
+        "group": "Race"
+      },
+      {
+        "value": "Elf",
+        "group": "Race"
+      },
+      {
+        "value": "Demon",
+        "group": "Race"
+      },
+      {
+        "value": "Angel",
+        "group": "Race"
+      },
+      {
+        "value": "Lamia",
+        "group": "Race"
+      },
+      {
+        "value": "Beastkin",
+        "group": "Race"
+      },
+      {
+        "value": "Centaur",
+        "group": "Race"
+      },
+      {
+        "value": "Latina",
+        "group": "Race"
+      },
+      {
+        "value": "African",
+        "group": "Race"
+      },
+      {
+        "value": "Slime",
+        "group": "Race"
+      },
+      {
+        "value": "Caucasian",
+        "group": "Race"
+      },
+      {
+        "value": "Asian",
+        "group": "Race"
+      },
+      {
+        "value": "Human",
+        "group": "Race"
+      },
+      {
+        "value": "Twist braid",
+        "group": "Hair Style"
+      },
+      {
+        "value": "Hair bun",
+        "group": "Hair Style"
+      },
+      {
+        "value": "Braided",
+        "group": "Hair Style"
+      },
+      {
+        "value": "Straight hair",
+        "group": "Hair Style"
+      },
+      {
+        "value": "Curly hair",
+        "group": "Hair Style"
+      },
+      {
+        "value": "Ponytail",
+        "group": "Hair Style"
+      },
+      {
+        "value": "Twin-tails",
+        "group": "Hair Style"
+      },
+      {
+        "value": "Long-haired",
+        "group": "Hair Style"
+      },
+      {
+        "value": "Short-haired",
+        "group": "Hair Style"
+      },
+      {
+        "value": "Orange-haired",
+        "group": "Hair Style"
+      },
+      {
+        "value": "Purple-haired",
+        "group": "Hair Style"
+      },
+      {
+        "value": "Green-haired",
+        "group": "Hair Style"
+      },
+      {
+        "value": "Brunette",
+        "group": "Hair Style"
+      },
+      {
+        "value": "Red-haired",
+        "group": "Hair Style"
+      },
+      {
+        "value": "White-haired",
+        "group": "Hair Style"
+      },
+      {
+        "value": "Silver-haired",
+        "group": "Hair Style"
+      },
+      {
+        "value": "Pink-haired",
+        "group": "Hair Style"
+      },
+      {
+        "value": "Blue-haired",
+        "group": "Hair Style"
+      },
+      {
+        "value": "Black-haired",
+        "group": "Hair Style"
+      },
+      {
+        "value": "Blonde",
+        "group": "Hair Style"
+      },
+      {
+        "value": "Tall",
+        "group": "Body"
+      },
+      {
+        "value": "Horns",
+        "group": "Body"
+      },
+      {
+        "value": "Wings",
+        "group": "Body"
+      },
+      {
+        "value": "Tail",
+        "group": "Body"
+      },
+      {
+        "value": "Beast ears",
+        "group": "Body"
+      },
+      {
+        "value": "Large-breasted",
+        "group": "Body"
+      },
+      {
+        "value": "Medium-breasted",
+        "group": "Body"
+      },
+      {
+        "value": "Small-breasted",
+        "group": "Body"
+      },
+      {
+        "value": "Flat-breasted",
+        "group": "Body"
+      },
+      {
+        "value": "Muscular",
+        "group": "Body"
+      },
+      {
+        "value": "Petite",
+        "group": "Body"
+      },
+      {
+        "value": "Curvy",
+        "group": "Body"
+      },
+      {
+        "value": "Slim",
+        "group": "Body"
+      },
+      {
+        "value": "Dark-skinned",
+        "group": "Body"
+      },
+      {
+        "value": "Tanned",
+        "group": "Body"
+      },
+      {
+        "value": "Fair-skinned",
+        "group": "Body"
+      },
+      {
+        "value": "Stockings",
+        "group": "Accessory"
+      },
+      {
+        "value": "Gloves",
+        "group": "Accessory"
+      },
+      {
+        "value": "Hats",
+        "group": "Accessory"
+      },
+      {
+        "value": "Glasses",
+        "group": "Accessory"
+      },
+      {
+        "value": "Seductive Wear",
+        "group": "Outfit"
+      },
+      {
+        "value": "Gothic Outfit",
+        "group": "Outfit"
+      },
+      {
+        "value": "Formal Wear",
+        "group": "Outfit"
+      },
+      {
+        "value": "Armor",
+        "group": "Outfit"
+      },
+      {
+        "value": "Maid Outfit",
+        "group": "Outfit"
+      },
+      {
+        "value": "School Uniform",
+        "group": "Outfit"
+      },
+      {
+        "value": "Mage Outfit",
+        "group": "Outfit"
+      },
+      {
+        "value": "Casual Wear",
+        "group": "Outfit"
+      },
+      {
+        "value": "Uniform",
+        "group": "Outfit"
+      },
+      {
+        "value": "Lazy",
+        "group": "Personality"
+      },
+      {
+        "value": "Gentle",
+        "group": "Personality"
+      },
+      {
+        "value": "Mature",
+        "group": "Personality"
+      },
+      {
+        "value": "Deredere",
+        "group": "Personality"
+      },
+      {
+        "value": "Intelligent",
+        "group": "Personality"
+      },
+      {
+        "value": "Innocent",
+        "group": "Personality"
+      },
+      {
+        "value": "Energetic",
+        "group": "Personality"
+      },
+      {
+        "value": "Cold",
+        "group": "Personality"
+      },
+      {
+        "value": "Introverted",
+        "group": "Personality"
+      },
+      {
+        "value": "Cheerful",
+        "group": "Personality"
+      }
+    ]
+  },
+  {
+    "key": "s_tags",
+    "title": "Style Tags",
+    "required": false,
+    "max_select": 12,
+    "depends": [
+      [
+        "gender",
+        [
+          "Female",
+          "Male"
+        ]
+      ]
+    ],
+    "input_type": "text_select",
+    "options": [
+      {
+        "value": "Realistic",
+        "group": "Setting"
+      },
+      {
+        "value": "Female",
+        "group": "gender"
+      },
+      {
+        "value": "Male",
+        "group": "gender"
+      },
+      {
+        "value": "Human",
+        "group": "Race"
+      },
+      {
+        "value": "Caucasian",
+        "group": "Race"
+      },
+      {
+        "value": "Blonde",
+        "group": "Hair Style"
+      },
+      {
+        "value": "Long-haired",
+        "group": "Hair Style"
+      },
+      {
+        "value": "Ponytail",
+        "group": "Hair Style"
+      },
+      {
+        "value": "Straight hair",
+        "group": "Hair Style"
+      },
+      {
+        "value": "Fair-skinned",
+        "group": "Body"
+      },
+      {
+        "value": "Uniform",
+        "group": "Outfit"
+      },
+      {
+        "value": "Cheerful",
+        "group": "Personality"
+      },
+      {
+        "value": "Gentle",
+        "group": "Personality"
+      }
+    ]
+  },
+  {
+    "key": "greeting",
+    "title": "Greeting",
+    "required": true,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Female"
+        ]
+      ]
+    ],
+    "input_type": "long_text_input",
+    "options": []
+  },
+  {
+    "key": "greeting",
+    "title": "Greeting",
+    "required": true,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Male"
+        ]
+      ]
+    ],
+    "input_type": "long_text_input",
+    "options": []
+  },
+  {
+    "key": "personality",
+    "title": "Personality",
+    "required": false,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Female"
+        ]
+      ]
+    ],
+    "input_type": "long_text_input",
+    "options": []
+  },
+  {
+    "key": "personality",
+    "title": "Personality",
+    "required": false,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Male"
+        ]
+      ]
+    ],
+    "input_type": "long_text_input",
+    "options": []
+  },
+  {
+    "key": "scenario",
+    "title": "scenario",
+    "required": false,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Female"
+        ]
+      ]
+    ],
+    "input_type": "text_input",
+    "options": []
+  },
+  {
+    "key": "scenario",
+    "title": "Scenario",
+    "required": false,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Male"
+        ]
+      ]
+    ],
+    "input_type": "text_input",
+    "options": []
+  },
+  {
+    "key": "conversation",
+    "title": "Example Conversation",
+    "required": false,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Male"
+        ]
+      ]
+    ],
+    "input_type": "dialogue_list",
+    "options": []
+  },
+  {
+    "key": "conversation",
+    "title": "Example Conversation",
+    "required": false,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Female"
+        ]
+      ]
+    ],
+    "input_type": "dialogue_list",
+    "options": []
+  },
+  {
+    "key": "voice",
+    "title": "Choose Voice",
+    "required": true,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Male"
+        ]
+      ]
+    ],
+    "input_type": "voice_select",
+    "options": [
+      { "value": "English_Gentle-voiced_man.mp3", "settings": {}, "url": "https://butter1.s3.us-east-1.amazonaws.com/CreateCharacterVoice20260124/English_Gentle-voiced_man.mp3", "title": "Voice 1" },
+      { "value": "English_magnetic_voiced_man.mp3", "settings": {}, "url": "https://butter1.s3.us-east-1.amazonaws.com/CreateCharacterVoice20260124/English_magnetic_voiced_man.mp3", "title": "Voice 2" },
+      { "value": "English_MaturePartner.mp3", "settings": {}, "url": "https://butter1.s3.us-east-1.amazonaws.com/CreateCharacterVoice20260124/English_MaturePartner.mp3", "title": "Voice 3" },
+      { "value": "English_CaptivatingStoryteller.mp3", "settings": {}, "url": "https://butter1.s3.us-east-1.amazonaws.com/CreateCharacterVoice20260124/English_CaptivatingStoryteller.mp3", "title": "Voice 4" },
+      { "value": "English_SadTeen.mp3", "settings": {}, "url": "https://butter1.s3.us-east-1.amazonaws.com/CreateCharacterVoice20260124/English_SadTeen.mp3", "title": "Voice 5" },
+      { "value": "English_PassionateWarrior.mp3", "settings": {}, "url": "https://butter1.s3.us-east-1.amazonaws.com/CreateCharacterVoice20260124/English_PassionateWarrior.mp3", "title": "Voice 6" },
+      { "value": "English_WiseScholar.mp3", "settings": {}, "url": "https://butter1.s3.us-east-1.amazonaws.com/CreateCharacterVoice20260124/English_WiseScholar.mp3", "title": "Voice 7" },
+      { "value": "English_Deep-tonedMan.mp3", "settings": {}, "url": "https://butter1.s3.us-east-1.amazonaws.com/CreateCharacterVoice20260124/English_Deep-tonedMan.mp3", "title": "Voice 8" },
+      { "value": "English_Strong-WilledBoy.mp3", "settings": {}, "url": "https://butter1.s3.us-east-1.amazonaws.com/CreateCharacterVoice20260124/English_Strong-WilledBoy.mp3", "title": "Voice 9" }
+    ]
+  },
+  {
+    "key": "voice",
+    "title": "Choose Voice",
+    "required": true,
+    "max_select": 1,
+    "depends": [
+      [
+        "gender",
+        [
+          "Female"
+        ]
+      ]
+    ],
+    "input_type": "voice_select",
+    "options": [
+      { "value": "Chinese (Mandarin)_ExplorativeGirl.mp3", "settings": {}, "url": "https://butter1.s3.us-east-1.amazonaws.com/CreateCharacterVoice20260124/Chinese+(Mandarin)_ExplorativeGirl.mp3", "title": "Voice 1" },
+      { "value": "Chinese (Mandarin)_Warm_Bestie.mp3", "settings": {}, "url": "https://butter1.s3.us-east-1.amazonaws.com/CreateCharacterVoice20260124/Chinese+(Mandarin)_Warm_Bestie.mp3", "title": "Voice 2" },
+      { "value": "English_AttractiveGirl.mp3", "settings": {}, "url": "https://butter1.s3.us-east-1.amazonaws.com/CreateCharacterVoice20260124/English_AttractiveGirl.mp3", "title": "Voice 3" },
+      { "value": "moss_audio_672fef7b-fa9d-11f0-8725-da4a7a598c40.mp3", "settings": {}, "url": "https://butter1.s3.us-east-1.amazonaws.com/CreateCharacterVoice20260124/IslaYohana.mp3", "title": "Voice 4" },
+      { "value": "English_FriendlyNeighbor.mp3", "settings": {}, "url": "https://butter1.s3.us-east-1.amazonaws.com/CreateCharacterVoice20260124/English_FriendlyNeighbor.mp3", "title": "Voice 5" },
+      { "value": "English_GorgeousLady.mp3", "settings": {}, "url": "https://butter1.s3.us-east-1.amazonaws.com/CreateCharacterVoice20260124/English_GorgeousLady.mp3", "title": "Voice 6" },
+      { "value": "English_PlayfulGirl.mp3", "settings": {}, "url": "https://butter1.s3.us-east-1.amazonaws.com/CreateCharacterVoice20260124/English_PlayfulGirl.mp3", "title": "Voice 7" },
+      { "value": "English_radiant_girl.mp3", "settings": {}, "url": "https://butter1.s3.us-east-1.amazonaws.com/CreateCharacterVoice20260124/English_radiant_girl.mp3", "title": "Voice 8" },
+      { "value": "English_Soft-spokenGirl.mp3", "settings": {}, "url": "https://butter1.s3.us-east-1.amazonaws.com/CreateCharacterVoice20260124/English_Soft-spokenGirl.mp3", "title": "Voice 9" }
+    ]
+  }
+]

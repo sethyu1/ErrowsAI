@@ -1,0 +1,1 @@
+export type GalleryTab = 'owned' | 'followed' | 'liked' | 'public' | 'deleted';

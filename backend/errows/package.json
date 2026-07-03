@@ -1,0 +1,55 @@
+{
+  "name": "@errows/server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest --config ./config/vitest.config.js",
+    "build": "tsc -b",
+    "dev": "moleculer-runner --hot --config ./config.js ./services/*.service.mjs",
+    "start": "moleculer-runner --config ./config.js ./services/*.service.mjs",
+    "errowsctl": "./scripts/errowsctl"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">= 18"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.700.0",
+    "@errows/ai": "workspace:*",
+    "@errows/mailer": "workspace:*",
+    "@errows/models": "workspace:*",
+    "@errows/typescript-config": "workspace:*",
+    "@errows/utils": "workspace:*",
+    "@notionhq/client": "^5.7.0",
+    "config": "^4.1.1",
+    "csv-parse": "^6.1.0",
+    "date-fns": "^4.1.0",
+    "fastest-validator": "^1.19.1",
+    "fs-extra": "^11.3.2",
+    "google-auth-library": "^10.5.0",
+    "install": "^0.13.0",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "moleculer": "^0.14.35",
+    "moleculer-web": "^0.10.8",
+    "pg": "^8.16.3",
+    "qs": "^6.14.0",
+    "sharp": "^0.34.5",
+    "stripe": "^20.1.0",
+    "undici": "^7.16.0",
+    "wrappy": "^1.0.2",
+    "yargs": "^18.0.0",
+    "agora-token": "^2.0.5"
+  },
+  "devDependencies": {
+    "@errows/types": "workspace:*",
+    "@vitest/coverage-v8": "3.2.4",
+    "eventsource-parser": "^3.0.6",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  }
+}

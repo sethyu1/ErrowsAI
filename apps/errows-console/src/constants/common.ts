@@ -1,0 +1,1 @@
+export const PREFIX = 'errows_console';

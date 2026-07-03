@@ -1,0 +1,96 @@
+@import '../../../styles/index.less';
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.configCard {
+  position: relative;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: @spacing-xl;
+  border-radius: @border-radius-lg;
+  background: #ffffff;
+  border: 1px solid #f0f0f0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  transition: all @transition-duration-base @transition-timing-function;
+  overflow: hidden;
+
+  :global(.ant-layout-dark) & {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.15);
+  }
+
+  &:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+
+    :global {
+      .arrow {
+        opacity: 1;
+        transform: translate(0, 0) scale(1);
+      }
+
+      .icon {
+        transform: scale(1.15);
+      }
+    }
+  }
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: @spacing-md;
+  text-align: center;
+  z-index: 1;
+  width: 100%;
+}
+
+.icon {
+  font-size: 32px;
+  transition: transform @transition-duration-base @transition-timing-function;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  
+  :global {
+    .anticon {
+      display: inline-flex;
+    }
+  }
+}
+
+.name {
+  margin: 0;
+  font-size: @font-size-base;
+  font-weight: @font-weight-medium;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.85);
+
+  :global(.ant-layout-dark) & {
+    color: rgba(255, 255, 255, 0.85);
+  }
+}
+
+.arrow {
+  position: absolute;
+  bottom: @spacing-md;
+  right: @spacing-md;
+  font-size: 20px;
+  opacity: 0;
+  transform: translate(8px, 8px) scale(0.8);
+  transition: all @transition-duration-base @transition-timing-function;
+  color: @primary-color;
+}
+

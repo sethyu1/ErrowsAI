@@ -1,0 +1,2 @@
+ALTER TABLE characters
+  ADD COLUMN recommended BOOLEAN NOT NULL DEFAULT FALSE;
