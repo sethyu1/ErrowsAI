@@ -1,18 +1,35 @@
 # Errows
 
-Errows is an AI character platform: users create and chat with AI characters through text, voice calls, and generated images/videos, share characters and posts in a community feed, and pay for usage with a coin balance funded via Stripe.
+Errows is a full-stack **AI character platform**: users create AI characters with rich personas, chat with them through streaming text, real-time voice calls, and generated images/videos, share characters and posts in a community feed, and pay for usage through a coin economy funded via Stripe.
 
 **Live site:** https://errows.ai
 
 ## Features
 
-- **AI chat** — streaming character conversations with persona/memory support
-- **Voice calls** — real-time voice conversations powered by Agora ConvoAI (LLM + ASR + TTS)
-- **Image & video generation** — character avatars, greetings, and user-requested media
-- **Community** — character sharing, posts, comments, likes, and follows
-- **Payments** — coin economy with Stripe checkout (subscriptions and one-time top-ups)
-- **Auth** — email/password with verification mail, Google OAuth, SMS OTP
-- **Admin console** — content moderation and operations dashboard
+- **Character creation** — guided builder (gender, style, personality, appearance) with AI-assisted persona refinement (xAI Grok), AI-generated avatars, greetings, and backgrounds
+- **AI chat** — streaming character conversations with persona and session memory, message-level media (images, videos, voice)
+- **Voice calls** — real-time voice conversations powered by Agora RTC + ConvoAI (LLM + ASR + MiniMax TTS pipeline)
+- **Image & video generation** — user-requested media generation with per-character model parameters and async task tracking
+- **Community** — character sharing, posts, comments, likes, follows, and content feedback
+- **Monetization** — coin balance, membership plans, subscriptions and one-time top-ups via Stripe Checkout (with webhook fallback for a legacy account), gift items, CD-key redemption, and daily/recurring reward tasks
+- **Auth** — email/password with verification mail, Google OAuth, SMS OTP login
+- **Growth & analytics** — Meta/Reddit/X pixel integration, user login logs, member statistics, Notion-backed content, Prometheus metrics + Grafana dashboards
+- **Admin console** — operations dashboard (usage, LLM calls, revenue), member/plan management, character and post moderation, generation-parameter tuning, LLM debugging, permission groups, i18n string management, and product configuration (coins, gifts, CD keys, home-page curation, legal pages)
+
+## Architecture
+
+```
+apps/errows-web ──┐                       ┌─ user.service     (auth, profiles, OAuth, SMS)
+apps/errows-app ──┼─▶ nginx ─▶ api.service ├─ errows.service   (characters, chat, sessions, posts, media)
+apps/errows-console┘   (REST :5003)        ├─ payment.service  (Stripe, coins, plans, gifts)
+                                           └─ ops.service      (console/admin operations)
+```
+
+- **Backend** is a set of [Moleculer](https://moleculer.services/) microservices communicating over a TCP transporter. `api.service` is the REST gateway; the others own their domains and can be deployed/restarted independently (`errows@<name>` systemd units).
+- **PostgreSQL** stores users, characters, sessions/messages, posts/comments, members/plans, purchases, gifts, tasks, and CD keys. Schema lives in `backend/errows/db/migrations` (plain SQL, applied via `errowsctl`).
+- **Media pipeline**: generation requests are queued as tasks; workers call external AI endpoints (chat/stream/image/video/TTS — configured per environment) and upload results to S3, which serves as the public CDN.
+- **Voice calls**: the backend issues Agora RTC tokens and starts a ConvoAI agent in the user's channel, wiring the character's persona into the LLM and its voice into MiniMax TTS.
+- **Observability**: each node exposes Prometheus metrics on `:3030/metrics`; Grafana dashboards for AI requests, purchases, and user activity are in `config/grafana/`.
 
 ## Repository layout
 
@@ -20,15 +37,16 @@ This is a pnpm monorepo (`pnpm@10.19`, Node ≥ 18).
 
 | Path | Package | Description |
 |---|---|---|
-| `apps/errows-web` | `errows-web` | User-facing web app — React 19 + Vite + Tailwind, wrapped with Capacitor for mobile |
+| `apps/errows-web` | `errows-web` | User-facing web app — React 19 + Vite + Tailwind, wrapped with Capacitor for mobile. Pages: home, character browse/create, chat, media generation, community posts, plans & coins, account |
 | `apps/errows-app` | `errows-app` | Capacitor 8 Android shell for the mobile app |
 | `apps/errows-app-download` | — | App download landing page |
 | `apps/errows-console` | `errows-console` | Admin console — React 19 + Ant Design (dev port 9528) |
-| `backend/errows` | `@errows/server` | API server — Moleculer microservices, REST gateway on port 5003, PostgreSQL |
+| `backend/errows` | `@errows/server` | API server — Moleculer services, REST gateway on port 5003, PostgreSQL, migrations, static product config |
 | `backend/ai` | `@errows/ai` | AI provider integrations (chat, image, video, TTS) |
 | `backend/mailer` | — | Transactional email (SMTP) |
-| `backend/models` | `@errows/models` | Shared data models and DB migrations tooling |
+| `backend/models` | `@errows/models` | Shared data models and DB tooling |
 | `backend/types`, `backend/utils`, `backend/typescript-config` | — | Shared types, utilities, and TS config |
+| `config/` | — | Server provisioning: nginx snippets, systemd units, Grafana dashboards, sudoers |
 
 ## Getting started
 
@@ -102,7 +120,7 @@ pnpm server test       # backend vitest suite
 
 ## Deployment
 
-Each deployable has a `deploy.sh` / `deploy.pro.sh` that rsyncs a build to the target host over SSH and restarts the systemd unit (see `backend/errows/docs/deploy.md`). The backend exposes Prometheus metrics on port 3030 at `/metrics`.
+Each deployable has a `deploy.sh` / `deploy.pro.sh` that builds, rsyncs to the target host over SSH, and restarts the systemd unit (see `backend/errows/docs/deploy.md`). Server provisioning files (nginx, systemd, sudoers) live in `config/` and are synced to `/srv/etc/`. Frontends deploy as timestamped releases with a symlink flip for instant rollback.
 
 ## Development notes
 
@@ -128,3 +146,7 @@ Don't auto-focus:
 ```
 
 </details>
+
+## License
+
+[MIT](LICENSE)
