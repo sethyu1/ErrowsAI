@@ -314,7 +314,7 @@ export default {
         return;
       }
       const tag = encodeURIComponent(clickid.trim());
-      const url = `http://s.magsrv.com/tag.php?goal=ca85e47cbe6d473c6828eaeb774ec439&tag=${tag}`;
+      const url = `http://ads.example.com/tag.php?goal=YOUR_MAGSRV_GOAL_ID&tag=${tag}`;
       this.logger.info(`Sending magsrv conversion for user ${uid}, tag=${tag}`);
       const res = await fetch(url);
       const resText = await res.text();

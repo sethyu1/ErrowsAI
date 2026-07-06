@@ -421,8 +421,8 @@
 
 # HOST
 
-- 测试： https://testing.errows.io
-- 演示： https://staging.errows.io
+- 测试： https://testing.example.com
+- 演示： https://staging.example.com
 
 
 > [!NOTE]

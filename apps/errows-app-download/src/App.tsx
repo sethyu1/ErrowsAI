@@ -4,7 +4,7 @@ import { Smartphone, Apple, Download } from 'lucide-react'
 // 配置下载链接
 const DOWNLOAD_CONFIG = {
   android: {
-    url: 'http://192.168.31.247:5173/app-release.apk', // APK 文件放在 public 目录
+    url: 'https://example.com/app-release.apk', // APK 文件放在 public 目录
     name: 'Android',
     icon: Smartphone,
     color: 'from-green-500 to-green-600',

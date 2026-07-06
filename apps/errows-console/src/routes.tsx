@@ -32,7 +32,7 @@ import {
   BugOutlined,
 } from "@ant-design/icons";
 
-const GRAFANA_PREFIX_URL = window.location.origin.includes('localhost') ? 'https://errows.ghostiee.cc' :  window.location.origin;
+const GRAFANA_PREFIX_URL = window.location.origin.includes('localhost') ? 'https://grafana.example.com' :  window.location.origin;
 
 // 页面组件懒加载
 const Dashboard = React.lazy(() => import("./pages/dashboard"));

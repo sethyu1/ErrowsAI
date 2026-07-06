@@ -22,3 +22,8 @@ apps/errows-app/android/.gradle/
 
 .vscode
 .*rules
+
+# build artifacts
+apps/errows-web/dev-dist
+*.apk
+*.aab

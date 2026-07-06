@@ -111,7 +111,7 @@ function formatUser(row) {
   if (sex == '1') { Object.assign(profile, { gender: 'male' }); }
   else if (sex == '2') { Object.assign(profile, { gender: 'female' }); }
 
-  if (avatar && (avatar.startsWith('https://candy.ai/') === false)) {
+  if (avatar && (avatar.startsWith('https://example.com/') === false)) {
     Object.assign(profile, { avatar });
   }
 

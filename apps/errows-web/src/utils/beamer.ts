@@ -18,7 +18,7 @@ export const initBeamerConfig = (
 ) => {
     // 配置Beamer全局变量
     window.beamer_config = {
-        product_id: "MolqZvbG73949",  //Beamer产品ID
+        product_id: "YOUR_BEAMER_PRODUCT_ID",  //Beamer产品ID
         language: "EN",
         userId,
         userEmail,
