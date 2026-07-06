@@ -5,7 +5,7 @@ set -eu;
 BASE_DIR=$(dirname `realpath $0`)
 DOMAIN=$1
 APP=$2
-SERVER=${3:-errows@errows-dev}
+SERVER=${3:-errows@dev-server}
 
 echo 'build app...';
 pnpm --filter "$APP" -s build

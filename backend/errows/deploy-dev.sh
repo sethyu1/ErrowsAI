@@ -3,7 +3,7 @@
 set -eu;
 
 SCRIPT_DIR=`dirname $(realpath $0)`;
-SERVER=${1:-errows@errows-dev}
+SERVER=${1:-errows@dev-server}
 
 echo "deploy to $SERVER ...";
 "${SCRIPT_DIR}/deploy.sh" $SERVER testing;
