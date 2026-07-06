@@ -61,38 +61,38 @@ export default {
     options: {
       expiresIn: '7d',
       issuer: 'errows',
-      audience: 'errows.ai'
+      audience: 'errows'
     }
   },
   host: {
-    origin: process.env.HOST_ORIGIN || 'https://errows.ai',
+    origin: process.env.HOST_ORIGIN || 'https://example.com',
   },
   mailer: {
     sender: {
-      from: 'hello@errows.ai',
+      from: process.env.MAIL_FROM || 'hello@example.com',
     },
     smtp: {
-      host: 'smtp.mailgun.org',
-      port: 587,
+      host: process.env.SMTP_HOST || 'smtp.example.com',
+      port: Number(process.env.SMTP_PORT) || 587,
       secure: false,
       auth: {
-        user: 'hello@errows.ai',
+        user: process.env.SMTP_USER || 'hello@example.com',
         pass: process.env.SMTP_PASSWORD
       }
     }
   },
   assets: {
     uploadPath: '/srv/services/errows/uploads',
-    baseUrl: 'https://assets.errows.ai/cdn/',
+    baseUrl: process.env.ASSETS_BASE_URL || 'https://assets.example.com/cdn/',
   },
   aws: {
     s3: {
       accessKeyId: process.env.AWS_ACCESS_KEY_ID,
       secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
-      bucket: 'butter1',
-      region: 'us-east-1',
-      prefix: 'errows/app',
-      baseUrl: 'https://butter1.s3.us-east-1.amazonaws.com',
+      bucket: process.env.AWS_S3_BUCKET || 'my-bucket',
+      region: process.env.AWS_S3_REGION || 'us-east-1',
+      prefix: process.env.AWS_S3_PREFIX || 'errows/app',
+      baseUrl: process.env.AWS_S3_BASE_URL || 'https://my-bucket.s3.amazonaws.com',
     },
   },
   // AI backend endpoints are internal infrastructure — set them via
@@ -101,7 +101,7 @@ export default {
     apiKey: process.env.AI_API_KEY,
     image: {
       endpoint: process.env.AI_IMAGE_ENDPOINT,
-      baseUrl: "https://butter1.s3.us-east-1.amazonaws.com"
+      baseUrl: process.env.AWS_S3_BASE_URL || 'https://my-bucket.s3.amazonaws.com'
     },
     chat: {
       endpoint: process.env.AI_CHAT_ENDPOINT,
@@ -112,11 +112,11 @@ export default {
     video: {
       endpoint: process.env.AI_VIDEO_ENDPOINT,
       video_state: process.env.AI_VIDEO_STATE_ENDPOINT,
-      baseUrl: "https://butter1.s3.us-east-1.amazonaws.com/User_Generate/"
+      baseUrl: `${process.env.AWS_S3_BASE_URL || 'https://my-bucket.s3.amazonaws.com'}/User_Generate/`
     },
     tts: {
       endpoint: process.env.AI_TTS_ENDPOINT,
-      baseUrl: "https://butter1.s3.us-east-1.amazonaws.com/"
+      baseUrl: `${process.env.AWS_S3_BASE_URL || 'https://my-bucket.s3.amazonaws.com'}/`
     },
     voiceCall: {
       endpoint: process.env.AI_VOICE_CALL_ENDPOINT
@@ -131,9 +131,9 @@ export default {
   },
   oauth: {
     google: {
-      clientId: '818461227256-iuagv1ss2ucl7hrvmk53c77m42j9ju96.apps.googleusercontent.com',
+      clientId: process.env.GOOGLE_CLIENT_ID,
       clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-      redirectUri: 'https://errows.ai/oauth/google'
+      redirectUri: process.env.GOOGLE_REDIRECT_URI || 'https://example.com/oauth/google'
     }
   },
   member: {
@@ -185,9 +185,9 @@ export default {
     },
   },
   sms: {
-    account: 'Errows-OTP',
+    account: process.env.SMS_ACCOUNT || 'sms-account',
     password: process.env.SMS_PASSWORD,
-    apiUrl: 'https://sms-api.simpleconnect.jp/sms/webService/restSmsService/smsService/sendSmsByPost',
-    sid: 'Cloopen'
+    apiUrl: process.env.SMS_API_URL || 'https://sms.example.com/api/send',
+    sid: process.env.SMS_SID || 'sms-provider'
   }
 };

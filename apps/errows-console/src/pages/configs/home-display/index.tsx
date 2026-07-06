@@ -7,7 +7,7 @@ import { uploadImageApi } from '@/apis';
 import { fetchOPSRolesApi } from '@/apis/role';
 import { usePermission } from '@/hooks/permission';
 
-const DEFAULT_BANNER_URL = 'https://butter1.s3.us-east-1.amazonaws.com/banner.webp';
+const DEFAULT_BANNER_URL = 'https://my-bucket.s3.amazonaws.com/banner.webp';
 const SEARCH_DEBOUNCE_MS = 300;
 
 function emptyCarouselSlot(): HomeDisplayCarouselSlot {

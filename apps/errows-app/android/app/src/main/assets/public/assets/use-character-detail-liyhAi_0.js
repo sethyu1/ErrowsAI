@@ -1,1 +1,0 @@
-import{a8 as t,ar as n}from"./index-BYuVajha.js";function o(e){const{data:a,isLoading:r}=t({queryKey:["character-detail",e],queryFn:()=>n(e),enabled:!!e,staleTime:0,gcTime:0,refetchOnMount:"always",refetchOnWindowFocus:!0,retry:!1});return{roleInfo:a,isLoading:r}}export{o as u};

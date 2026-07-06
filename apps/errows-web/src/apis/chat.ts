@@ -7,7 +7,7 @@ const isCapacitor =
   (window as unknown as { Capacitor?: { isNativePlatform?: () => boolean } })
     .Capacitor?.isNativePlatform?.();
 
-const API_BASE_URL = isCapacitor ? "https://errowstest.online/api" : "/api";
+const API_BASE_URL = isCapacitor ? "https://api.example.com/api" : "/api";
 
 export interface StreamMessageEvent {
   type: "start" | "chunk" | "done" | "error" | "end" | "image_generating" | "image_done" | "image_failed";

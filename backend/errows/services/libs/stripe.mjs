@@ -54,7 +54,7 @@ export async function createCustomerPortalSession(customerId, returnUrl) {
 
 /**
  * Verify Stripe webhook signature. Uses primary `webhookSecret` first
- * (e.g. account 2 / errowsai.space), then optional `webhookSecretFallback`
+ * (e.g. account 2 / example.com), then optional `webhookSecretFallback`
  * for a second Stripe account (e.g. account 1 / firestai.org) without a second URL.
  *
  * @param {string | Buffer} payload Raw request body (must match what Stripe signed)

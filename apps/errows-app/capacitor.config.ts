@@ -7,7 +7,7 @@ const config: CapacitorConfig = {
   server: {
     androidScheme: 'https',
     // 允许通过原生层发送 HTTP 请求，绕过 CORS
-    allowNavigation: ['errowstest.online'],
+    allowNavigation: ['api.example.com'],
   },
   plugins: {
     CapacitorHttp: {

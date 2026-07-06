@@ -18,7 +18,7 @@ const isCapacitor =
   ).Capacitor?.isNativePlatform?.();
 
 // API 基础地址
-const API_BASE_URL = isCapacitor ? "https://errowstest.online/api" : "/api";
+const API_BASE_URL = isCapacitor ? "https://api.example.com/api" : "/api";
 
 // 对话状态类型
 export type ConversationState =

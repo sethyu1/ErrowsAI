@@ -36,7 +36,7 @@ import { useModal } from "@/hooks/use-modal";
 // import banner2 from "./assets/banner2.jpg";
 // import banner3 from "./assets/banner3.jpg";
 // import banner4 from "./assets/banner4.jpg";
-const BANNER_URL = "https://butter1.s3.us-east-1.amazonaws.com/banner.webp";
+const BANNER_URL = "https://my-bucket.s3.amazonaws.com/banner.webp";
 
 const useHomeDisplay = () => {
   const [config, setConfig] = useState<Awaited<ReturnType<typeof fetchHomeDisplayConfigApi>> | null>(null);

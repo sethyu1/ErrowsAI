@@ -253,7 +253,7 @@ export default function UpComing() {
                 appearance="gradientFill"
                 shape="round"
                 size="lg"
-                onClick={() => window.open("mailto:support@errows.ai", "_blank")}
+                onClick={() => window.open("mailto:support@example.com", "_blank")}
               >
                 <span className="font-urbanist font-semibold">Contact Us</span>
               </Button>

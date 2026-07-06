@@ -36,11 +36,11 @@ export async function ensureDir(path) {
  *
  * @example
  * const fullUrl = resolveAssetUrl('/uploads/image.jpg');
- * // 返回: 'https://assets.errows.ai/uploads/image.jpg'
+ * // 返回: 'https://assets.example.com/uploads/image.jpg'
  *
  * @example
  * const fullUrl = resolveAssetUrl('uploads/image.jpg');
- * // 返回: 'https://assets.errows.ai/uploads/image.jpg'
+ * // 返回: 'https://assets.example.com/uploads/image.jpg'
  */
 export function resolveAssetUrl(url) {
   if (url.startsWith('User_Generate/')) {
@@ -57,11 +57,11 @@ export function resolveAssetUrl(url) {
  *
  * @example
  * const fullUrl = resolveAssetUrl('/uploads/image.jpg');
- * // 返回: 'https://assets.errows.ai/uploads/image.jpg'
+ * // 返回: 'https://assets.example.com/uploads/image.jpg'
  *
  * @example
  * const fullUrl = resolveAssetUrl('uploads/image.jpg');
- * // 返回: 'https://assets.errows.ai/uploads/image.jpg'
+ * // 返回: 'https://assets.example.com/uploads/image.jpg'
  */
 export function resolveUserUploadUrl(url) {
   return new URL(url, config.assets.baseUrl).href;

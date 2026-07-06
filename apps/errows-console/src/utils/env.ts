@@ -7,7 +7,7 @@
 const envMap = {
   VITE_STORAGE_PREFIX: import.meta.env.VITE_STORAGE_PREFIX ?? 'errows-console',
   VITE_API_BASE_URL: import.meta.env.VITE_API_BASE_URL ?? '/api',
-  VITE_IMAGE_BASE_URL: import.meta.env.VITE_IMAGE_BASE_URL ?? "https://butter1.s3.us-east-1.amazonaws.com",
+  VITE_IMAGE_BASE_URL: import.meta.env.VITE_IMAGE_BASE_URL ?? "https://my-bucket.s3.amazonaws.com",
 };
 
 export function getEnvValue(key: keyof typeof envMap): string {

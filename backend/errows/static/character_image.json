@@ -8,7 +8,7 @@
     "options": [
       {
         "value": "Toilet",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/125fff20a4f8c20305f58267c7eb7622.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/125fff20a4f8c20305f58267c7eb7622.webp",
         "prompts": [
           "toilet,wall,cubicle,toilet,night,starry sky,moon,night sky,moonlight",
           "toilet,wall,cubicle,toilet,daytime,sunshine"
@@ -16,7 +16,7 @@
       },
       {
         "value": "Hot Spring",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/45ed77bd3fcbf50c6c527cd349221f03.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/45ed77bd3fcbf50c6c527cd349221f03.webp",
         "prompts": [
           "hot spring,steam,tub,outdoor,night,starry sky,moon,night sky,moonlight",
           "hot spring,steam,tub,outdoor,daytime,sunshine"
@@ -24,7 +24,7 @@
       },
       {
         "value": "Street",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/66bb773ae3312f962227a2c9547e0006.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/66bb773ae3312f962227a2c9547e0006.webp",
         "prompts": [
           "Street,crowd,street lights,buildings,night,starry sky,moon,night sky,moonlight",
           "Street,crowd,street lights,buildings,daytime,sunshine"
@@ -32,7 +32,7 @@
       },
       {
         "value": "Classroom",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/60601a90e2ac0c68e04ed2f5da1d11ba.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/60601a90e2ac0c68e04ed2f5da1d11ba.webp",
         "prompts": [
           "Classroom,windows,tables,chairs,modern,night,starry sky,moon,night sky,moonlight",
           "Classroom,windows,tables,chairs,modern,daytime,sunshine"
@@ -40,7 +40,7 @@
       },
       {
         "value": "Hospital",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/80b2b9a80e73277c5ec3fd02b6b2a788.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/80b2b9a80e73277c5ec3fd02b6b2a788.webp",
         "prompts": [
           "clinic,bed,window,curtain,hospital,medicine cabinet,night,starry sky,moon,night sky,moonlight",
           "clinic,bed,window,curtain,hospital,medicine cabinet,daytime,sunshine"
@@ -48,7 +48,7 @@
       },
       {
         "value": "Car",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/7679b48fc55f6fd9f16901164e38f4b7.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/7679b48fc55f6fd9f16901164e38f4b7.webp",
         "prompts": [
           "Car,interior,back seat,window,street view,night,starry sky,moon,night sky,moonlight",
           "Car,interior,back seat,window,street view,daytime,sunshine"
@@ -65,56 +65,56 @@
     "options": [
       {
         "value": "Ball Gag",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/b6306093e9c505321125c4a335df703c.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/b6306093e9c505321125c4a335df703c.webp",
         "prompts": [
           "ball gag,saliva"
         ]
       },
       {
         "value": "Choker",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/c4c2e3b53df55b0ed9b67e212edcde94.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/c4c2e3b53df55b0ed9b67e212edcde94.webp",
         "prompts": [
           "choker"
         ]
       },
       {
         "value": "One-piece swimsuit",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/26c7a7b6a115d1d0f365bec36758d173.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/26c7a7b6a115d1d0f365bec36758d173.webp",
         "prompts": [
           "One-piece swimsuit"
         ]
       },
       {
         "value": "Rope",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/fda43e5dd317f574287911ca34b5e1f5.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/fda43e5dd317f574287911ca34b5e1f5.webp",
         "prompts": [
           "rope,bondage"
         ]
       },
       {
         "value": "Nipple clamps",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/399c76152e6169c896f9dd1819ab29c3.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/399c76152e6169c896f9dd1819ab29c3.webp",
         "prompts": [
           "nipple clamps"
         ]
       },
       {
         "value": "Maid",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/02bf9561f64c165b0c0037a6a32fd346.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/02bf9561f64c165b0c0037a6a32fd346.webp",
         "prompts": [
           "maid outfit,maid"
         ]
       },
       {
         "value": "JK",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/ef9dfeaad2e300431cc81c6676e5f04d.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/ef9dfeaad2e300431cc81c6676e5f04d.webp",
         "prompts": [
           "School uniform"
         ]
       },
       {
         "value": "Nurse",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/300692b0b23560d5cf26038dcee74247.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/300692b0b23560d5cf26038dcee74247.webp",
         "prompts": [
           "nurse uniform,nurse"
         ]
@@ -130,7 +130,7 @@
     "options": [
       {
         "value": "Living Room",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/a58c8c57128c90591238bbbba75a8a7a.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/a58c8c57128c90591238bbbba75a8a7a.webp",
         "prompts": [
           "Living room,coffee table,sofa,table,plants,window,night,starry sky,moon,night sky,moonlight",
           "Living room,coffee table,sofa,table,plants,window,daytime,sunshine"
@@ -138,7 +138,7 @@
       },
       {
         "value": "Car",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/e81c99a349f82c0655bbb664f96e0aa8.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/e81c99a349f82c0655bbb664f96e0aa8.webp",
         "prompts": [
           "Car,interior,back seat,window,street view,night,starry sky,moon,night sky,moonlight",
           "Car,interior,back seat,window,street view,daytime,sunshine"
@@ -146,7 +146,7 @@
       },
       {
         "value": "Love Hotel",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/267a0a9945936fe0e913ea4035624013.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/267a0a9945936fe0e913ea4035624013.webp",
         "prompts": [
           "hotel,big bed,cabinet,pink decoration,dim lighting,sex toys,dim,modern,night,starry sky,moon,night sky,moonlight",
           "hotel,big bed,cabinet,pink decoration,dim lighting,sex toys,dim,modern,daytime,sunshine"
@@ -154,7 +154,7 @@
       },
       {
         "value": "Gym",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/206d1335d9198c79326296a96f44dc72.png",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/206d1335d9198c79326296a96f44dc72.png",
         "prompts": [
           "gym"
         ]
@@ -170,28 +170,28 @@
     "options": [
       {
         "value": "Naked",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/5c188e65a943dcb0a04d0a92ba0b44dd.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/5c188e65a943dcb0a04d0a92ba0b44dd.webp",
         "prompts": [
           "naked,penis,scrotum"
         ]
       },
       {
         "value": "Dress Shirt",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/ee3fbfae4c03980af6c795deaff0998a.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/ee3fbfae4c03980af6c795deaff0998a.webp",
         "prompts": [
           "dress shirt"
         ]
       },
       {
         "value": "Tuxedo",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/16b000d8838cb2b84e807858946ad7b0.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/16b000d8838cb2b84e807858946ad7b0.webp",
         "prompts": [
           "tuxedo"
         ]
       },
       {
         "value": "Hoodie",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/0b227b476b593a77045bbf147043d190.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/0b227b476b593a77045bbf147043d190.webp",
         "prompts": [
           "hoodie"
         ]
@@ -207,7 +207,7 @@
     "options": [
       {
         "value": "X-Ray",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/84321550bb95fb2e4c805210cc3c900d.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/84321550bb95fb2e4c805210cc3c900d.webp",
         "prompts": [
           "uterus,creampie,cross section,cervix,x-ray,ejaculation,pussy,pussy juice,vagina,sex,semen,penis,nipples,blushing,steam,penis,vaginal sex",
           "x-ray,penis,erect penis,penis insertion,ejaculation in the uterus,perspective,masturbation,finger insertion,vagina,uterus,fingers in vagina,vagina,vaginal juice,open legs,lying down,1boy,faceless man",
@@ -216,7 +216,7 @@
       },
       {
         "value": "Sex Mechine",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/e5281e719feea1521f1877c3e617123a.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/e5281e719feea1521f1877c3e617123a.webp",
         "prompts": [
           "Sex machines,metal room,milking machine,huge penis machine,focus on pussy,pain,endurance,blushing,steam,sweat,intense exercise,pussy,pussy stretching,pussy juice,insertion",
           "Lying on all fours,sex machine,ass,mechanical penis,insertion,pussy juice,open legs,breasts,body shaking",
@@ -225,7 +225,7 @@
       },
       {
         "value": "Footjob",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/4b0a6ac00965b454dd0b49cadf7fa268.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/4b0a6ac00965b454dd0b49cadf7fa268.webp",
         "prompts": [
           "Focus on soles,steam,footjob,perfect feet,rubbing penis,pov,breasts,blushing,pussy,prostate fluid",
           "from behind,pov,ass,pussy,legs spread,lying on all fours,footjob,looking back at the penis,erect penis,perfect feet,focus on the soles of the feet,feet rubbing the penis,prostate fluid,pussy juice,steam",
@@ -236,7 +236,7 @@
       },
       {
         "value": "Anal",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/ae53636ebcd93ace3a8787bdc0e7decc.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/ae53636ebcd93ace3a8787bdc0e7decc.webp",
         "prompts": [
           "anal sex,anus,blushing,steam,motion lines,pussy,breasts,hold up,penis,insertion,from the front,anal sex,grab waist",
           "anal sex,standing,legs up,ass,breasts,genitals,penis,erect penis,scrotum,man,faceless man",
@@ -248,7 +248,7 @@
       },
       {
         "value": "Dildo",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/14f14aa8be6cff8ca1275b843305175e.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/14f14aa8be6cff8ca1275b843305175e.webp",
         "prompts": [
           "Nude,Perfect Hands,Pussy,Dildo,Lots of Sex Toys,Dildo,Insertion,Open Legs,Vagina Insertion,Pussy Juice,Lots of Pussy Juice,Steamy,Focus on Pussy,Blushing,Excited",
           "dildo,pussy,dildo insertion,squatting,exercise line,pussy juice,doggy squat,jinjin",
@@ -260,7 +260,7 @@
       },
       {
         "value": "Oral Sex",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/c8e927a0c731629a49d9e665c940ca7e.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/c8e927a0c731629a49d9e665c940ca7e.webp",
         "prompts": [
           "oral sex,penis in mouth,sucking,leaning forward,hand on penis,penis,saliva,prostate fluid,pov",
           "sticking out tongue,licking penis,close up,open mouth,penis,erect penis,saliva,scrotum,prostate fluid",
@@ -272,7 +272,7 @@
       },
       {
         "value": "Group Sex",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/43a04b166bf8dfb20eee19451cd2479d.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/43a04b166bf8dfb20eee19451cd2479d.webp",
         "prompts": [
           "Group sex,Group sex,Bouncing breasts,Motion lines,Motion blur,Steam,Pussy sex,Oral sex,Handjob,Multiple penises,Penis,Pussy,Pussy juice,Open legs",
           "Group sex,penis,scrotum,erect penis,flaccid penis,cumshot,vaginal intercourse,vagina,vaginal juice,oral sex"
@@ -280,7 +280,7 @@
       },
       {
         "value": "Tentacles",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/b68f6bf126da37fb0f782a910cb7a585.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/b68f6bf126da37fb0f782a910cb7a585.webp",
         "prompts": [
           "tentacles,comfy,oral tentacles,slime,pussy,pussy juice,vaginal sex,tentacles,blushing,wild",
           "prone,ass,pussy,pussy juice,tentacle,tentacle sex,slime,tentacle penetration,vaginal sex",
@@ -291,7 +291,7 @@
       },
       {
         "value": "Doggy",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/fe664ba7c142fae6770c62d05413eb3e.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/fe664ba7c142fae6770c62d05413eb3e.webp",
         "prompts": [
           "doggy style,lying,ass,kneeling,blushing,looking back,steam,lines of motion,motion blur,pussy,pussy juice,penis,penetration,vaginal sex,pov",
           "doggy style,view from side,ass,kneeling,blushing,looking back,steam,lines of motion,motion blur,pussy,pussy juice,penis,penetration,vaginal sex,1boy,Faceless man",
@@ -305,7 +305,7 @@
       },
       {
         "value": "Cow Girl",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/89a47f70c247701dd71e4e819a1c94ed.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/89a47f70c247701dd71e4e819a1c94ed.webp",
         "prompts": [
           "woman on top,riding,pussy,pussy juice,penis,penis insertion,pussy fucking,shaking,steam,bed,bedroom,pov",
           "squatting,woman on top,pussy,pussy juice,vaginal sex,penis,penis insertion,motion blur,motion lines,pov",
@@ -320,7 +320,7 @@
       },
       {
         "value": "Missionary",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/243d52c67e1a88a07e0485729e9e3e1c.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/243d52c67e1a88a07e0485729e9e3e1c.webp",
         "prompts": [
           "missionary,pussy,pussy juice,penis,pussy fucking,insertion,motion blur,motion lines,pov",
           "missionary,legs up,legs raised,pussy,pussy juice,penis,pussy intercourse,insertion,motion blur,lines of motion,pov",
@@ -332,7 +332,7 @@
       },
       {
         "value": "Masturbate",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/08f22429d49ef5a75fda062683d8eafe.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/08f22429d49ef5a75fda062683d8eafe.webp",
         "prompts": [
           "Lying down,Open legs,Legs raised,Pussy,Lots of pussy juice,Excitement,Blushing,Steam,Masturbation,Fingering,Spreading pussy,Shaking",
           "Lying sideways,legs bent,legs open,pussy,masturbation,pussy juice",
@@ -350,7 +350,7 @@
       },
       {
         "value": "Peeing",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/6471d32791bc8efea7aa71489bd8869e.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/6471d32791bc8efea7aa71489bd8869e.webp",
         "prompts": [
           "Urinating,pussy,peeing,blushing,squatting,open legs",
           "All fours,peeing,pussy,ass,blushing,looking back,blushing,leg lift",
@@ -372,21 +372,21 @@
     "options": [
       {
         "value": "Ahego",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/487473bb3b62717153241d3e94db9580.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/487473bb3b62717153241d3e94db9580.webp",
         "prompts": [
           "Ahegao,steam"
         ]
       },
       {
         "value": "Pain",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/d82e0c38373587db079706c28aa0c247.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/d82e0c38373587db079706c28aa0c247.webp",
         "prompts": [
           "pain,endurance,tears,screams,suffering"
         ]
       },
       {
         "value": "Angry",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/5ffd8345b505481017d37dd8529eb9f3.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/5ffd8345b505481017d37dd8529eb9f3.webp",
         "prompts": [
           "Anger,disgust,patience,tears"
         ]
@@ -402,42 +402,42 @@
     "options": [
       {
         "value": "Breast Milk",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/ecead70a3f451890e305b21dce8ab2a0.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/ecead70a3f451890e305b21dce8ab2a0.webp",
         "prompts": [
           "breast milk,squirting,lots of breast milk"
         ]
       },
       {
         "value": "Body Cum",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/024d89f4b06dd0702aa3bbf4b81be8fc.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/024d89f4b06dd0702aa3bbf4b81be8fc.webp",
         "prompts": [
           "Cum on body,semen on body"
         ]
       },
       {
         "value": "Pregnant",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/7320710f880c4ee7d9110ed960d2fff6.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/7320710f880c4ee7d9110ed960d2fff6.webp",
         "prompts": [
           "pregnant,pregnant belly,growing breasts"
         ]
       },
       {
         "value": "Squirt",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/2e6826a8abed1b77acb97b7c9c1b3a8a.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/2e6826a8abed1b77acb97b7c9c1b3a8a.webp",
         "prompts": [
           "Pussy squirting,pussy,vaginal juice,body shaking,blushing,excited,steamy"
         ]
       },
       {
         "value": "Creampie",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/b33a8975d97f948cef17744f9aec1fb9.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/b33a8975d97f948cef17744f9aec1fb9.webp",
         "prompts": [
           "vagina,cum in vagina,cumshot,cum in vagina"
         ]
       },
       {
         "value": "Womb Tattoo",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/4a8241e3150db71caa6e2519fe73580d.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/4a8241e3150db71caa6e2519fe73580d.webp",
         "prompts": [
           "womb tattoo"
         ]
@@ -453,7 +453,7 @@
     "options": [
       {
         "value": "Mastubate",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/59a3507b45b3e7d66b4804be25fc87e5.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/59a3507b45b3e7d66b4804be25fc87e5.webp",
         "prompts": [
           "penis,erection,hand holding penis,masturbation,penis juice,body shaking,steam,sitting position",
           "lying,scrotum,penis,masturbation,steam,trembling",
@@ -464,7 +464,7 @@
       },
       {
         "value": "Butt Plug",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/e4f67d779afe4b5aef06f55ac0c59eea.png",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/e4f67d779afe4b5aef06f55ac0c59eea.png",
         "prompts": [
           "ass focus,butt plug,dick",
           "front view,butt plug,penis,Spread legs"
@@ -472,7 +472,7 @@
       },
       {
         "value": "Dildo",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/160c01b67d0650f5a248e97f1db39f5d.png",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/160c01b67d0650f5a248e97f1db39f5d.png",
         "prompts": [
           "butt plug,dildo,Spread legs,penis",
           "butt plug,dildo,Spread legs,penis,squat"
@@ -480,7 +480,7 @@
       },
       {
         "value": "Doggy",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/a2bc0ded7ec8bdde4fbe592cc4d8d7c7.png",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/a2bc0ded7ec8bdde4fbe592cc4d8d7c7.png",
         "prompts": [
           "front view,doggy,ass up",
           "front view,doggy",
@@ -499,28 +499,28 @@
     "options": [
       {
         "value": "Shy",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/9965d208aa2d219198f0d69ae5058dbb.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/9965d208aa2d219198f0d69ae5058dbb.webp",
         "prompts": [
           "blushing,shy,panting"
         ]
       },
       {
         "value": "Cry",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/04fd369a22321d4ead92cb945b945d82.png",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/04fd369a22321d4ead92cb945b945d82.png",
         "prompts": [
           "cry,tear"
         ]
       },
       {
         "value": "Angry",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/2f04f2d4171cd3b4e169e487045a9902.png",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/2f04f2d4171cd3b4e169e487045a9902.png",
         "prompts": [
           "Anger,disgust,patience,tears"
         ]
       },
       {
         "value": "Smile",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/2cd74dc22f3414852dcd97ac11e5c823.png",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/2cd74dc22f3414852dcd97ac11e5c823.png",
         "prompts": [
           "smile"
         ]
@@ -536,28 +536,28 @@
     "options": [
       {
         "value": "Cum Shot",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/c043a9b2e61af2bebc2f633550f0052e.webp",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/c043a9b2e61af2bebc2f633550f0052e.webp",
         "prompts": [
           "ejaculation,steam"
         ]
       },
       {
         "value": "Transgender",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/1443b2eae6b6a543d1048086f14ca860.png",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/1443b2eae6b6a543d1048086f14ca860.png",
         "prompts": [
           "Futanari,pussy,penis"
         ]
       },
       {
         "value": "Flaccid",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/93c0372c10e3b00e4e258c009ec6365a.png",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/93c0372c10e3b00e4e258c009ec6365a.png",
         "prompts": [
           "Flaccid penis"
         ]
       },
       {
         "value": "Uncircumcised",
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/094376fdd6525128b22ef5adb37b7c5b.png",
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/094376fdd6525128b22ef5adb37b7c5b.png",
         "prompts": [
           "long foreskin,Uncircumcised"
         ]

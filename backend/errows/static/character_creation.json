@@ -10,12 +10,12 @@
       {
         "value": "Male",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/0029669ee1ce59ae9b8c084b9f9d1f52.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/0029669ee1ce59ae9b8c084b9f9d1f52.webp"
       },
       {
         "value": "Female",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/dcb077974ba5e7f4fc1e71c602972fb3.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/dcb077974ba5e7f4fc1e71c602972fb3.webp"
       }
     ]
   },
@@ -39,7 +39,7 @@
         "settings": {
           "base_model": "CyberRealistic.safetensors"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/4c584f8b2190a0e6ffd90fd8081bac29.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/4c584f8b2190a0e6ffd90fd8081bac29.webp"
       },
       {
         "value": "Anime",
@@ -47,7 +47,7 @@
           "base_model": "waiANINSFWPONYXL_v90.safetensors",
           "base_prompt": "score_9, score_8_up, score_7_up,source_anime,1girl, solo, hetero"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/dcb077974ba5e7f4fc1e71c602972fb3.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/dcb077974ba5e7f4fc1e71c602972fb3.webp"
       }
     ]
   },
@@ -71,7 +71,7 @@
         "settings": {
           "base_prompt": "1boy, solo, hetero"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/435773123b889a70502aea0c68d7bc6a.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/435773123b889a70502aea0c68d7bc6a.webp"
       },
       {
         "value": "Anime",
@@ -83,7 +83,7 @@
           "base_model": "waiANINSFWPONYXL_v90.safetensors",
           "base_prompt": "score_9, score_8_up, score_7_up, source_anime, 1boy, solo, hetero"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/bf335963f641894fbca084ff90a5aa3c.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/bf335963f641894fbca084ff90a5aa3c.webp"
       }
     ]
   },
@@ -105,42 +105,42 @@
       {
         "value": "Human",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/b1edfc6354d013b293cdc3b72ca0afe6.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/b1edfc6354d013b293cdc3b72ca0afe6.webp"
       },
       {
         "value": "Dragon",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/d6112d9cf1b0af09877ab8044eac233c.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/d6112d9cf1b0af09877ab8044eac233c.webp"
       },
       {
         "value": "Furry",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/4eb62d2c2147b828edee5f4e0589ffad.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/4eb62d2c2147b828edee5f4e0589ffad.webp"
       },
       {
         "value": "Elf",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/1e393ef4e73338e467ad3b088d5b38b8.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/1e393ef4e73338e467ad3b088d5b38b8.webp"
       },
       {
         "value": "Beastkin",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/7b2713137ed61a434a0618081c6e667c.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/7b2713137ed61a434a0618081c6e667c.webp"
       },
       {
         "value": "Demonkin",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/b8857e9696ee7979398ac61035723307.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/b8857e9696ee7979398ac61035723307.webp"
       },
       {
         "value": "Fairy",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/2d0f29f5c604c9cf5f362ed9ec90707e.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/2d0f29f5c604c9cf5f362ed9ec90707e.webp"
       },
       {
         "value": "Angelkin",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/9375bc5e3dea34f2da3c3b8c6b74015f.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/9375bc5e3dea34f2da3c3b8c6b74015f.webp"
       }
     ]
   },
@@ -162,7 +162,7 @@
       {
         "value": "Human",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/6c52d59215321d6fdc202795e0eced96.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/6c52d59215321d6fdc202795e0eced96.webp"
       },
       {
         "value": "Dragon",
@@ -173,7 +173,7 @@
           ],
           "base_prompt": "Dragon"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/4852f6de56e874cf5a9eaf3e9f22ec37.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/4852f6de56e874cf5a9eaf3e9f22ec37.webp"
       },
       {
         "value": "Furry",
@@ -184,7 +184,7 @@
           ],
           "base_prompt": "Furry"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/37b027a2dda63ad1a7cfd5e84e43bc68.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/37b027a2dda63ad1a7cfd5e84e43bc68.webp"
       },
       {
         "value": "Elf",
@@ -195,14 +195,14 @@
           ],
           "base_prompt": "Elf"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/4324dd363713d2d0c237d6edfaf8e255.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/4324dd363713d2d0c237d6edfaf8e255.webp"
       },
       {
         "value": "Beastkin",
         "settings": {
           "prompt": "beastkin"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/aae6e7a25ef616c51649b24657d55f7f.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/aae6e7a25ef616c51649b24657d55f7f.webp"
       },
       {
         "value": "Angel",
@@ -213,7 +213,7 @@
           ],
           "base_prompt": "Angel"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/221f31313273ae62c2ffb1451f1e2541.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/221f31313273ae62c2ffb1451f1e2541.webp"
       }
     ]
   },
@@ -243,28 +243,28 @@
         "settings": {
           "base_prompt": "furry, dog eay, dog tail, dog man"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/1e12e96c38aefe7efb1a6957b22e029a.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/1e12e96c38aefe7efb1a6957b22e029a.webp"
       },
       {
         "value": "Cat Man",
         "settings": {
           "base_prompt": "furry, cat man, cat ear, cat tail"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/9d1ea784ef5fd728b284a84186761122.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/9d1ea784ef5fd728b284a84186761122.webp"
       },
       {
         "value": "Werewolf",
         "settings": {
           "base_prompt": "furry, Werewolf, wolf ear, wolf tail"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/c5a50332886464ec5c992f256df658b0.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/c5a50332886464ec5c992f256df658b0.webp"
       },
       {
         "value": "Rabbit man",
         "settings": {
           "base_prompt": "furry, rabbit man, rabbit ear, rabbit tail"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/d5758fe166b6d77d4a939afe591cbffc.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/d5758fe166b6d77d4a939afe591cbffc.webp"
       }
     ]
   },
@@ -294,14 +294,14 @@
         "settings": {
           "base_prompt": "fair skin, elf ears, elf"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/b19d1b2c0a8788ac340ea8d146dc96d0.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/b19d1b2c0a8788ac340ea8d146dc96d0.webp"
       },
       {
         "value": "Dark Elf",
         "settings": {
           "base_prompt": "black skin, elf ears, dark elf"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/a8de3578ee46cf22863ca1dd950ee0bf.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/a8de3578ee46cf22863ca1dd950ee0bf.webp"
       }
     ]
   },
@@ -335,7 +335,7 @@
           ],
           "base_prompt": "dragonboy, fair skin, red dragon scales, red dragon horns, belly dragon scales, thigh dragon scales, red dragon wings"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/a76d2360f727a584672028702bad36ff.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/a76d2360f727a584672028702bad36ff.webp"
       },
       {
         "value": "Blue Dragon",
@@ -346,7 +346,7 @@
           ],
           "base_prompt": "dragonboy, fair skin, blue dragon scales, blue dragon horns, belly dragon scales, thigh dragon scales, blue dragon wings"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/8a711b64419cea137c58b341be9f9f10.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/8a711b64419cea137c58b341be9f9f10.webp"
       },
       {
         "value": "Black Dragon",
@@ -357,7 +357,7 @@
           ],
           "base_prompt": "dragonboy, fair skin, black dragon scales, black dragon horns, belly dragon scales, thigh dragon scales, black dragon wings"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/80319298a6ae8e5eebae742a1cebb2ee.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/80319298a6ae8e5eebae742a1cebb2ee.webp"
       },
       {
         "value": "White Dragon",
@@ -368,7 +368,7 @@
           ],
           "base_prompt": "dragonboy, fair skin, white dragon scales, white dragon horns, belly dragon scales, thigh dragon scales, white dragon wings"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/66d2474e9094eeba5042831065593f1d.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/66d2474e9094eeba5042831065593f1d.webp"
       },
       {
         "value": "Gold Dragon",
@@ -379,7 +379,7 @@
           ],
           "base_prompt": "dragonboy, fair skin, gold dragon scales, gold dragon horns, belly dragon scales, thigh dragon scales, gold dragon wings"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/d73f98bbacae8c01ddc56ad4a00c2b17.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/d73f98bbacae8c01ddc56ad4a00c2b17.webp"
       }
     ]
   },
@@ -409,28 +409,28 @@
         "settings": {
           "base_prompt": "asain"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/b7068deac4cc3207a6c1868bfb192bbe.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/b7068deac4cc3207a6c1868bfb192bbe.webp"
       },
       {
         "value": "Caucasian",
         "settings": {
           "base_prompt": "Caucasian, fair skin"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/f5cd869bf619e57362c5a5e9acb060dc.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/f5cd869bf619e57362c5a5e9acb060dc.webp"
       },
       {
         "value": "African",
         "settings": {
           "base_prompt": "black skin, African"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/f3a267766ac6311d55f8497c91cb6d48.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/f3a267766ac6311d55f8497c91cb6d48.webp"
       },
       {
         "value": "Latina",
         "settings": {
           "base_prompt": "Latino, brown skin"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/c7eb0e1469e28e0af9962fb31c0b6945.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/c7eb0e1469e28e0af9962fb31c0b6945.webp"
       }
     ]
   },
@@ -460,14 +460,14 @@
         "settings": {
           "base_prompt": "fair skin, angel, angel wings, halo"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/4d591c1c8d32d882cfe8f5fec1b8ff07.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/4d591c1c8d32d882cfe8f5fec1b8ff07.webp"
       },
       {
         "value": "Fallen Angel",
         "settings": {
           "base_prompt": "black skin, fallen angel, black wings, black halo"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/605aa6131320f8b929627bc292428b8f.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/605aa6131320f8b929627bc292428b8f.webp"
       }
     ]
   },
@@ -501,7 +501,7 @@
           ],
           "base_prompt": "fair skin, cat ear, cat tail"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/f68c62830cad1c53124992bc064a4a8a.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/f68c62830cad1c53124992bc064a4a8a.webp"
       },
       {
         "value": "Wolf man",
@@ -512,7 +512,7 @@
           ],
           "base_prompt": "fair skin, wolf ear, wolf tail"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/3a109d56f512012fd1502713685c1385.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/3a109d56f512012fd1502713685c1385.webp"
       },
       {
         "value": "Centaur",
@@ -523,7 +523,7 @@
           ],
           "base_prompt": "Centaur, fari skin, horse ear, horse tail"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/069ffc78d61e1a2919efcfe2c3dbac5d.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/069ffc78d61e1a2919efcfe2c3dbac5d.webp"
       },
       {
         "value": "Dog man",
@@ -534,7 +534,7 @@
           ],
           "base_prompt": "fair skin, dog ear, dog tail"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/5f2125458bf9c1a15d560a85d735644f.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/5f2125458bf9c1a15d560a85d735644f.webp"
       }
     ]
   },
@@ -568,7 +568,7 @@
           ],
           "base_prompt": "angel girl, angel wings, angel halo"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/226032d0a554f9d347a711d78d23f5b9.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/226032d0a554f9d347a711d78d23f5b9.webp"
       },
       {
         "value": "Fallen Angel",
@@ -579,7 +579,7 @@
           ],
           "base_prompt": "Fallen Angel girl, black wings, brown skin"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/6c6209fa88737237057f9d002362a0fa.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/6c6209fa88737237057f9d002362a0fa.webp"
       }
     ]
   },
@@ -613,7 +613,7 @@
           ],
           "base_prompt": "fairy girl, fairy wings"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/981cd198ee8222c98daa26bca4d98b15.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/981cd198ee8222c98daa26bca4d98b15.webp"
       },
       {
         "value": "Fiary king",
@@ -624,7 +624,7 @@
           ],
           "base_prompt": "fairy girl, {{hairColor}}fairy wings"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/f98f8d28a2f37463ebcb63804455e947.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/f98f8d28a2f37463ebcb63804455e947.webp"
       }
     ]
   },
@@ -658,7 +658,7 @@
           ],
           "base_prompt": "Succubus girl, Succubus horns, Succubus, Succubus tail, sexy clothes, Succubus wings, belly tattoo"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/fc8065e3964ec3797e1bc200ee64fcb0.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/fc8065e3964ec3797e1bc200ee64fcb0.webp"
       },
       {
         "value": "Demon",
@@ -669,7 +669,7 @@
           ],
           "base_prompt": "demon girl, demon horns, demon wings, red skin, demon tail"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/0c66993d066829b02664468159f60bbe.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/0c66993d066829b02664468159f60bbe.webp"
       },
       {
         "value": "Oni",
@@ -680,7 +680,7 @@
           ],
           "base_prompt": "Oni girl，oni corner"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/77f7092fee709f1334303a89e3179d33.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/77f7092fee709f1334303a89e3179d33.webp"
       },
       {
         "value": "Vampire",
@@ -691,7 +691,7 @@
           ],
           "base_prompt": "vampire girl, pale skin, vampire wings,Pointed ears"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/b5a0c00a51b9d1687a4314d72e690f42.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/b5a0c00a51b9d1687a4314d72e690f42.webp"
       }
     ]
   },
@@ -725,7 +725,7 @@
           ],
           "base_prompt": "cat girl,{{hairColor}}cat tail, {{hairColor}}cat ear"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/4f318935e0db5455309671bcd25dcf68.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/4f318935e0db5455309671bcd25dcf68.webp"
       },
       {
         "value": "Dog girl",
@@ -736,7 +736,7 @@
           ],
           "base_prompt": "dog-eared girl, {{hairColor}}dog ears, {{hairColor}}dog tail"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/b5b6cdbc7d8212ce03615e41549a15e3.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/b5b6cdbc7d8212ce03615e41549a15e3.webp"
       },
       {
         "value": "Centaur",
@@ -747,7 +747,7 @@
           ],
           "base_prompt": "((Centaur)), (horse ears)"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/26fb40bb9881e73a4e20ff664b021b16.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/26fb40bb9881e73a4e20ff664b021b16.webp"
       },
       {
         "value": "Harpy",
@@ -758,7 +758,7 @@
           ],
           "base_prompt": "harpy，harby girl,({{hairColor}}feather winged arms),{{hairColor}}winged arms,{{hairColor}}wing"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/6407a5f81458e66bc667c448c8b2fcf1.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/6407a5f81458e66bc667c448c8b2fcf1.webp"
       },
       {
         "value": "Lamia",
@@ -769,7 +769,7 @@
           ],
           "base_prompt": "{{hairColor}}scales, {{hairColor}}snake tail, Lamia,pointy ears"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/71884f5536ddcd4755b529211ac73b9c.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/71884f5536ddcd4755b529211ac73b9c.webp"
       },
       {
         "value": "Cow Girl",
@@ -780,7 +780,7 @@
           ],
           "base_prompt": "cow girl, cow horns, cow ears, cow tail"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/42c195eb057d6d0ed0d62adcf0957d9e.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/42c195eb057d6d0ed0d62adcf0957d9e.webp"
       },
       {
         "value": "Rabbit Girl",
@@ -791,7 +791,7 @@
           ],
           "base_prompt": "Rabbit girl,Rabbit Ears,rabbit tail"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/be126c8ef833dda42ee95017b64fb2e7.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/be126c8ef833dda42ee95017b64fb2e7.webp"
       },
       {
         "value": "Wolf girl",
@@ -802,7 +802,7 @@
           ],
           "base_prompt": "wolf girl, {{hairColor}}wolf ears, {{hairColor}}wolf tail"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/7b272bcb2f56b702bbc3cb030b758f2c.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/7b272bcb2f56b702bbc3cb030b758f2c.webp"
       }
     ]
   },
@@ -832,14 +832,14 @@
         "settings": {
           "base_prompt": "(elf, pointy ears,whte skin,Pale skin,)"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/138935d5b399b04cef5bb6c7a5b247c5.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/138935d5b399b04cef5bb6c7a5b247c5.webp"
       },
       {
         "value": "Dark Elf",
         "settings": {
           "base_prompt": "( dark elf, dark skin, brown skin,pointy ears, )sexy clothes"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/438703b7ebf687937ef7714b4cf060cf.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/438703b7ebf687937ef7714b4cf060cf.webp"
       }
     ]
   },
@@ -873,7 +873,7 @@
           ],
           "base_prompt": "score_9, score_8_up, score_7_up,source_anime,1girl,hetero,(cat girl,furry,cat ear, cat tail),{{ hairColor }} cat ear,{{ hairColor }} furry,{hair color}cat tail"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/7133c0e72362c29c840e9c77a6fdb81f.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/7133c0e72362c29c840e9c77a6fdb81f.webp"
       },
       {
         "value": "Tiger",
@@ -884,7 +884,7 @@
           ],
           "base_prompt": "score_9, score_8_up, score_7_up,source_anime,1girl,hetero,,(tiger girl,furry,tiger ear,tiger tail)"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/e8f5f3ce39b19f6a21078faac8b21ca0.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/e8f5f3ce39b19f6a21078faac8b21ca0.webp"
       },
       {
         "value": "Horse",
@@ -895,7 +895,7 @@
           ],
           "base_prompt": "score_9, score_8_up, score_7_up,source_anime,1girl,hetero,(horse girl,horse face,furry,hooves,brown furry)"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/ad191920f0218bf802f59a386997afe1.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/ad191920f0218bf802f59a386997afe1.webp"
       },
       {
         "value": "Leopard",
@@ -906,7 +906,7 @@
           ],
           "base_prompt": "score_9, score_8_up, score_7_up,source_anime,1girl,hetero,(female, leopard, feline, leopard girl,furry,pink fur,)"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/c9b6f71f0037ffe9f46a8f3b1f7192fa.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/c9b6f71f0037ffe9f46a8f3b1f7192fa.webp"
       },
       {
         "value": "Rabbit",
@@ -917,7 +917,7 @@
           ],
           "base_prompt": "score_9, score_8_up, score_7_up,source_anime,1girl,hetero,(rabbit,rabbit girl,female,white rabbit ear,rabbit tail,white fur, rabbit nose,rabbit face)"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/e86c97c34cae531016d74c03d6584bd3.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/e86c97c34cae531016d74c03d6584bd3.webp"
       }
     ]
   },
@@ -951,7 +951,7 @@
           ],
           "base_prompt": "dragon girl, (red dragon scales), (red dragon horns), (belly dragon scales), (thigh dragon scales), )(red dragon wings)"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/e280af873ea957a98041d612f9f45d05.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/e280af873ea957a98041d612f9f45d05.webp"
       },
       {
         "value": "Black Dragon",
@@ -962,7 +962,7 @@
           ],
           "base_prompt": "dragon girl, (black dragon scales), (black dragon horns), (belly dragon scales), (thigh dragon scales), (black dragon wings)"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/acb162b4c55e14726bc7650d1c1b84a2.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/acb162b4c55e14726bc7650d1c1b84a2.webp"
       },
       {
         "value": "Gold Dragon",
@@ -973,7 +973,7 @@
           ],
           "base_prompt": "dragon girl, (gold dragon scales), (gold dragon horns), (belly dragon scales), (thigh dragon scales),(gold dragon wings)"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/87109c617e2a81b5d6fdc2df47771a7b.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/87109c617e2a81b5d6fdc2df47771a7b.webp"
       },
       {
         "value": "Blue Dragon",
@@ -984,7 +984,7 @@
           ],
           "base_prompt": "dragon girl, (blue dragon scales), (blue dragon horns), (belly dragon scales), (thigh dragon scales), (blue dragon wings)"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/3168a0ec57b45285df0dfec6f3cf0844.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/3168a0ec57b45285df0dfec6f3cf0844.webp"
       },
       {
         "value": "White Dragon",
@@ -995,7 +995,7 @@
           ],
           "base_prompt": "dragon girl, (white dragon scales), (white dragon horns), (belly dragon scales), (thigh dragon scales),(white dragon wings)"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/dde54cb05eb4dbffd5ff474783c2ef4b.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/dde54cb05eb4dbffd5ff474783c2ef4b.webp"
       }
     ]
   },
@@ -1029,28 +1029,28 @@
           ],
           "base_prompt": "score_9, score_8_up, score_7_up,source_anime,1girl,hetero,asian girl,asian_chinese"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/ea6cc2d7eea071cb5d9407be8cf588e4.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/ea6cc2d7eea071cb5d9407be8cf588e4.webp"
       },
       {
         "value": "Caucasian",
         "settings": {
           "base_prompt": "score_9, score_8_up, score_7_up,source_anime,1girl,hetero,British girl"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/a901286968207dc7710731a0f1ad4fe5.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/a901286968207dc7710731a0f1ad4fe5.webp"
       },
       {
         "value": "African",
         "settings": {
           "base_prompt": "score_9, score_8_up, score_7_up,source_anime,1girl,hetero,African girl, dark skin"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/f80efe62e9bbee58f77a4247a7d3bd8b.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/f80efe62e9bbee58f77a4247a7d3bd8b.webp"
       },
       {
         "value": "Latina",
         "settings": {
           "base_prompt": "score_9, score_8_up, score_7_up,source_anime,1girl,hetero,Latina girl,dark skin"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/429fbae5d4099ed51e851e282858d9c3.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/429fbae5d4099ed51e851e282858d9c3.webp"
       }
     ]
   },
@@ -1180,35 +1180,35 @@
         "settings": {
           "prompt": "green eye"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/a68391863e81ee1363b0afb39ea90ae7.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/a68391863e81ee1363b0afb39ea90ae7.webp"
       },
       {
         "value": "Black eye",
         "settings": {
           "prompt": "black eye"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/5952af7c64eaf9b12fbebede79d41d0f.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/5952af7c64eaf9b12fbebede79d41d0f.webp"
       },
       {
         "value": "Blue eye",
         "settings": {
           "prompt": "blue eye"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/a9e72593bf3e12e66ded781dcc0f4850.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/a9e72593bf3e12e66ded781dcc0f4850.webp"
       },
       {
         "value": "Brown eye",
         "settings": {
           "prompt": "brown eye"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/ced9b16ef0c9555a59eb1c281702bd1f.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/ced9b16ef0c9555a59eb1c281702bd1f.webp"
       },
       {
         "value": "Red  eye",
         "settings": {
           "prompt": "red eye"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/fd62d50f45c6f0d8e142415c1f44ad18.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/fd62d50f45c6f0d8e142415c1f44ad18.webp"
       }
     ]
   },
@@ -1232,70 +1232,70 @@
         "settings": {
           "prompt": "Black eyes"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/951413d7db5064647af6f4c99e02a43e.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/951413d7db5064647af6f4c99e02a43e.webp"
       },
       {
         "value": "Blue",
         "settings": {
           "prompt": "Blue eyes"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/0402aa19f85976418b4ed00ec8b762e0.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/0402aa19f85976418b4ed00ec8b762e0.webp"
       },
       {
         "value": "Green",
         "settings": {
           "prompt": "Green eyes"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/424e2e2959d090a65d9ae2d62a828815.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/424e2e2959d090a65d9ae2d62a828815.webp"
       },
       {
         "value": "Red",
         "settings": {
           "prompt": "Red eyes"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/25d37f6bda1699d4b3240e282124fe3a.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/25d37f6bda1699d4b3240e282124fe3a.webp"
       },
       {
         "value": "Yellow",
         "settings": {
           "prompt": "Yellow eyes"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/f7cb980dfb5151cb35dce916ee9a848e.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/f7cb980dfb5151cb35dce916ee9a848e.webp"
       },
       {
         "value": "White",
         "settings": {
           "prompt": "White eyes"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/eaa9e04e2e970aaf920a4fe988430960.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/eaa9e04e2e970aaf920a4fe988430960.webp"
       },
       {
         "value": "Brown",
         "settings": {
           "prompt": "Brown eyes"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/8ff3e6033d7803454bf390062eb9c785.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/8ff3e6033d7803454bf390062eb9c785.webp"
       },
       {
         "value": "Pink",
         "settings": {
           "prompt": "Pink eyes"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/b2c5b3d25bbb61e70de6015724d86f56.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/b2c5b3d25bbb61e70de6015724d86f56.webp"
       },
       {
         "value": "Purple",
         "settings": {
           "prompt": "Purple eyes"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/55d2640661e88755b5e7da0654f6e35c.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/55d2640661e88755b5e7da0654f6e35c.webp"
       },
       {
         "value": "Gray",
         "settings": {
           "prompt": "Gray eyes"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/88c25fd4659df6235fdf5b4982f9d873.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/88c25fd4659df6235fdf5b4982f9d873.webp"
       }
     ]
   },
@@ -1319,49 +1319,49 @@
         "settings": {
           "prompt": "short hair"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/04204b7ae43efd4aa03cc3e5c3cca969.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/04204b7ae43efd4aa03cc3e5c3cca969.webp"
       },
       {
         "value": "Long Hair",
         "settings": {
           "prompt": "long hair"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/55dc22e44b9f63214c1ea85b019ae694.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/55dc22e44b9f63214c1ea85b019ae694.webp"
       },
       {
         "value": "Messy hair",
         "settings": {
           "prompt": "messy hair"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/901e5e2486298a257bb34b4b9c897b85.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/901e5e2486298a257bb34b4b9c897b85.webp"
       },
       {
         "value": "Pony Tail",
         "settings": {
           "prompt": "small ponytail"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/d8ac4c1068a4aad47073b7110b7fb625.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/d8ac4c1068a4aad47073b7110b7fb625.webp"
       },
       {
         "value": "Bob Cut",
         "settings": {
           "prompt": "round bob，bob cut"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/4a21f925e1d6ac26e2150c592b9da942.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/4a21f925e1d6ac26e2150c592b9da942.webp"
       },
       {
         "value": "Dreadlocks",
         "settings": {
           "prompt": "dreadlocks"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/11be426ea6f2dcb8fdb3a23f0cb1630d.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/11be426ea6f2dcb8fdb3a23f0cb1630d.webp"
       },
       {
         "value": "Punk Hair",
         "settings": {
           "prompt": "punk Hair"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/b43cf743bad8e0fda2e791879c4860a4.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/b43cf743bad8e0fda2e791879c4860a4.webp"
       }
     ]
   },
@@ -1383,112 +1383,112 @@
       {
         "value": "Medium ponytail",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/86918cbe599a9d095f64a41cfa3642df.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/86918cbe599a9d095f64a41cfa3642df.webp"
       },
       {
         "value": "Side ponytail",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/74f56e3e2e4e5dfede3264c4fa39c89a.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/74f56e3e2e4e5dfede3264c4fa39c89a.webp"
       },
       {
         "value": "Lolita Curls",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/416b9894f5d0562777a6a95b660d5af5.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/416b9894f5d0562777a6a95b660d5af5.webp"
       },
       {
         "value": "Twin Braids",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/a4f9cc7d8f7e3a11cc4b32d05676ad34.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/a4f9cc7d8f7e3a11cc4b32d05676ad34.webp"
       },
       {
         "value": "Mohawk",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/96ed366e30729b1adce771337bd81ee5.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/96ed366e30729b1adce771337bd81ee5.webp"
       },
       {
         "value": "Punk hair",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/e570702b6bed87c707290328fb21fd36.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/e570702b6bed87c707290328fb21fd36.webp"
       },
       {
         "value": "Half-up Hair",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/ac6b2662b7cec95459864fbc7f18f949.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/ac6b2662b7cec95459864fbc7f18f949.webp"
       },
       {
         "value": "Half-up Bun",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/49f09fd70b5249009af2813cf4865231.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/49f09fd70b5249009af2813cf4865231.webp"
       },
       {
         "value": "Curly Hair",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/40bf7bc450b2b69e5b5bca970914a924.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/40bf7bc450b2b69e5b5bca970914a924.webp"
       },
       {
         "value": "Double bun hair",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/93ee4f1a23190752153b1a842993cf4d.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/93ee4f1a23190752153b1a842993cf4d.webp"
       },
       {
         "value": "Straight",
         "settings": {
           "prompt": "Straight hair"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/489e89f976a007ea00df05d4296f6f6c.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/489e89f976a007ea00df05d4296f6f6c.webp"
       },
       {
         "value": "Low ponytail",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/70b9e8dbf3675419d545be71c8082ab6.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/70b9e8dbf3675419d545be71c8082ab6.webp"
       },
       {
         "value": "Twintail",
         "settings": {
           "prompt": "Double ponytails"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/d0a3f8d6228909891d4e19e48fe8123f.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/d0a3f8d6228909891d4e19e48fe8123f.webp"
       },
       {
         "value": "Bun hair",
         "settings": {
           "prompt": "Bun Hair"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/56b647454dca20547e5f0a6e152ef18d.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/56b647454dca20547e5f0a6e152ef18d.webp"
       },
       {
         "value": "High ponytail",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/e424567f3d501cc7d839453aad3df4cf.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/e424567f3d501cc7d839453aad3df4cf.webp"
       },
       {
         "value": "Wavy Hair",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/4517cf67796169df0bb94d1929cda646.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/4517cf67796169df0bb94d1929cda646.webp"
       },
       {
         "value": "Bob Cut",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/1868c980c2e18b81ebb48777f8348541.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/1868c980c2e18b81ebb48777f8348541.webp"
       },
       {
         "value": "Round Bob",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/74b24d08ad90b8c6cfa5a2e38f341486.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/74b24d08ad90b8c6cfa5a2e38f341486.webp"
       },
       {
         "value": "Blunt Cut",
         "settings": {
           "prompt": "Blunt Cut hair"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/7b11c6a515c11df543c08529836024b9.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/7b11c6a515c11df543c08529836024b9.webp"
       },
       {
         "value": "Braid",
         "settings": {
           "prompt": "Braid Hair"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/639ff43070dd4a6502f700eff94ebc65.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/639ff43070dd4a6502f700eff94ebc65.webp"
       }
     ]
   },
@@ -1590,22 +1590,22 @@
       {
         "value": "Short hair",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/4138fb447f87c400f345de337cf76d62.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/4138fb447f87c400f345de337cf76d62.webp"
       },
       {
         "value": "Medium Hair",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/85f6f341a69aaed8b3e39fd81ad26cd1.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/85f6f341a69aaed8b3e39fd81ad26cd1.webp"
       },
       {
         "value": "long hair",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/c2eb21a1b18a5501b5e9b1f22683a6d1.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/c2eb21a1b18a5501b5e9b1f22683a6d1.webp"
       },
       {
         "value": "Extra Long Hair",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/0e08ebfd00dd464e6740f0d1d8b532c5.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/0e08ebfd00dd464e6740f0d1d8b532c5.webp"
       }
     ]
   },
@@ -1627,32 +1627,32 @@
       {
         "value": "Middle-part Forehair",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/fb8b5be082b736b91f3e0a08dea621ec.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/fb8b5be082b736b91f3e0a08dea621ec.webp"
       },
       {
         "value": "Choppy bangs",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/91196f601777492c10a3dd4353d63877.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/91196f601777492c10a3dd4353d63877.webp"
       },
       {
         "value": "Side Bangs",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/9dd76595d8240beffda687fe2840a442.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/9dd76595d8240beffda687fe2840a442.webp"
       },
       {
         "value": "Open Forehead",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/6a542a63b5d3b56314aba0b6f88bdf3d.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/6a542a63b5d3b56314aba0b6f88bdf3d.webp"
       },
       {
         "value": "Blunt Bangs",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/7eb025fbdd472b6cf595b4acd0437ddd.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/7eb025fbdd472b6cf595b4acd0437ddd.webp"
       },
       {
         "value": "Asymmetrical Bangs",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/2f4637efa0d2545bc4dd4c2c7aeb900c.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/2f4637efa0d2545bc4dd4c2c7aeb900c.webp"
       }
     ]
   },
@@ -1756,35 +1756,35 @@
         "settings": {
           "prompt": "Petite body"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/84f866cf3fa9113020d15a5c7ceb965d.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/84f866cf3fa9113020d15a5c7ceb965d.webp"
       },
       {
         "value": "Slim",
         "settings": {
           "prompt": "Slim body"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/e931d24ac0dd9e1225f3f63672437274.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/e931d24ac0dd9e1225f3f63672437274.webp"
       },
       {
         "value": "Athletic",
         "settings": {
           "prompt": "Athletic body"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/4c0d474bce37395c062ed314f3f72efd.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/4c0d474bce37395c062ed314f3f72efd.webp"
       },
       {
         "value": "Voluptuous",
         "settings": {
           "prompt": "Voluptuous body"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/02d2bbac73ae50194ed89332d14fbf76.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/02d2bbac73ae50194ed89332d14fbf76.webp"
       },
       {
         "value": "Curvy",
         "settings": {
           "prompt": "plump body"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/24b4de105025d20e3e426147dc0a1536.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/24b4de105025d20e3e426147dc0a1536.webp"
       }
     ]
   },
@@ -1808,21 +1808,21 @@
         "settings": {
           "prompt": "slim body"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/17e00e5f670a8aee6019774a8d423b4c.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/17e00e5f670a8aee6019774a8d423b4c.webp"
       },
       {
         "value": "Muscular",
         "settings": {
           "prompt": "ultra defined muscles,Muscular man,big muscle"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/0f70f8880e9616063f3c53cac1931933.png"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/0f70f8880e9616063f3c53cac1931933.png"
       },
       {
         "value": "Chubby",
         "settings": {
           "prompt": "Overweight body,fat,fat man"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/d9c2ad737d4d76068a6a2e742f1d168e.png"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/d9c2ad737d4d76068a6a2e742f1d168e.png"
       }
     ]
   },
@@ -1844,17 +1844,17 @@
       {
         "value": "Small Penis",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/6f0c5686d9d3945c5b6a614d377a7353.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/6f0c5686d9d3945c5b6a614d377a7353.webp"
       },
       {
         "value": "Midium Penis",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/27eb1f799d0879f39a530eac05cb4124.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/27eb1f799d0879f39a530eac05cb4124.webp"
       },
       {
         "value": "Big penis",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/2df8662cb79ed4bc7fac2718cfddf554.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/2df8662cb79ed4bc7fac2718cfddf554.webp"
       }
     ]
   },
@@ -1878,35 +1878,35 @@
         "settings": {
           "prompt": "Flat chest"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/e0686eef25160fed4ce21272bc2c28bf.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/e0686eef25160fed4ce21272bc2c28bf.webp"
       },
       {
         "value": "Small",
         "settings": {
           "prompt": "Small breasts"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/a9140079f08a30131e07292c4f4c0059.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/a9140079f08a30131e07292c4f4c0059.webp"
       },
       {
         "value": "Medium",
         "settings": {
           "prompt": "Medium breasts"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/1ded11d1ad29283f32dd47c1e0772911.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/1ded11d1ad29283f32dd47c1e0772911.webp"
       },
       {
         "value": "Large",
         "settings": {
           "prompt": "large breasts"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/e387da9d3808aae691fb7b4a57ea6c15.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/e387da9d3808aae691fb7b4a57ea6c15.webp"
       },
       {
         "value": "Giant",
         "settings": {
           "prompt": "Giant breasts"
         },
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/b9dd445053124b3870e1947b7025f8c7.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/b9dd445053124b3870e1947b7025f8c7.webp"
       }
     ]
   },
@@ -1944,27 +1944,27 @@
       {
         "value": "Small",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/65d58b96fec621408fc1cda5b3460982.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/65d58b96fec621408fc1cda5b3460982.webp"
       },
       {
         "value": "Medium",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/1218aed6a92cb75e3066cb13693589ac.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/1218aed6a92cb75e3066cb13693589ac.webp"
       },
       {
         "value": "Large",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/79e48fc0a56b74c6ace9a169c4cd18d6.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/79e48fc0a56b74c6ace9a169c4cd18d6.webp"
       },
       {
         "value": "Giant",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/2445a9473c99a861f841ea5869bb0fb0.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/2445a9473c99a861f841ea5869bb0fb0.webp"
       },
       {
         "value": "Athletic",
         "settings": {},
-        "url": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/4d0e6f13e03f536dc3bd959f8844a6a3.webp"
+        "url": "https://my-bucket.s3.amazonaws.com/errows/app/4d0e6f13e03f536dc3bd959f8844a6a3.webp"
       }
     ]
   },
@@ -2657,15 +2657,15 @@
     ],
     "input_type": "voice_select",
     "options": [
-      { "value": "English_Gentle-voiced_man.mp3", "settings": {}, "url": "https://butter1.s3.us-east-1.amazonaws.com/CreateCharacterVoice20260124/English_Gentle-voiced_man.mp3", "title": "Voice 1" },
-      { "value": "English_magnetic_voiced_man.mp3", "settings": {}, "url": "https://butter1.s3.us-east-1.amazonaws.com/CreateCharacterVoice20260124/English_magnetic_voiced_man.mp3", "title": "Voice 2" },
-      { "value": "English_MaturePartner.mp3", "settings": {}, "url": "https://butter1.s3.us-east-1.amazonaws.com/CreateCharacterVoice20260124/English_MaturePartner.mp3", "title": "Voice 3" },
-      { "value": "English_CaptivatingStoryteller.mp3", "settings": {}, "url": "https://butter1.s3.us-east-1.amazonaws.com/CreateCharacterVoice20260124/English_CaptivatingStoryteller.mp3", "title": "Voice 4" },
-      { "value": "English_SadTeen.mp3", "settings": {}, "url": "https://butter1.s3.us-east-1.amazonaws.com/CreateCharacterVoice20260124/English_SadTeen.mp3", "title": "Voice 5" },
-      { "value": "English_PassionateWarrior.mp3", "settings": {}, "url": "https://butter1.s3.us-east-1.amazonaws.com/CreateCharacterVoice20260124/English_PassionateWarrior.mp3", "title": "Voice 6" },
-      { "value": "English_WiseScholar.mp3", "settings": {}, "url": "https://butter1.s3.us-east-1.amazonaws.com/CreateCharacterVoice20260124/English_WiseScholar.mp3", "title": "Voice 7" },
-      { "value": "English_Deep-tonedMan.mp3", "settings": {}, "url": "https://butter1.s3.us-east-1.amazonaws.com/CreateCharacterVoice20260124/English_Deep-tonedMan.mp3", "title": "Voice 8" },
-      { "value": "English_Strong-WilledBoy.mp3", "settings": {}, "url": "https://butter1.s3.us-east-1.amazonaws.com/CreateCharacterVoice20260124/English_Strong-WilledBoy.mp3", "title": "Voice 9" }
+      { "value": "English_Gentle-voiced_man.mp3", "settings": {}, "url": "https://my-bucket.s3.amazonaws.com/CreateCharacterVoice20260124/English_Gentle-voiced_man.mp3", "title": "Voice 1" },
+      { "value": "English_magnetic_voiced_man.mp3", "settings": {}, "url": "https://my-bucket.s3.amazonaws.com/CreateCharacterVoice20260124/English_magnetic_voiced_man.mp3", "title": "Voice 2" },
+      { "value": "English_MaturePartner.mp3", "settings": {}, "url": "https://my-bucket.s3.amazonaws.com/CreateCharacterVoice20260124/English_MaturePartner.mp3", "title": "Voice 3" },
+      { "value": "English_CaptivatingStoryteller.mp3", "settings": {}, "url": "https://my-bucket.s3.amazonaws.com/CreateCharacterVoice20260124/English_CaptivatingStoryteller.mp3", "title": "Voice 4" },
+      { "value": "English_SadTeen.mp3", "settings": {}, "url": "https://my-bucket.s3.amazonaws.com/CreateCharacterVoice20260124/English_SadTeen.mp3", "title": "Voice 5" },
+      { "value": "English_PassionateWarrior.mp3", "settings": {}, "url": "https://my-bucket.s3.amazonaws.com/CreateCharacterVoice20260124/English_PassionateWarrior.mp3", "title": "Voice 6" },
+      { "value": "English_WiseScholar.mp3", "settings": {}, "url": "https://my-bucket.s3.amazonaws.com/CreateCharacterVoice20260124/English_WiseScholar.mp3", "title": "Voice 7" },
+      { "value": "English_Deep-tonedMan.mp3", "settings": {}, "url": "https://my-bucket.s3.amazonaws.com/CreateCharacterVoice20260124/English_Deep-tonedMan.mp3", "title": "Voice 8" },
+      { "value": "English_Strong-WilledBoy.mp3", "settings": {}, "url": "https://my-bucket.s3.amazonaws.com/CreateCharacterVoice20260124/English_Strong-WilledBoy.mp3", "title": "Voice 9" }
     ]
   },
   {
@@ -2683,15 +2683,15 @@
     ],
     "input_type": "voice_select",
     "options": [
-      { "value": "Chinese (Mandarin)_ExplorativeGirl.mp3", "settings": {}, "url": "https://butter1.s3.us-east-1.amazonaws.com/CreateCharacterVoice20260124/Chinese+(Mandarin)_ExplorativeGirl.mp3", "title": "Voice 1" },
-      { "value": "Chinese (Mandarin)_Warm_Bestie.mp3", "settings": {}, "url": "https://butter1.s3.us-east-1.amazonaws.com/CreateCharacterVoice20260124/Chinese+(Mandarin)_Warm_Bestie.mp3", "title": "Voice 2" },
-      { "value": "English_AttractiveGirl.mp3", "settings": {}, "url": "https://butter1.s3.us-east-1.amazonaws.com/CreateCharacterVoice20260124/English_AttractiveGirl.mp3", "title": "Voice 3" },
-      { "value": "moss_audio_672fef7b-fa9d-11f0-8725-da4a7a598c40.mp3", "settings": {}, "url": "https://butter1.s3.us-east-1.amazonaws.com/CreateCharacterVoice20260124/IslaYohana.mp3", "title": "Voice 4" },
-      { "value": "English_FriendlyNeighbor.mp3", "settings": {}, "url": "https://butter1.s3.us-east-1.amazonaws.com/CreateCharacterVoice20260124/English_FriendlyNeighbor.mp3", "title": "Voice 5" },
-      { "value": "English_GorgeousLady.mp3", "settings": {}, "url": "https://butter1.s3.us-east-1.amazonaws.com/CreateCharacterVoice20260124/English_GorgeousLady.mp3", "title": "Voice 6" },
-      { "value": "English_PlayfulGirl.mp3", "settings": {}, "url": "https://butter1.s3.us-east-1.amazonaws.com/CreateCharacterVoice20260124/English_PlayfulGirl.mp3", "title": "Voice 7" },
-      { "value": "English_radiant_girl.mp3", "settings": {}, "url": "https://butter1.s3.us-east-1.amazonaws.com/CreateCharacterVoice20260124/English_radiant_girl.mp3", "title": "Voice 8" },
-      { "value": "English_Soft-spokenGirl.mp3", "settings": {}, "url": "https://butter1.s3.us-east-1.amazonaws.com/CreateCharacterVoice20260124/English_Soft-spokenGirl.mp3", "title": "Voice 9" }
+      { "value": "Chinese (Mandarin)_ExplorativeGirl.mp3", "settings": {}, "url": "https://my-bucket.s3.amazonaws.com/CreateCharacterVoice20260124/Chinese+(Mandarin)_ExplorativeGirl.mp3", "title": "Voice 1" },
+      { "value": "Chinese (Mandarin)_Warm_Bestie.mp3", "settings": {}, "url": "https://my-bucket.s3.amazonaws.com/CreateCharacterVoice20260124/Chinese+(Mandarin)_Warm_Bestie.mp3", "title": "Voice 2" },
+      { "value": "English_AttractiveGirl.mp3", "settings": {}, "url": "https://my-bucket.s3.amazonaws.com/CreateCharacterVoice20260124/English_AttractiveGirl.mp3", "title": "Voice 3" },
+      { "value": "moss_audio_672fef7b-fa9d-11f0-8725-da4a7a598c40.mp3", "settings": {}, "url": "https://my-bucket.s3.amazonaws.com/CreateCharacterVoice20260124/IslaYohana.mp3", "title": "Voice 4" },
+      { "value": "English_FriendlyNeighbor.mp3", "settings": {}, "url": "https://my-bucket.s3.amazonaws.com/CreateCharacterVoice20260124/English_FriendlyNeighbor.mp3", "title": "Voice 5" },
+      { "value": "English_GorgeousLady.mp3", "settings": {}, "url": "https://my-bucket.s3.amazonaws.com/CreateCharacterVoice20260124/English_GorgeousLady.mp3", "title": "Voice 6" },
+      { "value": "English_PlayfulGirl.mp3", "settings": {}, "url": "https://my-bucket.s3.amazonaws.com/CreateCharacterVoice20260124/English_PlayfulGirl.mp3", "title": "Voice 7" },
+      { "value": "English_radiant_girl.mp3", "settings": {}, "url": "https://my-bucket.s3.amazonaws.com/CreateCharacterVoice20260124/English_radiant_girl.mp3", "title": "Voice 8" },
+      { "value": "English_Soft-spokenGirl.mp3", "settings": {}, "url": "https://my-bucket.s3.amazonaws.com/CreateCharacterVoice20260124/English_Soft-spokenGirl.mp3", "title": "Voice 9" }
     ]
   }
 ]

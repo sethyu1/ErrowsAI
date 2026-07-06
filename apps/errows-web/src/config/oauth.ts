@@ -1,6 +1,5 @@
-// 谷歌
-// const GOOGLE_CLIENT_ID = '806389056982-9lnq9iro80nja854c1ql28uigngjqiue.apps.googleusercontent.com';
-const GOOGLE_CLIENT_ID = '818461227256-iuagv1ss2ucl7hrvmk53c77m42j9ju96.apps.googleusercontent.com';
+// Google OAuth client ID — set via VITE_GOOGLE_CLIENT_ID at build time.
+const GOOGLE_CLIENT_ID = import.meta.env.VITE_GOOGLE_CLIENT_ID || '';
 export {
   GOOGLE_CLIENT_ID,
 }

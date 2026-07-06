@@ -1,1 +1,0 @@
-import{j as t}from"./index-BYuVajha.js";const s="/assets/empty-box-BTJOAGvk.webp";function i({title:e="No media found"}){return t.jsxs("div",{children:[t.jsx("img",{src:s,alt:"empty",style:{width:160,height:126}}),t.jsx("p",{className:"text-gray-400 text-center font-urbanist text-sm mt-2",children:e})]})}export{i as L};

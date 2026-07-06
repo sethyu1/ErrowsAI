@@ -85,7 +85,7 @@ const isCapacitor = typeof window !== 'undefined' &&
 
 // App 中使用完整地址，Web 开发时使用 proxy
 const API_BASE_URL = isCapacitor
-  ? 'https://errowstest.online/api'  // App 中使用线上地址
+  ? 'https://api.example.com/api'  // App 中使用线上地址
   : '/api';                           // Web 开发时使用 proxy
 
 // 调试日志

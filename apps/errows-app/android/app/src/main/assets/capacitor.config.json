@@ -5,7 +5,7 @@
 	"server": {
 		"androidScheme": "https",
 		"allowNavigation": [
-			"errowstest.online"
+			"api.example.com"
 		]
 	},
 	"plugins": {

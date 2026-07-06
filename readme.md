@@ -2,7 +2,6 @@
 
 Errows is a full-stack **AI character platform**: users create AI characters with rich personas, chat with them through streaming text, real-time voice calls, and generated images/videos, share characters and posts in a community feed, and pay for usage through a coin economy funded via Stripe.
 
-**Live site:** https://errows.ai
 
 ## Features
 

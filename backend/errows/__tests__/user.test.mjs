@@ -50,7 +50,7 @@ describe('User Service', () => {
     expect(mailer.sendEmailVerification).toHaveBeenCalledExactlyOnceWith(
       expect.objectContaining({}),
       expect.objectContaining({ to: email }),
-      `https://errows.ai/verify?uid=${uid}&code=314159&type=1`
+      `https://example.com/verify?uid=${uid}&code=314159&type=1`
     );
 
     mockVerifyMailSend.mockRestore();
@@ -93,7 +93,7 @@ describe('User Service', () => {
     expect(mailer.sendEmailVerification).toHaveBeenCalledExactlyOnceWith(
       expect.objectContaining({}),
       expect.objectContaining({ to: email }),
-      `https://errows.ai/verify?uid=${uid}&code=314159&type=1`
+      `https://example.com/verify?uid=${uid}&code=314159&type=1`
     );
     mockVerifyMailSendSpy.mockRestore();
   });
@@ -242,7 +242,7 @@ describe('forgot password', () => {
     expect(mailer.sendEmailVerification).toHaveBeenCalledExactlyOnceWith(
       expect.objectContaining({}),
       expect.objectContaining({ to: user.email }),
-      `https://errows.ai/verify?uid=${user.id}&code=314159&type=2`
+      `https://example.com/verify?uid=${user.id}&code=314159&type=2`
     );
     mailer.sendEmailVerification.mockRestore();
 

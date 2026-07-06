@@ -1,4 +1,4 @@
-const host = process.env.HOST_ORIGIN || 'https://errowsai.space';
+const host = process.env.HOST_ORIGIN || 'https://example.com';
 
 // Secrets are NOT stored here. Provide them via environment variables or a
 // git-ignored `local-production.mjs` next to this file (merged automatically

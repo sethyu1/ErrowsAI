@@ -45,7 +45,7 @@ export const actions = {
    * 上传图片（运营后台）
    * @action ops_image_upload
    * @param {Stream} ctx.params - 图片文件流
-   * @returns {Promise<{url: string}>} 返回图片完整URL（S3 butter1 bucket）
+   * @returns {Promise<{url: string}>} 返回图片完整URL（S3 my-bucket bucket）
    */
   image_upload: {
     async handler(ctx) {

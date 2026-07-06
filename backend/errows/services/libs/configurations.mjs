@@ -358,7 +358,7 @@ export const actions = {
       const client = await this.pool.connect();
       try {
         const raw = await Configuration.getConfiguration(client, schema, SCOPE_HOME, KEY_HOME_DISPLAY);
-        const defaultBannerUrl = 'https://butter1.s3.us-east-1.amazonaws.com/banner.webp';
+        const defaultBannerUrl = 'https://my-bucket.s3.amazonaws.com/banner.webp';
         const defaultConfig = {
           banner: { images: [{ url: defaultBannerUrl }] },
           carousel: { slots: [] },
@@ -439,7 +439,7 @@ export const actions = {
       const client = await this.pool.connect();
       try {
         const existing = await Configuration.getConfiguration(client, schema, SCOPE_HOME, KEY_HOME_DISPLAY);
-        const defaultBannerUrl = 'https://butter1.s3.us-east-1.amazonaws.com/banner.webp';
+        const defaultBannerUrl = 'https://my-bucket.s3.amazonaws.com/banner.webp';
         const defaultConfig = {
           banner: { images: [{ url: defaultBannerUrl }] },
           carousel: { slots: [] },

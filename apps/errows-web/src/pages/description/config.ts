@@ -12,7 +12,7 @@ Great news! We're thrilled to unveil our brand-new Premium Bespoke Character fea
 
 ✨ Here's How It Works:
 1️⃣ Subscribe to Galaxy
-2️⃣ Email service@errows.ai with photos, personality details, and audio clip
+2️⃣ Email service@example.com with photos, personality details, and audio clip
 3️⃣ Receive your bespoke character within 7 business days
 
 🔔 Limited to ONE exclusive customized character per user!`,
@@ -33,7 +33,7 @@ Key Guidelines:
 7. Intellectual Property - Must be respected
 8. Spam & Solicitations - Not permitted
 
-Report violations: service@errows.ai or via the "Contact" section.`,
+Report violations: service@example.com or via the "Contact" section.`,
   },
   '18-usc-2257-exemption': {
     title: "18 U.S.C. 2257 Exemption",
@@ -43,14 +43,14 @@ Errows Technologies Limited operates as a purely AI-generated content platform. 
 
 All content is exclusively generated through AI technology. Therefore, 18 U.S.C. 2257 record-keeping requirements do not apply.
 
-Contact: service@errows.ai`,
+Contact: service@example.com`,
   },
   'complaint-policy': {
     title: "Complaint Policy",
     description: `Date of Revision: [01/07/2025]
 
 Submit complaints via:
-· Email: service@errows.ai
+· Email: service@example.com
 · "Contact" section in the Platform
 
 We acknowledge complaints within 24 hours and investigate thoroughly.
@@ -61,7 +61,7 @@ Escalation available if dissatisfied with initial resolution.`,
     title: "DMCA Policy",
     description: `Date of Revision: [01/07/2025]
 
-To report copyright infringement, send notice to service@errows.ai including:
+To report copyright infringement, send notice to service@example.com including:
 a. Signature of copyright owner
 b. Description of copyrighted work
 c. Contact information
@@ -87,7 +87,7 @@ Prohibited Content:
 
 Users are responsible for AI-generated content. Violations may result in content removal or account termination.
 
-Contact: service@errows.ai`,
+Contact: service@example.com`,
   },
   'underage-policy': {
     title: "Underage Policy",
@@ -99,7 +99,7 @@ Age verification required upon registration. False age declaration violates TOS.
 
 AI content depicting or exploiting minors is strictly prohibited. Content moderation systems enforce compliance.
 
-Contact: service@errows.ai`,
+Contact: service@example.com`,
   },
   'content-removal-policy': {
     title: "Content Removal Policy",
@@ -108,7 +108,7 @@ Contact: service@errows.ai`,
 All content is AI-generated. Any resemblance to real persons is unintentional.
 
 To request content removal:
-· Email: service@errows.ai
+· Email: service@example.com
 · Use "Contact" section in App
 
 We verify identity and remove validated content promptly while maintaining strict confidentiality.`,
@@ -117,7 +117,7 @@ We verify identity and remove validated content promptly while maintaining stric
     title: "Privacy Notice",
     description: `Welcome to Errows.ai!
 
-This Privacy Policy outlines how we collect, use, and safeguard your personal information when you use the Errows.ai website: https://www.errows.ai (the "Website"), the Errows.ai mobile application available through Apple's App Store or the Google Play Marketplace (the "App(s)"), and the services accessible through the Website and App(s) (the "Services").
+This Privacy Policy outlines how we collect, use, and safeguard your personal information when you use the Errows.ai website: https://www.example.com (the "Website"), the Errows.ai mobile application available through Apple's App Store or the Google Play Marketplace (the "App(s)"), and the services accessible through the Website and App(s) (the "Services").
 
 Please read this Privacy Policy carefully to understand our data practices. By accessing or using the Website, App(s), or Services, you ("You") agree to this Privacy Policy.
 
@@ -237,11 +237,11 @@ Please keep a copy of this Privacy Policy and contact Support for any questions 
     description: `Terms of Service ("TOS")
 Date of Revision: [01/07/2025]
 
-These Terms of Use ("TOS") outline the rules and regulations for using our website available at: https://www.errows.ai (the "Website"), the Errows.ai mobile application available through Apple's App Store or the Google Play Marketplace (the "App(s)") and the services accessible through the Website and App(s) (the "Services").
+These Terms of Use ("TOS") outline the rules and regulations for using our website available at: https://www.example.com (the "Website"), the Errows.ai mobile application available through Apple's App Store or the Google Play Marketplace (the "App(s)") and the services accessible through the Website and App(s) (the "Services").
 
 Before accessing or using the Website, App(s), or Services, you ("You") must carefully review and agree to these TOS. It is essential to thoroughly understand your rights, responsibilities, and limitations when using the Website, App(s), and Services. If you have any questions or concerns regarding these TOS, please contact us for clarification.
 
-Please note that the Website, App(s), and Services are intended solely for individuals over the age of 18. If you are under 18 years old, you must not use or attempt to access the Website, App(s), or Services in any capacity. For more information, please refer to our Underage Policy available at: https://errows.ai/terms.
+Please note that the Website, App(s), and Services are intended solely for individuals over the age of 18. If you are under 18 years old, you must not use or attempt to access the Website, App(s), or Services in any capacity. For more information, please refer to our Underage Policy available at: https://example.com/terms.
 
 1. General
 Errows.ai is an online platform that utilizes artificial intelligence ("AI") algorithms to create virtual and fictional companions (the "AI Companions"). The Platform generates responses so that you can interact with these AI Companions. Additionally, the Platform may generate other media, including but not limited to images, videos, and voice notes (the "Services"). Certain features of the Services may require you to create a user account.
@@ -259,7 +259,7 @@ You are fully responsible for all activities conducted under your user account. 
 
 Violation of these TOS, including failure to maintain updated and accurate account information, may result in the suspension or cancellation of your user account at our sole discretion.
 
-We reserve the right to terminate, restrict, or revoke access to the Platform or Services at any time if there is reason to believe that you have violated these TOS or other policies published on https://www.errows.ai. We are not liable to you or any third party for the denial of use of the Platform, changes to third-party fees, or account suspension or termination.
+We reserve the right to terminate, restrict, or revoke access to the Platform or Services at any time if there is reason to believe that you have violated these TOS or other policies published on https://www.example.com. We are not liable to you or any third party for the denial of use of the Platform, changes to third-party fees, or account suspension or termination.
 
 1.2 Subscription
 We retain the right to offer certain Services exclusively to paid subscribers. Subscriptions begin upon the initial payment and are subject to the fee terms displayed at the time of purchase. You are responsible for payment of all applicable fees, charges, and taxes related to your transaction.
@@ -278,12 +278,12 @@ b. You are of legal age in your jurisdiction to form a binding contract with us.
 c. If you are below the legal age in your jurisdiction, you must not access or use our Services.
 
 2. Underage Policy
-Please consult the Underage Policy document available at: https://errows.ai/terms.
+Please consult the Underage Policy document available at: https://example.com/terms.
 
 3. Intellectual Property
 The intellectual property on the Platform and embedded materials (including, without limitation, technology, systems, files, documents, text, photographs, information, images, videos, audio, and software, individually or in combination) are owned by or licensed to Errows Technologies Limited. You may download or register to use the Platform and view, use, and display the content on your devices for your personal use only.
 
-Errows Technologies Limited provides you with a license for personal use only. This license does not constitute a transfer of title. It automatically terminates if you violate any restrictions or provisions of these TOS (or other terms and policies available at https://www.errows.ai) and may be terminated by us at any time.
+Errows Technologies Limited provides you with a license for personal use only. This license does not constitute a transfer of title. It automatically terminates if you violate any restrictions or provisions of these TOS (or other terms and policies available at https://www.example.com) and may be terminated by us at any time.
 
 All intellectual property rights associated with Errows.ai, including AI characters, platform design, logos, proprietary software, and technology, are the sole property of Errows Technologies Limited or its licensors. Users are prohibited from reproducing, modifying, distributing, or using any intellectual property without explicit authorization. Unauthorized use may result in legal consequences.
 
@@ -325,7 +325,7 @@ We do not endorse or take responsibility for any actions, decisions, or conseque
 5.4 Content Moderation
 We at Errows Technologies Limited value the safety and integrity of all our users. While conversations between users and AI Companions are generally confidential, we have implemented a content moderation filter to ensure compliance with our Terms and Policies. In the event that the moderation filter detects any content that violates our terms, we reserve the right to manually review the flagged content and take appropriate action, which may include terminating the user's account. This measure is implemented to maintain a respectful and secure environment for all users. We strive to strike a balance between privacy and community standards, and we appreciate your understanding and cooperation in adhering to our guidelines.
 
-We reserve the right, but are not obligated, to reject and/or remove any user content that we believe, in our sole discretion, violates these provisions. If you notice any violations of these Terms or encounter inappropriate content, please contact us at: service@errows.ai.
+We reserve the right, but are not obligated, to reject and/or remove any user content that we believe, in our sole discretion, violates these provisions. If you notice any violations of these Terms or encounter inappropriate content, please contact us at: service@example.com.
 
 6. DMCA Policy
 Please consult the DMCA Policy document.

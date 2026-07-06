@@ -10,14 +10,14 @@ export default {
   },
   mailer: {
     sender: {
-      from: 'hello@errows.ai',
+      from: process.env.MAIL_FROM || 'hello@example.com',
     },
     smtp: {
-      host: 'smtp.mailgun.org',
-      port: 587,
+      host: process.env.SMTP_HOST || 'smtp.example.com',
+      port: Number(process.env.SMTP_PORT) || 587,
       secure: false,
       auth: {
-        user: 'hello@errows.ai',
+        user: process.env.SMTP_USER || 'hello@example.com',
         pass: process.env.SMTP_PASSWORD
       }
     }

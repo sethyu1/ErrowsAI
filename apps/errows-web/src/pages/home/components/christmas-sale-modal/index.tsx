@@ -11,7 +11,7 @@ import { cn } from "@errows/design/lib/utils";
 import { fetchCharacterDiscoverListApi } from "@/apis";
 
 const FALLBACK_IMAGE =
-  "https://butter1.s3.us-east-1.amazonaws.com/banner.webp";
+  "https://my-bucket.s3.amazonaws.com/banner.webp";
 
 function Countdown({
   endsAt,

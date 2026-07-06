@@ -4,7 +4,7 @@
     "banner": [
       {
         "id": 7,
-        "img": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/af9749500301c983bafe01ae290d5a42.png",
+        "img": "https://my-bucket.s3.amazonaws.com/errows/app/af9749500301c983bafe01ae290d5a42.png",
         "mobile_img": "",
         "title": "time:9",
         "url": "/subscribe"
@@ -12,28 +12,28 @@
     ],
     "category": [
       {
-        "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/bf335963f641894fbca084ff90a5aa3c.webp",
+        "cover": "https://my-bucket.s3.amazonaws.com/errows/app/bf335963f641894fbca084ff90a5aa3c.webp",
         "id": 225,
         "name": "Anime",
         "show_name": "",
         "value": ", score_9, score_8_up, score_7_up, source_anime, 1boy, solo, hetero,"
       },
       {
-        "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/435773123b889a70502aea0c68d7bc6a.webp",
+        "cover": "https://my-bucket.s3.amazonaws.com/errows/app/435773123b889a70502aea0c68d7bc6a.webp",
         "id": 224,
         "name": "Realistic",
         "show_name": "",
         "value": ", 1boy, solo, hetero,"
       },
       {
-        "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/dcb077974ba5e7f4fc1e71c602972fb3.webp",
+        "cover": "https://my-bucket.s3.amazonaws.com/errows/app/dcb077974ba5e7f4fc1e71c602972fb3.webp",
         "id": 227,
         "name": "Anime",
         "show_name": "",
         "value": "score_9, score_8_up, score_7_up,source_anime,1girl, solo, hetero,"
       },
       {
-        "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/4c584f8b2190a0e6ffd90fd8081bac29.webp",
+        "cover": "https://my-bucket.s3.amazonaws.com/errows/app/4c584f8b2190a0e6ffd90fd8081bac29.webp",
         "id": 226,
         "name": "Realistic",
         "show_name": "",
@@ -48,7 +48,7 @@
         "key": "sex",
         "list": [
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/0029669ee1ce59ae9b8c084b9f9d1f52.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/0029669ee1ce59ae9b8c084b9f9d1f52.webp",
             "id": 1,
             "lora": "",
             "lora_strength": "",
@@ -58,7 +58,7 @@
             "value": "Male"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/dcb077974ba5e7f4fc1e71c602972fb3.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/dcb077974ba5e7f4fc1e71c602972fb3.webp",
             "id": 2,
             "lora": "",
             "lora_strength": "",
@@ -85,7 +85,7 @@
         "key": "category",
         "list": [
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/4c584f8b2190a0e6ffd90fd8081bac29.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/4c584f8b2190a0e6ffd90fd8081bac29.webp",
             "id": 226,
             "lora": "",
             "lora_strength": "",
@@ -95,7 +95,7 @@
             "value": ""
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/dcb077974ba5e7f4fc1e71c602972fb3.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/dcb077974ba5e7f4fc1e71c602972fb3.webp",
             "id": 227,
             "lora": "",
             "lora_strength": "",
@@ -122,7 +122,7 @@
         "key": "category",
         "list": [
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/435773123b889a70502aea0c68d7bc6a.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/435773123b889a70502aea0c68d7bc6a.webp",
             "id": 224,
             "lora": "",
             "lora_strength": "",
@@ -132,7 +132,7 @@
             "value": ", 1boy, solo, hetero,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/bf335963f641894fbca084ff90a5aa3c.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/bf335963f641894fbca084ff90a5aa3c.webp",
             "id": 225,
             "lora": "PonyCharacter/SasukeUchiha.safetensors",
             "lora_strength": "0.5",
@@ -196,7 +196,7 @@
         "key": "Assortment",
         "list": [
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/b1edfc6354d013b293cdc3b72ca0afe6.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/b1edfc6354d013b293cdc3b72ca0afe6.webp",
             "id": 15,
             "lora": "",
             "lora_strength": "",
@@ -206,7 +206,7 @@
             "value": "Human"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/d6112d9cf1b0af09877ab8044eac233c.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/d6112d9cf1b0af09877ab8044eac233c.webp",
             "id": 16,
             "lora": "",
             "lora_strength": "",
@@ -216,7 +216,7 @@
             "value": "Dragon"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/4eb62d2c2147b828edee5f4e0589ffad.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/4eb62d2c2147b828edee5f4e0589ffad.webp",
             "id": 17,
             "lora": "",
             "lora_strength": "",
@@ -226,7 +226,7 @@
             "value": "Furry"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/1e393ef4e73338e467ad3b088d5b38b8.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/1e393ef4e73338e467ad3b088d5b38b8.webp",
             "id": 116,
             "lora": "",
             "lora_strength": "",
@@ -236,7 +236,7 @@
             "value": "Elf"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/7b2713137ed61a434a0618081c6e667c.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/7b2713137ed61a434a0618081c6e667c.webp",
             "id": 177,
             "lora": "",
             "lora_strength": "",
@@ -246,7 +246,7 @@
             "value": "Beastkin"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/b8857e9696ee7979398ac61035723307.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/b8857e9696ee7979398ac61035723307.webp",
             "id": 184,
             "lora": "",
             "lora_strength": "",
@@ -256,7 +256,7 @@
             "value": "Demonkin"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/2d0f29f5c604c9cf5f362ed9ec90707e.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/2d0f29f5c604c9cf5f362ed9ec90707e.webp",
             "id": 185,
             "lora": "",
             "lora_strength": "",
@@ -266,7 +266,7 @@
             "value": "Fairy"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/9375bc5e3dea34f2da3c3b8c6b74015f.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/9375bc5e3dea34f2da3c3b8c6b74015f.webp",
             "id": 186,
             "lora": "",
             "lora_strength": "",
@@ -293,7 +293,7 @@
         "key": "Assortment",
         "list": [
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/6c52d59215321d6fdc202795e0eced96.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/6c52d59215321d6fdc202795e0eced96.webp",
             "id": 228,
             "lora": "",
             "lora_strength": "",
@@ -303,7 +303,7 @@
             "value": ", Human,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/4852f6de56e874cf5a9eaf3e9f22ec37.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/4852f6de56e874cf5a9eaf3e9f22ec37.webp",
             "id": 230,
             "lora": "PonyCharacter/Furry.safetensors",
             "lora_strength": "0.2",
@@ -313,7 +313,7 @@
             "value": ", Dragon,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/37b027a2dda63ad1a7cfd5e84e43bc68.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/37b027a2dda63ad1a7cfd5e84e43bc68.webp",
             "id": 237,
             "lora": "PonyCharacter/Furry.safetensors",
             "lora_strength": "1",
@@ -323,7 +323,7 @@
             "value": ", Furry,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/4324dd363713d2d0c237d6edfaf8e255.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/4324dd363713d2d0c237d6edfaf8e255.webp",
             "id": 238,
             "lora": "PonyCharacter/Furry.safetensors",
             "lora_strength": "0.5",
@@ -333,7 +333,7 @@
             "value": ", Elf,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/aae6e7a25ef616c51649b24657d55f7f.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/aae6e7a25ef616c51649b24657d55f7f.webp",
             "id": 245,
             "lora": "",
             "lora_strength": "",
@@ -343,7 +343,7 @@
             "value": ", beastkin,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/221f31313273ae62c2ffb1451f1e2541.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/221f31313273ae62c2ffb1451f1e2541.webp",
             "id": 258,
             "lora": "PonyCharacter/Furry.safetensors",
             "lora_strength": "0.2",
@@ -370,7 +370,7 @@
         "key": ", Furry,",
         "list": [
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/1e12e96c38aefe7efb1a6957b22e029a.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/1e12e96c38aefe7efb1a6957b22e029a.webp",
             "id": 241,
             "lora": "",
             "lora_strength": "",
@@ -380,7 +380,7 @@
             "value": ", furry, dog eay, dog tail, dog man,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/9d1ea784ef5fd728b284a84186761122.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/9d1ea784ef5fd728b284a84186761122.webp",
             "id": 242,
             "lora": "",
             "lora_strength": "",
@@ -390,7 +390,7 @@
             "value": ", furry, cat man, cat ear, cat tail,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/c5a50332886464ec5c992f256df658b0.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/c5a50332886464ec5c992f256df658b0.webp",
             "id": 243,
             "lora": "",
             "lora_strength": "",
@@ -400,7 +400,7 @@
             "value": ", furry, Werewolf, wolf ear, wolf tail,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/d5758fe166b6d77d4a939afe591cbffc.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/d5758fe166b6d77d4a939afe591cbffc.webp",
             "id": 244,
             "lora": "",
             "lora_strength": "",
@@ -427,7 +427,7 @@
         "key": ", Elf,",
         "list": [
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/b19d1b2c0a8788ac340ea8d146dc96d0.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/b19d1b2c0a8788ac340ea8d146dc96d0.webp",
             "id": 239,
             "lora": "",
             "lora_strength": "",
@@ -437,7 +437,7 @@
             "value": ", fair skin, elf ears, elf,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/a8de3578ee46cf22863ca1dd950ee0bf.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/a8de3578ee46cf22863ca1dd950ee0bf.webp",
             "id": 240,
             "lora": "",
             "lora_strength": "",
@@ -464,7 +464,7 @@
         "key": ", Dragon,",
         "list": [
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/a76d2360f727a584672028702bad36ff.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/a76d2360f727a584672028702bad36ff.webp",
             "id": 231,
             "lora": "PonyCharacter/Furry.safetensors",
             "lora_strength": "0.2",
@@ -474,7 +474,7 @@
             "value": ", dragonboy, fair skin, red dragon scales, red dragon horns, belly dragon scales, thigh dragon scales, red dragon wings"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/8a711b64419cea137c58b341be9f9f10.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/8a711b64419cea137c58b341be9f9f10.webp",
             "id": 254,
             "lora": "PonyCharacter/Furry.safetensors",
             "lora_strength": "0.2",
@@ -484,7 +484,7 @@
             "value": ", dragonboy, fair skin, blue dragon scales, blue dragon horns, belly dragon scales, thigh dragon scales, blue dragon wings"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/80319298a6ae8e5eebae742a1cebb2ee.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/80319298a6ae8e5eebae742a1cebb2ee.webp",
             "id": 255,
             "lora": "PonyCharacter/Furry.safetensors",
             "lora_strength": "0.2",
@@ -494,7 +494,7 @@
             "value": ", dragonboy, fair skin, black dragon scales, black dragon horns, belly dragon scales, thigh dragon scales, black dragon wings"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/66d2474e9094eeba5042831065593f1d.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/66d2474e9094eeba5042831065593f1d.webp",
             "id": 256,
             "lora": "PonyCharacter/Furry.safetensors",
             "lora_strength": "0.2",
@@ -504,7 +504,7 @@
             "value": ", dragonboy, fair skin, white dragon scales, white dragon horns, belly dragon scales, thigh dragon scales, white dragon wings"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/d73f98bbacae8c01ddc56ad4a00c2b17.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/d73f98bbacae8c01ddc56ad4a00c2b17.webp",
             "id": 257,
             "lora": "PonyCharacter/Furry.safetensors",
             "lora_strength": "0.2",
@@ -531,7 +531,7 @@
         "key": ", Human,",
         "list": [
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/b7068deac4cc3207a6c1868bfb192bbe.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/b7068deac4cc3207a6c1868bfb192bbe.webp",
             "id": 229,
             "lora": "",
             "lora_strength": "",
@@ -541,7 +541,7 @@
             "value": "asain,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/f5cd869bf619e57362c5a5e9acb060dc.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/f5cd869bf619e57362c5a5e9acb060dc.webp",
             "id": 232,
             "lora": "",
             "lora_strength": "",
@@ -551,7 +551,7 @@
             "value": ", Caucasian, fair skin,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/f3a267766ac6311d55f8497c91cb6d48.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/f3a267766ac6311d55f8497c91cb6d48.webp",
             "id": 235,
             "lora": "",
             "lora_strength": "",
@@ -561,7 +561,7 @@
             "value": ", black skin, African,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/c7eb0e1469e28e0af9962fb31c0b6945.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/c7eb0e1469e28e0af9962fb31c0b6945.webp",
             "id": 236,
             "lora": "",
             "lora_strength": "",
@@ -588,7 +588,7 @@
         "key": "Angel",
         "list": [
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/4d591c1c8d32d882cfe8f5fec1b8ff07.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/4d591c1c8d32d882cfe8f5fec1b8ff07.webp",
             "id": 259,
             "lora": "",
             "lora_strength": "",
@@ -598,7 +598,7 @@
             "value": ", fair skin, angel, angel wings, halo,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/605aa6131320f8b929627bc292428b8f.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/605aa6131320f8b929627bc292428b8f.webp",
             "id": 260,
             "lora": "",
             "lora_strength": "",
@@ -625,7 +625,7 @@
         "key": ", beastkin,",
         "list": [
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/f68c62830cad1c53124992bc064a4a8a.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/f68c62830cad1c53124992bc064a4a8a.webp",
             "id": 246,
             "lora": "PonyCharacter/Furry.safetensors",
             "lora_strength": "0.1",
@@ -635,7 +635,7 @@
             "value": ", fair skin, cat ear, cat tail,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/3a109d56f512012fd1502713685c1385.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/3a109d56f512012fd1502713685c1385.webp",
             "id": 247,
             "lora": "PonyCharacter/Furry.safetensors",
             "lora_strength": "0.1",
@@ -645,7 +645,7 @@
             "value": ", fair skin, wolf ear, wolf tail,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/069ffc78d61e1a2919efcfe2c3dbac5d.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/069ffc78d61e1a2919efcfe2c3dbac5d.webp",
             "id": 248,
             "lora": "PonyCharacter/Furry.safetensors",
             "lora_strength": "0.1",
@@ -655,7 +655,7 @@
             "value": ", Centaur, fari skin, horse ear, horse tail"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/5f2125458bf9c1a15d560a85d735644f.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/5f2125458bf9c1a15d560a85d735644f.webp",
             "id": 249,
             "lora": "PonyCharacter/Furry.safetensors",
             "lora_strength": "0.1",
@@ -682,7 +682,7 @@
         "key": "Angelkin",
         "list": [
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/226032d0a554f9d347a711d78d23f5b9.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/226032d0a554f9d347a711d78d23f5b9.webp",
             "id": 192,
             "lora": "PonyCharacter/Wings.safetensors",
             "lora_strength": "1",
@@ -692,7 +692,7 @@
             "value": "angel girl, angel wings, angel halo"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/6c6209fa88737237057f9d002362a0fa.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/6c6209fa88737237057f9d002362a0fa.webp",
             "id": 194,
             "lora": "PonyCharacter/Wings.safetensors",
             "lora_strength": "1",
@@ -719,7 +719,7 @@
         "key": "Fairy",
         "list": [
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/981cd198ee8222c98daa26bca4d98b15.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/981cd198ee8222c98daa26bca4d98b15.webp",
             "id": 197,
             "lora": "PonyCharacter/Pixie.safetensors",
             "lora_strength": "0.8",
@@ -729,7 +729,7 @@
             "value": "fairy girl, fairy wings"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/f98f8d28a2f37463ebcb63804455e947.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/f98f8d28a2f37463ebcb63804455e947.webp",
             "id": 198,
             "lora": "PonyCharacter/Wings.safetensors",
             "lora_strength": "0.7",
@@ -756,7 +756,7 @@
         "key": "Demonkin",
         "list": [
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/fc8065e3964ec3797e1bc200ee64fcb0.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/fc8065e3964ec3797e1bc200ee64fcb0.webp",
             "id": 191,
             "lora": "PonyCharacter/Alice.safetensors",
             "lora_strength": "1",
@@ -766,7 +766,7 @@
             "value": "Succubus girl, Succubus horns, Succubus, Succubus tail, sexy clothes, Succubus wings, belly tattoo"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/0c66993d066829b02664468159f60bbe.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/0c66993d066829b02664468159f60bbe.webp",
             "id": 199,
             "lora": "PonyCharacter/Dolls.safetensors",
             "lora_strength": "0.5",
@@ -776,7 +776,7 @@
             "value": "demon girl, demon horns, demon wings, red skin, demon tail"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/77f7092fee709f1334303a89e3179d33.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/77f7092fee709f1334303a89e3179d33.webp",
             "id": 200,
             "lora": "PonyCharacter/ZeroTwo.safetensors",
             "lora_strength": "0.8",
@@ -786,7 +786,7 @@
             "value": "Oni girl，oni corner"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/b5a0c00a51b9d1687a4314d72e690f42.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/b5a0c00a51b9d1687a4314d72e690f42.webp",
             "id": 201,
             "lora": "PonyCharacter/ShalltearBloodfallen.safetensors",
             "lora_strength": "0.3",
@@ -813,7 +813,7 @@
         "key": "Beastkin",
         "list": [
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/4f318935e0db5455309671bcd25dcf68.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/4f318935e0db5455309671bcd25dcf68.webp",
             "id": 178,
             "lora": "PonyCharacter/Furry.safetensors",
             "lora_strength": "0.8",
@@ -823,7 +823,7 @@
             "value": "cat girl,{{hairColor}}cat tail, {{hairColor}}cat ear"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/b5b6cdbc7d8212ce03615e41549a15e3.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/b5b6cdbc7d8212ce03615e41549a15e3.webp",
             "id": 179,
             "lora": "PonyCharacter/Furry.safetensors",
             "lora_strength": "0.8",
@@ -833,7 +833,7 @@
             "value": "dog-eared girl, {{hairColor}}dog ears, {{hairColor}}dog tail"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/26fb40bb9881e73a4e20ff664b021b16.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/26fb40bb9881e73a4e20ff664b021b16.webp",
             "id": 180,
             "lora": "PonyCharacter/Furry.safetensors",
             "lora_strength": "0.8",
@@ -843,7 +843,7 @@
             "value": "((Centaur)), (horse ears)"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/6407a5f81458e66bc667c448c8b2fcf1.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/6407a5f81458e66bc667c448c8b2fcf1.webp",
             "id": 189,
             "lora": "PonyCharacter/Furry.safetensors",
             "lora_strength": "0.7",
@@ -853,7 +853,7 @@
             "value": "harpy，harby girl,({{hairColor}}feather winged arms),{{hairColor}}winged arms,{{hairColor}}wing"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/71884f5536ddcd4755b529211ac73b9c.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/71884f5536ddcd4755b529211ac73b9c.webp",
             "id": 190,
             "lora": "PonyCharacter/Lamia.safetensors",
             "lora_strength": "1",
@@ -863,7 +863,7 @@
             "value": "{{hairColor}}scales, {{hairColor}}snake tail, Lamia,pointy ears"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/42c195eb057d6d0ed0d62adcf0957d9e.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/42c195eb057d6d0ed0d62adcf0957d9e.webp",
             "id": 195,
             "lora": "PonyCharacter/Furry.safetensors",
             "lora_strength": "0.7",
@@ -873,7 +873,7 @@
             "value": "cow girl, cow horns, cow ears, cow tail"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/be126c8ef833dda42ee95017b64fb2e7.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/be126c8ef833dda42ee95017b64fb2e7.webp",
             "id": 196,
             "lora": "PonyCharacter/Furry.safetensors",
             "lora_strength": "0.7",
@@ -883,7 +883,7 @@
             "value": "Rabbit girl,Rabbit Ears,rabbit tail"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/7b272bcb2f56b702bbc3cb030b758f2c.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/7b272bcb2f56b702bbc3cb030b758f2c.webp",
             "id": 202,
             "lora": "PonyCharacter/Furry.safetensors",
             "lora_strength": "0.8",
@@ -910,7 +910,7 @@
         "key": "Elf",
         "list": [
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/138935d5b399b04cef5bb6c7a5b247c5.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/138935d5b399b04cef5bb6c7a5b247c5.webp",
             "id": 117,
             "lora": "",
             "lora_strength": "",
@@ -920,7 +920,7 @@
             "value": "(elf, pointy ears,whte skin,Pale skin,),"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/438703b7ebf687937ef7714b4cf060cf.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/438703b7ebf687937ef7714b4cf060cf.webp",
             "id": 118,
             "lora": "",
             "lora_strength": "",
@@ -947,7 +947,7 @@
         "key": "Furry",
         "list": [
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/7133c0e72362c29c840e9c77a6fdb81f.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/7133c0e72362c29c840e9c77a6fdb81f.webp",
             "id": 89,
             "lora": "PonyCharacter/Furry.safetensors",
             "lora_strength": "1",
@@ -957,7 +957,7 @@
             "value": ",score_9, score_8_up, score_7_up,source_anime,1girl,hetero,(cat girl,furry,cat ear, cat tail),{{ hairColor }} cat ear,{{ hairColor }} furry,{hair color}cat tail,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/e8f5f3ce39b19f6a21078faac8b21ca0.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/e8f5f3ce39b19f6a21078faac8b21ca0.webp",
             "id": 90,
             "lora": "PonyCharacter/Furry.safetensors",
             "lora_strength": "1",
@@ -967,7 +967,7 @@
             "value": ",score_9, score_8_up, score_7_up,source_anime,1girl,hetero,,(tiger girl,furry,tiger ear,tiger tail),"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/ad191920f0218bf802f59a386997afe1.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/ad191920f0218bf802f59a386997afe1.webp",
             "id": 91,
             "lora": "PonyCharacter/Furry.safetensors",
             "lora_strength": "1",
@@ -977,7 +977,7 @@
             "value": ",score_9, score_8_up, score_7_up,source_anime,1girl,hetero,(horse girl,horse face,furry,hooves,brown furry)"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/c9b6f71f0037ffe9f46a8f3b1f7192fa.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/c9b6f71f0037ffe9f46a8f3b1f7192fa.webp",
             "id": 92,
             "lora": "PonyCharacter/Furry.safetensors",
             "lora_strength": "1",
@@ -987,7 +987,7 @@
             "value": ",score_9, score_8_up, score_7_up,source_anime,1girl,hetero,(female, leopard, feline, leopard girl,furry,pink fur,)"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/e86c97c34cae531016d74c03d6584bd3.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/e86c97c34cae531016d74c03d6584bd3.webp",
             "id": 93,
             "lora": "PonyCharacter/Furry.safetensors",
             "lora_strength": "1",
@@ -1014,7 +1014,7 @@
         "key": "Dragon",
         "list": [
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/e280af873ea957a98041d612f9f45d05.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/e280af873ea957a98041d612f9f45d05.webp",
             "id": 84,
             "lora": "PonyCharacter/Furry.safetensors",
             "lora_strength": "0.8",
@@ -1024,7 +1024,7 @@
             "value": "dragon girl, (red dragon scales), (red dragon horns), (belly dragon scales), (thigh dragon scales), )(red dragon wings)"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/acb162b4c55e14726bc7650d1c1b84a2.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/acb162b4c55e14726bc7650d1c1b84a2.webp",
             "id": 85,
             "lora": "PonyCharacter/Furry.safetensors",
             "lora_strength": "0.8",
@@ -1034,7 +1034,7 @@
             "value": "dragon girl, (black dragon scales), (black dragon horns), (belly dragon scales), (thigh dragon scales), (black dragon wings)"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/87109c617e2a81b5d6fdc2df47771a7b.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/87109c617e2a81b5d6fdc2df47771a7b.webp",
             "id": 86,
             "lora": "PonyCharacter/Furry.safetensors",
             "lora_strength": "0.8",
@@ -1044,7 +1044,7 @@
             "value": "dragon girl, (gold dragon scales), (gold dragon horns), (belly dragon scales), (thigh dragon scales),(gold dragon wings)"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/3168a0ec57b45285df0dfec6f3cf0844.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/3168a0ec57b45285df0dfec6f3cf0844.webp",
             "id": 87,
             "lora": "PonyCharacter/Furry.safetensors",
             "lora_strength": "0.8",
@@ -1054,7 +1054,7 @@
             "value": "dragon girl, (blue dragon scales), (blue dragon horns), (belly dragon scales), (thigh dragon scales), (blue dragon wings)"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/dde54cb05eb4dbffd5ff474783c2ef4b.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/dde54cb05eb4dbffd5ff474783c2ef4b.webp",
             "id": 88,
             "lora": "PonyCharacter/Furry.safetensors",
             "lora_strength": "0.8",
@@ -1081,7 +1081,7 @@
         "key": "Human",
         "list": [
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/ea6cc2d7eea071cb5d9407be8cf588e4.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/ea6cc2d7eea071cb5d9407be8cf588e4.webp",
             "id": 53,
             "lora": "PonyCharacter/Racehelper.safetensors",
             "lora_strength": "1",
@@ -1091,7 +1091,7 @@
             "value": ",score_9, score_8_up, score_7_up,source_anime,1girl,hetero,asian girl,asian_chinese"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/a901286968207dc7710731a0f1ad4fe5.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/a901286968207dc7710731a0f1ad4fe5.webp",
             "id": 54,
             "lora": "",
             "lora_strength": "",
@@ -1101,7 +1101,7 @@
             "value": ",score_9, score_8_up, score_7_up,source_anime,1girl,hetero,British girl,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/f80efe62e9bbee58f77a4247a7d3bd8b.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/f80efe62e9bbee58f77a4247a7d3bd8b.webp",
             "id": 55,
             "lora": "",
             "lora_strength": "",
@@ -1111,7 +1111,7 @@
             "value": ",score_9, score_8_up, score_7_up,source_anime,1girl,hetero,African girl, dark skin,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/429fbae5d4099ed51e851e282858d9c3.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/429fbae5d4099ed51e851e282858d9c3.webp",
             "id": 56,
             "lora": "",
             "lora_strength": "",
@@ -1138,7 +1138,7 @@
         "key": "age",
         "list": [
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/88a7f482cf5283923689eea7b200c2f6.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/88a7f482cf5283923689eea7b200c2f6.webp",
             "id": 3,
             "lora": "PonyCharacter/age.safetensors",
             "lora_strength": "-1",
@@ -1148,7 +1148,7 @@
             "value": ""
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/88a7f482cf5283923689eea7b200c2f6.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/88a7f482cf5283923689eea7b200c2f6.webp",
             "id": 4,
             "lora": "PonyCharacter/age.safetensors",
             "lora_strength": "1",
@@ -1158,7 +1158,7 @@
             "value": ""
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/88a7f482cf5283923689eea7b200c2f6.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/88a7f482cf5283923689eea7b200c2f6.webp",
             "id": 5,
             "lora": "PonyCharacter/age.safetensors",
             "lora_strength": "2",
@@ -1168,7 +1168,7 @@
             "value": ""
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/88a7f482cf5283923689eea7b200c2f6.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/88a7f482cf5283923689eea7b200c2f6.webp",
             "id": 6,
             "lora": "PonyCharacter/age.safetensors",
             "lora_strength": "3",
@@ -1252,7 +1252,7 @@
         "key": "eye",
         "list": [
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/a68391863e81ee1363b0afb39ea90ae7.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/a68391863e81ee1363b0afb39ea90ae7.webp",
             "id": 127,
             "lora": "",
             "lora_strength": "",
@@ -1262,7 +1262,7 @@
             "value": ",green eye,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/5952af7c64eaf9b12fbebede79d41d0f.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/5952af7c64eaf9b12fbebede79d41d0f.webp",
             "id": 250,
             "lora": "",
             "lora_strength": "",
@@ -1272,7 +1272,7 @@
             "value": ",black eye,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/a9e72593bf3e12e66ded781dcc0f4850.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/a9e72593bf3e12e66ded781dcc0f4850.webp",
             "id": 251,
             "lora": "",
             "lora_strength": "",
@@ -1282,7 +1282,7 @@
             "value": ",blue eye,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/ced9b16ef0c9555a59eb1c281702bd1f.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/ced9b16ef0c9555a59eb1c281702bd1f.webp",
             "id": 252,
             "lora": "",
             "lora_strength": "",
@@ -1292,7 +1292,7 @@
             "value": ",brown eye,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/fd62d50f45c6f0d8e142415c1f44ad18.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/fd62d50f45c6f0d8e142415c1f44ad18.webp",
             "id": 253,
             "lora": "",
             "lora_strength": "",
@@ -1319,7 +1319,7 @@
         "key": "eye",
         "list": [
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/951413d7db5064647af6f4c99e02a43e.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/951413d7db5064647af6f4c99e02a43e.webp",
             "id": 96,
             "lora": "",
             "lora_strength": "",
@@ -1329,7 +1329,7 @@
             "value": "Black eyes,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/0402aa19f85976418b4ed00ec8b762e0.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/0402aa19f85976418b4ed00ec8b762e0.webp",
             "id": 97,
             "lora": "",
             "lora_strength": "",
@@ -1339,7 +1339,7 @@
             "value": "Blue eyes,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/424e2e2959d090a65d9ae2d62a828815.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/424e2e2959d090a65d9ae2d62a828815.webp",
             "id": 98,
             "lora": "",
             "lora_strength": "",
@@ -1349,7 +1349,7 @@
             "value": "Green eyes,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/25d37f6bda1699d4b3240e282124fe3a.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/25d37f6bda1699d4b3240e282124fe3a.webp",
             "id": 99,
             "lora": "",
             "lora_strength": "",
@@ -1359,7 +1359,7 @@
             "value": "Red eyes,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/f7cb980dfb5151cb35dce916ee9a848e.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/f7cb980dfb5151cb35dce916ee9a848e.webp",
             "id": 100,
             "lora": "",
             "lora_strength": "",
@@ -1369,7 +1369,7 @@
             "value": "Yellow eyes,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/eaa9e04e2e970aaf920a4fe988430960.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/eaa9e04e2e970aaf920a4fe988430960.webp",
             "id": 101,
             "lora": "",
             "lora_strength": "",
@@ -1379,7 +1379,7 @@
             "value": "White eyes,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/8ff3e6033d7803454bf390062eb9c785.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/8ff3e6033d7803454bf390062eb9c785.webp",
             "id": 102,
             "lora": "",
             "lora_strength": "",
@@ -1389,7 +1389,7 @@
             "value": "Brown eyes,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/b2c5b3d25bbb61e70de6015724d86f56.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/b2c5b3d25bbb61e70de6015724d86f56.webp",
             "id": 103,
             "lora": "",
             "lora_strength": "",
@@ -1399,7 +1399,7 @@
             "value": "Pink eyes,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/55d2640661e88755b5e7da0654f6e35c.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/55d2640661e88755b5e7da0654f6e35c.webp",
             "id": 104,
             "lora": "",
             "lora_strength": "",
@@ -1409,7 +1409,7 @@
             "value": "Purple eyes,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/88c25fd4659df6235fdf5b4982f9d873.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/88c25fd4659df6235fdf5b4982f9d873.webp",
             "id": 204,
             "lora": "",
             "lora_strength": "",
@@ -1436,7 +1436,7 @@
         "key": "hair",
         "list": [
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/04204b7ae43efd4aa03cc3e5c3cca969.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/04204b7ae43efd4aa03cc3e5c3cca969.webp",
             "id": 130,
             "lora": "",
             "lora_strength": "",
@@ -1446,7 +1446,7 @@
             "value": ",short hair,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/55dc22e44b9f63214c1ea85b019ae694.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/55dc22e44b9f63214c1ea85b019ae694.webp",
             "id": 233,
             "lora": "",
             "lora_strength": "",
@@ -1456,7 +1456,7 @@
             "value": ",long hair,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/901e5e2486298a257bb34b4b9c897b85.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/901e5e2486298a257bb34b4b9c897b85.webp",
             "id": 234,
             "lora": "",
             "lora_strength": "",
@@ -1466,7 +1466,7 @@
             "value": ",messy hair,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/d8ac4c1068a4aad47073b7110b7fb625.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/d8ac4c1068a4aad47073b7110b7fb625.webp",
             "id": 261,
             "lora": "",
             "lora_strength": "",
@@ -1476,7 +1476,7 @@
             "value": ", small ponytail,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/4a21f925e1d6ac26e2150c592b9da942.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/4a21f925e1d6ac26e2150c592b9da942.webp",
             "id": 262,
             "lora": "",
             "lora_strength": "",
@@ -1486,7 +1486,7 @@
             "value": ", round bob，bob cut,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/11be426ea6f2dcb8fdb3a23f0cb1630d.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/11be426ea6f2dcb8fdb3a23f0cb1630d.webp",
             "id": 263,
             "lora": "",
             "lora_strength": "",
@@ -1496,7 +1496,7 @@
             "value": ", dreadlocks,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/b43cf743bad8e0fda2e791879c4860a4.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/b43cf743bad8e0fda2e791879c4860a4.webp",
             "id": 264,
             "lora": "",
             "lora_strength": "",
@@ -1523,7 +1523,7 @@
         "key": "hair",
         "list": [
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/86918cbe599a9d095f64a41cfa3642df.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/86918cbe599a9d095f64a41cfa3642df.webp",
             "id": 82,
             "lora": "",
             "lora_strength": "",
@@ -1533,7 +1533,7 @@
             "value": "Medium ponytail,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/74f56e3e2e4e5dfede3264c4fa39c89a.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/74f56e3e2e4e5dfede3264c4fa39c89a.webp",
             "id": 211,
             "lora": "",
             "lora_strength": "",
@@ -1543,7 +1543,7 @@
             "value": "Side ponytail,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/416b9894f5d0562777a6a95b660d5af5.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/416b9894f5d0562777a6a95b660d5af5.webp",
             "id": 210,
             "lora": "",
             "lora_strength": "",
@@ -1553,7 +1553,7 @@
             "value": "Lolita Curls,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/a4f9cc7d8f7e3a11cc4b32d05676ad34.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/a4f9cc7d8f7e3a11cc4b32d05676ad34.webp",
             "id": 209,
             "lora": "",
             "lora_strength": "",
@@ -1563,7 +1563,7 @@
             "value": "Twin Braids,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/96ed366e30729b1adce771337bd81ee5.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/96ed366e30729b1adce771337bd81ee5.webp",
             "id": 208,
             "lora": "",
             "lora_strength": "",
@@ -1573,7 +1573,7 @@
             "value": "Mohawk,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/e570702b6bed87c707290328fb21fd36.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/e570702b6bed87c707290328fb21fd36.webp",
             "id": 207,
             "lora": "",
             "lora_strength": "",
@@ -1583,7 +1583,7 @@
             "value": "Punk hair,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/ac6b2662b7cec95459864fbc7f18f949.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/ac6b2662b7cec95459864fbc7f18f949.webp",
             "id": 206,
             "lora": "",
             "lora_strength": "",
@@ -1593,7 +1593,7 @@
             "value": "Half-up Hair,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/49f09fd70b5249009af2813cf4865231.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/49f09fd70b5249009af2813cf4865231.webp",
             "id": 205,
             "lora": "",
             "lora_strength": "",
@@ -1603,7 +1603,7 @@
             "value": "Half-up Bun,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/40bf7bc450b2b69e5b5bca970914a924.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/40bf7bc450b2b69e5b5bca970914a924.webp",
             "id": 94,
             "lora": "",
             "lora_strength": "",
@@ -1613,7 +1613,7 @@
             "value": "Curly Hair,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/93ee4f1a23190752153b1a842993cf4d.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/93ee4f1a23190752153b1a842993cf4d.webp",
             "id": 83,
             "lora": "",
             "lora_strength": "",
@@ -1623,7 +1623,7 @@
             "value": "Double bun hair,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/489e89f976a007ea00df05d4296f6f6c.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/489e89f976a007ea00df05d4296f6f6c.webp",
             "id": 72,
             "lora": "",
             "lora_strength": "",
@@ -1633,7 +1633,7 @@
             "value": "Straight hair,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/70b9e8dbf3675419d545be71c8082ab6.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/70b9e8dbf3675419d545be71c8082ab6.webp",
             "id": 81,
             "lora": "",
             "lora_strength": "",
@@ -1643,7 +1643,7 @@
             "value": "Low ponytail,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/d0a3f8d6228909891d4e19e48fe8123f.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/d0a3f8d6228909891d4e19e48fe8123f.webp",
             "id": 80,
             "lora": "",
             "lora_strength": "",
@@ -1653,7 +1653,7 @@
             "value": "Double ponytails,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/56b647454dca20547e5f0a6e152ef18d.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/56b647454dca20547e5f0a6e152ef18d.webp",
             "id": 79,
             "lora": "",
             "lora_strength": "",
@@ -1663,7 +1663,7 @@
             "value": "Bun Hair,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/e424567f3d501cc7d839453aad3df4cf.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/e424567f3d501cc7d839453aad3df4cf.webp",
             "id": 78,
             "lora": "",
             "lora_strength": "",
@@ -1673,7 +1673,7 @@
             "value": "High ponytail,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/4517cf67796169df0bb94d1929cda646.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/4517cf67796169df0bb94d1929cda646.webp",
             "id": 77,
             "lora": "",
             "lora_strength": "",
@@ -1683,7 +1683,7 @@
             "value": "Wavy Hair,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/1868c980c2e18b81ebb48777f8348541.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/1868c980c2e18b81ebb48777f8348541.webp",
             "id": 76,
             "lora": "",
             "lora_strength": "",
@@ -1693,7 +1693,7 @@
             "value": "Bob Cut,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/74b24d08ad90b8c6cfa5a2e38f341486.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/74b24d08ad90b8c6cfa5a2e38f341486.webp",
             "id": 75,
             "lora": "",
             "lora_strength": "",
@@ -1703,7 +1703,7 @@
             "value": "Round Bob,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/7b11c6a515c11df543c08529836024b9.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/7b11c6a515c11df543c08529836024b9.webp",
             "id": 74,
             "lora": "",
             "lora_strength": "",
@@ -1713,7 +1713,7 @@
             "value": "Blunt Cut hair,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/639ff43070dd4a6502f700eff94ebc65.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/639ff43070dd4a6502f700eff94ebc65.webp",
             "id": 73,
             "lora": "",
             "lora_strength": "",
@@ -1847,7 +1847,7 @@
         "key": "hair",
         "list": [
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/4138fb447f87c400f345de337cf76d62.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/4138fb447f87c400f345de337cf76d62.webp",
             "id": 214,
             "lora": "",
             "lora_strength": "",
@@ -1857,7 +1857,7 @@
             "value": "Short hair,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/85f6f341a69aaed8b3e39fd81ad26cd1.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/85f6f341a69aaed8b3e39fd81ad26cd1.webp",
             "id": 215,
             "lora": "",
             "lora_strength": "",
@@ -1867,7 +1867,7 @@
             "value": "Medium Hair,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/c2eb21a1b18a5501b5e9b1f22683a6d1.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/c2eb21a1b18a5501b5e9b1f22683a6d1.webp",
             "id": 222,
             "lora": "",
             "lora_strength": "",
@@ -1877,7 +1877,7 @@
             "value": "long hair,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/0e08ebfd00dd464e6740f0d1d8b532c5.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/0e08ebfd00dd464e6740f0d1d8b532c5.webp",
             "id": 223,
             "lora": "",
             "lora_strength": "",
@@ -1904,7 +1904,7 @@
         "key": "hair",
         "list": [
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/fb8b5be082b736b91f3e0a08dea621ec.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/fb8b5be082b736b91f3e0a08dea621ec.webp",
             "id": 216,
             "lora": "",
             "lora_strength": "",
@@ -1914,7 +1914,7 @@
             "value": "Middle-part Forehair,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/91196f601777492c10a3dd4353d63877.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/91196f601777492c10a3dd4353d63877.webp",
             "id": 217,
             "lora": "",
             "lora_strength": "",
@@ -1924,7 +1924,7 @@
             "value": "Choppy bangs,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/9dd76595d8240beffda687fe2840a442.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/9dd76595d8240beffda687fe2840a442.webp",
             "id": 218,
             "lora": "",
             "lora_strength": "",
@@ -1934,7 +1934,7 @@
             "value": "Side Bangs,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/6a542a63b5d3b56314aba0b6f88bdf3d.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/6a542a63b5d3b56314aba0b6f88bdf3d.webp",
             "id": 219,
             "lora": "",
             "lora_strength": "",
@@ -1944,7 +1944,7 @@
             "value": "Open Forehead,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/7eb025fbdd472b6cf595b4acd0437ddd.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/7eb025fbdd472b6cf595b4acd0437ddd.webp",
             "id": 220,
             "lora": "",
             "lora_strength": "",
@@ -1954,7 +1954,7 @@
             "value": "Blunt Bangs,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/2f4637efa0d2545bc4dd4c2c7aeb900c.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/2f4637efa0d2545bc4dd4c2c7aeb900c.webp",
             "id": 221,
             "lora": "",
             "lora_strength": "",
@@ -2088,7 +2088,7 @@
         "key": "body",
         "list": [
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/84f866cf3fa9113020d15a5c7ceb965d.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/84f866cf3fa9113020d15a5c7ceb965d.webp",
             "id": 57,
             "lora": "",
             "lora_strength": "",
@@ -2098,7 +2098,7 @@
             "value": "Petite body,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/e931d24ac0dd9e1225f3f63672437274.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/e931d24ac0dd9e1225f3f63672437274.webp",
             "id": 58,
             "lora": "",
             "lora_strength": "",
@@ -2108,7 +2108,7 @@
             "value": "Slim body,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/4c0d474bce37395c062ed314f3f72efd.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/4c0d474bce37395c062ed314f3f72efd.webp",
             "id": 59,
             "lora": "",
             "lora_strength": "",
@@ -2118,7 +2118,7 @@
             "value": "Athletic body,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/02d2bbac73ae50194ed89332d14fbf76.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/02d2bbac73ae50194ed89332d14fbf76.webp",
             "id": 60,
             "lora": "",
             "lora_strength": "",
@@ -2128,7 +2128,7 @@
             "value": "Voluptuous body,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/24b4de105025d20e3e426147dc0a1536.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/24b4de105025d20e3e426147dc0a1536.webp",
             "id": 61,
             "lora": "",
             "lora_strength": "",
@@ -2155,7 +2155,7 @@
         "key": "body",
         "list": [
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/17e00e5f670a8aee6019774a8d423b4c.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/17e00e5f670a8aee6019774a8d423b4c.webp",
             "id": 153,
             "lora": "",
             "lora_strength": "",
@@ -2165,7 +2165,7 @@
             "value": ",slim body,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/0f70f8880e9616063f3c53cac1931933.png",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/0f70f8880e9616063f3c53cac1931933.png",
             "id": 268,
             "lora": "",
             "lora_strength": "",
@@ -2175,7 +2175,7 @@
             "value": ",ultra defined muscles,Muscular man,big muscle,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/d9c2ad737d4d76068a6a2e742f1d168e.png",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/d9c2ad737d4d76068a6a2e742f1d168e.png",
             "id": 267,
             "lora": "",
             "lora_strength": "",
@@ -2202,7 +2202,7 @@
         "key": "penis",
         "list": [
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/6f0c5686d9d3945c5b6a614d377a7353.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/6f0c5686d9d3945c5b6a614d377a7353.webp",
             "id": 134,
             "lora": "",
             "lora_strength": "",
@@ -2212,7 +2212,7 @@
             "value": ""
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/27eb1f799d0879f39a530eac05cb4124.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/27eb1f799d0879f39a530eac05cb4124.webp",
             "id": 265,
             "lora": "",
             "lora_strength": "",
@@ -2222,7 +2222,7 @@
             "value": ""
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/2df8662cb79ed4bc7fac2718cfddf554.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/2df8662cb79ed4bc7fac2718cfddf554.webp",
             "id": 266,
             "lora": "",
             "lora_strength": "",
@@ -2249,7 +2249,7 @@
         "key": "breast",
         "list": [
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/e0686eef25160fed4ce21272bc2c28bf.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/e0686eef25160fed4ce21272bc2c28bf.webp",
             "id": 62,
             "lora": "",
             "lora_strength": "",
@@ -2259,7 +2259,7 @@
             "value": "Flat chest,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/a9140079f08a30131e07292c4f4c0059.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/a9140079f08a30131e07292c4f4c0059.webp",
             "id": 63,
             "lora": "",
             "lora_strength": "",
@@ -2269,7 +2269,7 @@
             "value": "Small breasts,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/1ded11d1ad29283f32dd47c1e0772911.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/1ded11d1ad29283f32dd47c1e0772911.webp",
             "id": 64,
             "lora": "",
             "lora_strength": "",
@@ -2279,7 +2279,7 @@
             "value": "Medium breasts,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/e387da9d3808aae691fb7b4a57ea6c15.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/e387da9d3808aae691fb7b4a57ea6c15.webp",
             "id": 65,
             "lora": "",
             "lora_strength": "",
@@ -2289,7 +2289,7 @@
             "value": "large breasts,"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/b9dd445053124b3870e1947b7025f8c7.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/b9dd445053124b3870e1947b7025f8c7.webp",
             "id": 66,
             "lora": "",
             "lora_strength": "",
@@ -2332,7 +2332,7 @@
         "key": "butt",
         "list": [
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/65d58b96fec621408fc1cda5b3460982.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/65d58b96fec621408fc1cda5b3460982.webp",
             "id": 67,
             "lora": "",
             "lora_strength": "",
@@ -2342,7 +2342,7 @@
             "value": ""
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/1218aed6a92cb75e3066cb13693589ac.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/1218aed6a92cb75e3066cb13693589ac.webp",
             "id": 68,
             "lora": "",
             "lora_strength": "",
@@ -2352,7 +2352,7 @@
             "value": ""
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/79e48fc0a56b74c6ace9a169c4cd18d6.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/79e48fc0a56b74c6ace9a169c4cd18d6.webp",
             "id": 69,
             "lora": "",
             "lora_strength": "",
@@ -2362,7 +2362,7 @@
             "value": ""
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/2445a9473c99a861f841ea5869bb0fb0.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/2445a9473c99a861f841ea5869bb0fb0.webp",
             "id": 70,
             "lora": "",
             "lora_strength": "",
@@ -2372,7 +2372,7 @@
             "value": ""
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/4d0e6f13e03f536dc3bd959f8844a6a3.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/4d0e6f13e03f536dc3bd959f8844a6a3.webp",
             "id": 71,
             "lora": "",
             "lora_strength": "",
@@ -2791,7 +2791,7 @@
         "key": "voice",
         "list": [
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/Create+Character+Voice/vo1.wav",
+            "cover": "https://my-bucket.s3.amazonaws.com/Create+Character+Voice/vo1.wav",
             "id": 164,
             "lora": "",
             "lora_strength": "",
@@ -2801,7 +2801,7 @@
             "value": "vo1"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/Create+Character+Voice/vo2.wav",
+            "cover": "https://my-bucket.s3.amazonaws.com/Create+Character+Voice/vo2.wav",
             "id": 165,
             "lora": "",
             "lora_strength": "",
@@ -2811,7 +2811,7 @@
             "value": "vo2"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/Create+Character+Voice/vo3.wav",
+            "cover": "https://my-bucket.s3.amazonaws.com/Create+Character+Voice/vo3.wav",
             "id": 166,
             "lora": "",
             "lora_strength": "",
@@ -2821,7 +2821,7 @@
             "value": "vo3"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/Create+Character+Voice/vo4.wav",
+            "cover": "https://my-bucket.s3.amazonaws.com/Create+Character+Voice/vo4.wav",
             "id": 167,
             "lora": "",
             "lora_strength": "",
@@ -2831,7 +2831,7 @@
             "value": "vo4"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/Create+Character+Voice/vo5.wav",
+            "cover": "https://my-bucket.s3.amazonaws.com/Create+Character+Voice/vo5.wav",
             "id": 168,
             "lora": "",
             "lora_strength": "",
@@ -2841,7 +2841,7 @@
             "value": "vo5"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/Create+Character+Voice/vo6.wav",
+            "cover": "https://my-bucket.s3.amazonaws.com/Create+Character+Voice/vo6.wav",
             "id": 169,
             "lora": "",
             "lora_strength": "",
@@ -2851,7 +2851,7 @@
             "value": "vo6"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/Create+Character+Voice/vo7.wav",
+            "cover": "https://my-bucket.s3.amazonaws.com/Create+Character+Voice/vo7.wav",
             "id": 170,
             "lora": "",
             "lora_strength": "",
@@ -2861,7 +2861,7 @@
             "value": "vo7"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/Create+Character+Voice/vo8.wav",
+            "cover": "https://my-bucket.s3.amazonaws.com/Create+Character+Voice/vo8.wav",
             "id": 171,
             "lora": "",
             "lora_strength": "",
@@ -2888,7 +2888,7 @@
         "key": "voice",
         "list": [
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/Create+Character+Voice/vo1.wav",
+            "cover": "https://my-bucket.s3.amazonaws.com/Create+Character+Voice/vo1.wav",
             "id": 37,
             "lora": "",
             "lora_strength": "",
@@ -2898,7 +2898,7 @@
             "value": "vo1"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/Create+Character+Voice/vo2.wav",
+            "cover": "https://my-bucket.s3.amazonaws.com/Create+Character+Voice/vo2.wav",
             "id": 157,
             "lora": "",
             "lora_strength": "",
@@ -2908,7 +2908,7 @@
             "value": "vo2"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/Create+Character+Voice/vo3.wav",
+            "cover": "https://my-bucket.s3.amazonaws.com/Create+Character+Voice/vo3.wav",
             "id": 158,
             "lora": "",
             "lora_strength": "",
@@ -2918,7 +2918,7 @@
             "value": "vo3"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/Create+Character+Voice/vo4.wav",
+            "cover": "https://my-bucket.s3.amazonaws.com/Create+Character+Voice/vo4.wav",
             "id": 159,
             "lora": "",
             "lora_strength": "",
@@ -2928,7 +2928,7 @@
             "value": "vo4"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/Create+Character+Voice/vo5.wav",
+            "cover": "https://my-bucket.s3.amazonaws.com/Create+Character+Voice/vo5.wav",
             "id": 160,
             "lora": "",
             "lora_strength": "",
@@ -2938,7 +2938,7 @@
             "value": "vo5"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/Create+Character+Voice/vo6.wav",
+            "cover": "https://my-bucket.s3.amazonaws.com/Create+Character+Voice/vo6.wav",
             "id": 161,
             "lora": "",
             "lora_strength": "",
@@ -2948,7 +2948,7 @@
             "value": "vo6"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/Create+Character+Voice/vo7.wav",
+            "cover": "https://my-bucket.s3.amazonaws.com/Create+Character+Voice/vo7.wav",
             "id": 162,
             "lora": "",
             "lora_strength": "",
@@ -2958,7 +2958,7 @@
             "value": "vo7"
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/Create+Character+Voice/vo8.wav",
+            "cover": "https://my-bucket.s3.amazonaws.com/Create+Character+Voice/vo8.wav",
             "id": 163,
             "lora": "",
             "lora_strength": "",
@@ -3424,7 +3424,7 @@
         "key": "bacground",
         "list": [
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/125fff20a4f8c20305f58267c7eb7622.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/125fff20a4f8c20305f58267c7eb7622.webp",
             "fields": "",
             "name": "Toilet",
             "value": [
@@ -3433,7 +3433,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/45ed77bd3fcbf50c6c527cd349221f03.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/45ed77bd3fcbf50c6c527cd349221f03.webp",
             "fields": "",
             "name": "Hot Spring",
             "value": [
@@ -3442,7 +3442,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/66bb773ae3312f962227a2c9547e0006.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/66bb773ae3312f962227a2c9547e0006.webp",
             "fields": "",
             "name": "Street",
             "value": [
@@ -3451,7 +3451,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/60601a90e2ac0c68e04ed2f5da1d11ba.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/60601a90e2ac0c68e04ed2f5da1d11ba.webp",
             "fields": "",
             "name": "Classroom",
             "value": [
@@ -3460,7 +3460,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/80b2b9a80e73277c5ec3fd02b6b2a788.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/80b2b9a80e73277c5ec3fd02b6b2a788.webp",
             "fields": "",
             "name": "Hospital",
             "value": [
@@ -3469,7 +3469,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/7679b48fc55f6fd9f16901164e38f4b7.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/7679b48fc55f6fd9f16901164e38f4b7.webp",
             "fields": "",
             "name": "Car",
             "value": [
@@ -3489,7 +3489,7 @@
         "key": "outfit",
         "list": [
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/b6306093e9c505321125c4a335df703c.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/b6306093e9c505321125c4a335df703c.webp",
             "fields": "",
             "name": "Ball Gag",
             "value": [
@@ -3497,7 +3497,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/c4c2e3b53df55b0ed9b67e212edcde94.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/c4c2e3b53df55b0ed9b67e212edcde94.webp",
             "fields": "",
             "name": "Choker",
             "value": [
@@ -3505,7 +3505,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/26c7a7b6a115d1d0f365bec36758d173.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/26c7a7b6a115d1d0f365bec36758d173.webp",
             "fields": "",
             "name": "One-piece swimsuit",
             "value": [
@@ -3513,7 +3513,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/fda43e5dd317f574287911ca34b5e1f5.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/fda43e5dd317f574287911ca34b5e1f5.webp",
             "fields": "",
             "name": "Rope",
             "value": [
@@ -3521,7 +3521,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/399c76152e6169c896f9dd1819ab29c3.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/399c76152e6169c896f9dd1819ab29c3.webp",
             "fields": "",
             "name": "Nipple clamps",
             "value": [
@@ -3529,7 +3529,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/02bf9561f64c165b0c0037a6a32fd346.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/02bf9561f64c165b0c0037a6a32fd346.webp",
             "fields": "",
             "name": "Maid",
             "value": [
@@ -3537,7 +3537,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/ef9dfeaad2e300431cc81c6676e5f04d.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/ef9dfeaad2e300431cc81c6676e5f04d.webp",
             "fields": "",
             "name": "JK",
             "value": [
@@ -3545,7 +3545,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/300692b0b23560d5cf26038dcee74247.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/300692b0b23560d5cf26038dcee74247.webp",
             "fields": "",
             "name": "Nurse",
             "value": [
@@ -3553,7 +3553,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/a5f1ef03c4254d1dddc5a245e9e1a652.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/a5f1ef03c4254d1dddc5a245e9e1a652.webp",
             "fields": "",
             "name": "Stocking",
             "value": []
@@ -3570,7 +3570,7 @@
         "key": "bacground",
         "list": [
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/a58c8c57128c90591238bbbba75a8a7a.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/a58c8c57128c90591238bbbba75a8a7a.webp",
             "fields": "",
             "name": "Living Room",
             "value": [
@@ -3579,7 +3579,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/e81c99a349f82c0655bbb664f96e0aa8.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/e81c99a349f82c0655bbb664f96e0aa8.webp",
             "fields": "",
             "name": "Car",
             "value": [
@@ -3588,7 +3588,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/267a0a9945936fe0e913ea4035624013.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/267a0a9945936fe0e913ea4035624013.webp",
             "fields": "",
             "name": "Love Hotel",
             "value": [
@@ -3597,7 +3597,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/206d1335d9198c79326296a96f44dc72.png",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/206d1335d9198c79326296a96f44dc72.png",
             "fields": "",
             "name": "Gym",
             "value": [
@@ -3616,7 +3616,7 @@
         "key": "outfit",
         "list": [
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/5c188e65a943dcb0a04d0a92ba0b44dd.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/5c188e65a943dcb0a04d0a92ba0b44dd.webp",
             "fields": "",
             "name": "Naked",
             "value": [
@@ -3624,7 +3624,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/ee3fbfae4c03980af6c795deaff0998a.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/ee3fbfae4c03980af6c795deaff0998a.webp",
             "fields": "",
             "name": "Dress Shirt",
             "value": [
@@ -3632,7 +3632,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/16b000d8838cb2b84e807858946ad7b0.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/16b000d8838cb2b84e807858946ad7b0.webp",
             "fields": "",
             "name": "Tuxedo",
             "value": [
@@ -3640,7 +3640,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/0b227b476b593a77045bbf147043d190.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/0b227b476b593a77045bbf147043d190.webp",
             "fields": "",
             "name": "Hoodie",
             "value": [
@@ -3659,7 +3659,7 @@
         "key": "action",
         "list": [
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/84321550bb95fb2e4c805210cc3c900d.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/84321550bb95fb2e4c805210cc3c900d.webp",
             "fields": "",
             "name": "X-Ray",
             "value": [
@@ -3669,7 +3669,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/e5281e719feea1521f1877c3e617123a.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/e5281e719feea1521f1877c3e617123a.webp",
             "fields": "",
             "name": "Sex Mechine",
             "value": [
@@ -3679,7 +3679,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/4b0a6ac00965b454dd0b49cadf7fa268.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/4b0a6ac00965b454dd0b49cadf7fa268.webp",
             "fields": "",
             "name": "Footjob",
             "value": [
@@ -3691,7 +3691,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/698c36bb3e25683b9ed3e1c2a6496874.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/698c36bb3e25683b9ed3e1c2a6496874.webp",
             "fields": "",
             "name": "Tit Fuck",
             "value": [
@@ -3705,7 +3705,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/ae53636ebcd93ace3a8787bdc0e7decc.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/ae53636ebcd93ace3a8787bdc0e7decc.webp",
             "fields": "",
             "name": "Anal",
             "value": [
@@ -3718,7 +3718,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/14f14aa8be6cff8ca1275b843305175e.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/14f14aa8be6cff8ca1275b843305175e.webp",
             "fields": "",
             "name": "Dildo",
             "value": [
@@ -3731,7 +3731,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/c8e927a0c731629a49d9e665c940ca7e.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/c8e927a0c731629a49d9e665c940ca7e.webp",
             "fields": "",
             "name": "Oral Sex",
             "value": [
@@ -3744,7 +3744,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/43a04b166bf8dfb20eee19451cd2479d.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/43a04b166bf8dfb20eee19451cd2479d.webp",
             "fields": "",
             "name": "Group Sex",
             "value": [
@@ -3753,7 +3753,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/b68f6bf126da37fb0f782a910cb7a585.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/b68f6bf126da37fb0f782a910cb7a585.webp",
             "fields": "",
             "name": "Tentacles",
             "value": [
@@ -3765,7 +3765,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/fe664ba7c142fae6770c62d05413eb3e.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/fe664ba7c142fae6770c62d05413eb3e.webp",
             "fields": "",
             "name": "Doggy",
             "value": [
@@ -3780,7 +3780,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/89a47f70c247701dd71e4e819a1c94ed.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/89a47f70c247701dd71e4e819a1c94ed.webp",
             "fields": "",
             "name": "Cow Girl",
             "value": [
@@ -3796,7 +3796,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/243d52c67e1a88a07e0485729e9e3e1c.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/243d52c67e1a88a07e0485729e9e3e1c.webp",
             "fields": "",
             "name": "Missionary",
             "value": [
@@ -3809,7 +3809,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/08f22429d49ef5a75fda062683d8eafe.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/08f22429d49ef5a75fda062683d8eafe.webp",
             "fields": "",
             "name": "Masturbate",
             "value": [
@@ -3828,7 +3828,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/1463a852f37fa5724477850574f11ef9.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/1463a852f37fa5724477850574f11ef9.webp",
             "fields": "",
             "name": "Face Sitting",
             "value": [
@@ -3841,7 +3841,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/6471d32791bc8efea7aa71489bd8869e.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/6471d32791bc8efea7aa71489bd8869e.webp",
             "fields": "",
             "name": "Peeing",
             "value": [
@@ -3866,7 +3866,7 @@
         "key": "outfit",
         "list": [
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/487473bb3b62717153241d3e94db9580.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/487473bb3b62717153241d3e94db9580.webp",
             "fields": "",
             "name": "Ahego",
             "value": [
@@ -3874,7 +3874,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/d82e0c38373587db079706c28aa0c247.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/d82e0c38373587db079706c28aa0c247.webp",
             "fields": "",
             "name": "Pain",
             "value": [
@@ -3882,7 +3882,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/5ffd8345b505481017d37dd8529eb9f3.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/5ffd8345b505481017d37dd8529eb9f3.webp",
             "fields": "",
             "name": "Angry",
             "value": [
@@ -3901,7 +3901,7 @@
         "key": "outfit",
         "list": [
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/ecead70a3f451890e305b21dce8ab2a0.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/ecead70a3f451890e305b21dce8ab2a0.webp",
             "fields": "",
             "name": "Breast Milk",
             "value": [
@@ -3909,7 +3909,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/024d89f4b06dd0702aa3bbf4b81be8fc.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/024d89f4b06dd0702aa3bbf4b81be8fc.webp",
             "fields": "",
             "name": "Body Cum",
             "value": [
@@ -3917,7 +3917,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/7320710f880c4ee7d9110ed960d2fff6.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/7320710f880c4ee7d9110ed960d2fff6.webp",
             "fields": "",
             "name": "Pregnant",
             "value": [
@@ -3925,7 +3925,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/2e6826a8abed1b77acb97b7c9c1b3a8a.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/2e6826a8abed1b77acb97b7c9c1b3a8a.webp",
             "fields": "",
             "name": "Squirt",
             "value": [
@@ -3933,7 +3933,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/b33a8975d97f948cef17744f9aec1fb9.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/b33a8975d97f948cef17744f9aec1fb9.webp",
             "fields": "",
             "name": "Creampie",
             "value": [
@@ -3941,7 +3941,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/4a8241e3150db71caa6e2519fe73580d.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/4a8241e3150db71caa6e2519fe73580d.webp",
             "fields": "",
             "name": "Womb Tattoo",
             "value": [
@@ -3960,7 +3960,7 @@
         "key": "action",
         "list": [
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/59a3507b45b3e7d66b4804be25fc87e5.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/59a3507b45b3e7d66b4804be25fc87e5.webp",
             "fields": "",
             "name": "Mastubate",
             "value": [
@@ -3972,7 +3972,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/e4f67d779afe4b5aef06f55ac0c59eea.png",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/e4f67d779afe4b5aef06f55ac0c59eea.png",
             "fields": "",
             "name": "Butt Plug",
             "value": [
@@ -3981,7 +3981,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/160c01b67d0650f5a248e97f1db39f5d.png",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/160c01b67d0650f5a248e97f1db39f5d.png",
             "fields": "",
             "name": "Dildo",
             "value": [
@@ -3990,7 +3990,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/a2bc0ded7ec8bdde4fbe592cc4d8d7c7.png",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/a2bc0ded7ec8bdde4fbe592cc4d8d7c7.png",
             "fields": "",
             "name": "Doggy",
             "value": [
@@ -4012,7 +4012,7 @@
         "key": "outfit",
         "list": [
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/9965d208aa2d219198f0d69ae5058dbb.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/9965d208aa2d219198f0d69ae5058dbb.webp",
             "fields": "",
             "name": "Shy",
             "value": [
@@ -4020,7 +4020,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/04fd369a22321d4ead92cb945b945d82.png",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/04fd369a22321d4ead92cb945b945d82.png",
             "fields": "",
             "name": "Cry",
             "value": [
@@ -4028,7 +4028,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/2f04f2d4171cd3b4e169e487045a9902.png",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/2f04f2d4171cd3b4e169e487045a9902.png",
             "fields": "",
             "name": "Angry",
             "value": [
@@ -4036,7 +4036,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/2cd74dc22f3414852dcd97ac11e5c823.png",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/2cd74dc22f3414852dcd97ac11e5c823.png",
             "fields": "",
             "name": "Smile",
             "value": [
@@ -4055,7 +4055,7 @@
         "key": "outfit",
         "list": [
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/c043a9b2e61af2bebc2f633550f0052e.webp",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/c043a9b2e61af2bebc2f633550f0052e.webp",
             "fields": "",
             "name": "Cum Shot",
             "value": [
@@ -4063,7 +4063,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/1443b2eae6b6a543d1048086f14ca860.png",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/1443b2eae6b6a543d1048086f14ca860.png",
             "fields": "",
             "name": "Transgender",
             "value": [
@@ -4071,7 +4071,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/93c0372c10e3b00e4e258c009ec6365a.png",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/93c0372c10e3b00e4e258c009ec6365a.png",
             "fields": "",
             "name": "Flaccid",
             "value": [
@@ -4079,7 +4079,7 @@
             ]
           },
           {
-            "cover": "https://butter1.s3.us-east-1.amazonaws.com/errows/app/094376fdd6525128b22ef5adb37b7c5b.png",
+            "cover": "https://my-bucket.s3.amazonaws.com/errows/app/094376fdd6525128b22ef5adb37b7c5b.png",
             "fields": "",
             "name": "Uncircumcised",
             "value": [
@@ -4255,7 +4255,7 @@
     "sys_config": [
       {
         "keyname": "logo",
-        "keyvalue": "https://butter1.s3.us-east-1.amazonaws.com/errows/logo.svg"
+        "keyvalue": "https://my-bucket.s3.amazonaws.com/errows/logo.svg"
       },
       {
         "keyname": "new_client_tip",
@@ -4267,11 +4267,11 @@
       },
       {
         "keyname": "logo_mini",
-        "keyvalue": "https://butter1.s3.us-east-1.amazonaws.com/errows/logo2.svg"
+        "keyvalue": "https://my-bucket.s3.amazonaws.com/errows/logo2.svg"
       },
       {
         "keyname": "feedback_tip",
-        "keyvalue": "Write your message here or email us at server@errows.ai."
+        "keyvalue": "Write your message here or email us at server@example.com."
       },
       {
         "keyname": "prompt1",

@@ -141,7 +141,7 @@ export async function lookupOldUsers(client, schema, old_ids) {
   return map;
 }
 
-const OFFICIAL_EMAIL = 'Official@errows.ai';
+const OFFICIAL_EMAIL = 'Official@example.com';
 const OFFICIAL_NAME = 'Errows Official';
 export async function ensureOfficeUser(client, schema) {
   const { rows } = await client.query(
